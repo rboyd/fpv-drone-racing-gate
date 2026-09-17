@@ -1,10 +1,12 @@
-# FPV gate — four pentagons, shared corners, single backing frame
+# FPV gate — symmetric panels and square corners
 
-**Current design:** four identical five-sided Coroplast border panels, four triangular corner infills, and one 1-inch PVC backing frame with four ¾-inch corner braces. Two 8 × 4 ft sheets supply the four main panels. A shared third sheet supplies corners for **16 gates**. Both grass and hard-surface bases are included. Printed connectors now locate **both ends of every corner brace**; crossed lashings have been replaced.
+**Current iteration:** four identical mirror-symmetric, six-sided Coroplast panels, four **150 × 150 mm square** corner infills, and one 1-inch PVC backing frame with four ¾-inch corner braces. Two 8 × 4 ft sheets supply the four main panels and all reinforcing backers/pads. The third sheet supplies 128 squares, enough for **32 gates**. Both base configurations and all eight printed brace-end connectors remain.
 
-Open `FPV_Gate_2700.blend`. Its nine scenes show the assembled gate, backing structure, exploded assembly, sheet nesting, face saddle, dimensions, ballasted hard-surface base, brace connector detail, and separated pentagon/corner pieces. `START_HERE.html` is the visual index. The earlier two-frame version is archived in `previous_double_frame_design/`; the original rectangular-panel version remains in `previous_rectangular_design/`. Both are superseded.
+The prior triangular-corner single-frame design is committed as **55f2808**. This iteration is on `iteration/symmetric-square-corners`. The main panel resembles a stretched home plate at both ends: it has six sides so the left and right cuts match exactly. It is symmetric about its short centerline, not its long centerline.
 
-This is a digitally checked design prototype. Print fit, fastening strength, pipe/fitting dimensions, panel stiffness and installed wind performance still need a first-build test. No wind rating is asserted.
+Open `FPV_Gate_2700.blend`: ten scenes show assembly, rear structure, exploded layers, cutting layouts, saddles, dimensions, hard-ground base, brace joints, separated face pieces, and A1 Mini cutting jigs. `START_HERE.html` is the visual index.
+
+This is a digitally checked prototype. Physical print fit, fastening strength, sheet stiffness and wind/base performance still need a first-build test. No wind rating is asserted.
 
 ## Geometry
 
@@ -13,59 +15,75 @@ This is a digitally checked design prototype. Print fit, fastening strength, pip
 | Outer face | 2700 × 2700 mm |
 | Clear front opening | 1500 × 1500 mm |
 | Border | 600 mm |
-| Main pentagon blank | 2400 × 600 mm |
-| Corner infill | Right triangle, 300 mm perpendicular legs |
+| Main panel blank | 2400 × 600 mm |
+| Corner infill | Square, 150 × 150 mm |
 | Sheet thickness | 4 mm assumed |
 | Single PVC backing frame centerlines | 2100 × 2100 mm |
-| Body thickness, including face fasteners and brace ties | About 94 mm; excludes feet and guys |
+| Body thickness, including face fasteners and brace ties | About 96 mm; excludes feet and guys |
 | Main frame / corner braces | 1 inch / ¾ inch Schedule 40 |
 | Face clearance above ground | 50 mm |
 | Overall height above ground / opening bottom | 2750 / 650 mm |
 | Grass foot pipe span | 1200 mm, plus caps |
 | Hard-surface foot pipe span | 2400 mm, plus caps |
 
-The screenshots specify 2700 outer, 1500 inner and 260 mm depth. Your latest instruction removes the second square frame and depth links: this revision deliberately has a **shallow single backing frame, about 94 mm thick including fasteners**, rather than a 260 mm body. The 2700 mm face and 1500 mm opening dimensions are retained. There are no solid tunnel walls or rear face.
+The screenshots specify 2700 outer, 1500 inner and 260 mm depth. Your latest instruction removes the second square frame and depth links: this revision deliberately has a **shallow single backing frame, about 96 mm thick including fasteners**, rather than a 260 mm body. The 2700 mm face and 1500 mm opening dimensions are retained. There are no solid tunnel walls or rear face.
 
 Datum: face X = −1350…1350, Z = 0…2700, Y = 0…4 mm. Opening X = −750…750, Z = 600…2100. Y increases rearward. Ground is Z = −50. The feet pass below the face instead of through notches in it. Foot and anchor footprints extend beyond the shallow gate body.
 
-## Identical pentagons and the 8-foot sheet limit
+## Symmetric face cuts and the 8-foot limit
 
-The actual nominal stock is **2438.4 × 1219.2 mm**. Mark two 2400 × 600 rectangles per sheet. In each rectangle, use these five vertices, measured from its lower-left corner, in millimetres:
+Stock is nominally **2438.4 × 1219.2 mm**. Cut two **2400 × 600 mm** blanks from each of two sheets. All four panels use these vertices, measured from the lower-left blank corner:
 
-**(0, 600), (2400, 600), (2400, 300), (2100, 0), (600, 0).**
+**(0,600), (2400,600), (2400,450), (1950,0), (450,0), (0,450).**
 
-Cut off the left 600 × 600 right triangle and the right 300 × 300 right triangle. Keep those offcuts. All four main panels are identical; rotate them by 90° around the opening, without mirroring. Each panel has a continuous 1500 mm inner edge. The four 300 mm corner triangles fill the small gaps at the outer corners.
+Remove two matching **450 × 450 mm right triangles**, one from each lower corner. Each end has a 150 mm straight shoulder and a 45° cut. The continuous inner edge is 1500 mm; the outer edge is 2400 mm. Rotate the four completed panels through 90° around the opening. The four outside gaps are exactly **150 mm squares**; each contributes 150 mm to the 2400 mm panel span, reaching 2700 mm overall.
 
-Each pentagon has area 1.215 m²; each corner triangle has area 0.045 m². **4 × 1.215 + 4 × 0.045 = 5.04 m²**, exactly the 2700 mm square minus the 1500 mm square opening. The polygon verification checks pairwise overlap and area, not merely a bounding box.
-
-This arrangement keeps all four middle spans continuous and concentrates joints near the frame corners. That is a useful construction advantage, although improved stiffness still depends on the backers and attachments; panel shape alone is not a load test. The former six-piece rectangular face has been replaced by eight face pieces.
+Each main panel is 1.2375 m² and each square is 0.0225 m². **4 × 1.2375 + 4 × 0.0225 = 5.04 m²**, the exact ring area. The polygon checks verify coverage, symmetry and absence of overlap, as well as stock nesting.
 
 ### Shared corner sheet
 
-Divide sheet 3 into a **2400 × 1200 mm** grid of thirty-two 300 × 300 squares. Cut each square diagonally: **64 identical triangles = 16 gates**. A 38.4 mm end strip and 19.2 mm side strip remain. Knife cuts assume negligible kerf. Saw-cut production needs a revised spacing/yield calculation.
+Use a **16 × 8 grid of 150 mm squares** in a 2400 × 1200 mm area: **128 squares = 32 gates**. Remaining stock margins are 38.4 mm and 19.2 mm. Knife cuts assume negligible kerf; allow for saw kerf if changing tools.
 
-For N gates, buy **2N + ceil(N/16) sheets** for face panels and shared corners, before spares. Examples: 1 gate = 3 purchased sheets with most of sheet 3 left; 4 gates = 9 sheets; 16 gates = 33 sheets. Allocated sheet use at a full batch is **2.0625 sheets per gate**.
+For N gates, purchase **2N + ceil(N/32) sheets**, before spares. A single gate still requires three purchased sheets; 124 squares remain. A batch of 32 gates requires 65 sheets. Full-batch allocation is **2.03125 sheets per gate**. Corners intentionally come from the shared third sheet; the triangular offcuts are allocated to reinforcement.
 
-**Optional waste reduction:** the four large triangular offcuts from the main panels can each supply a 300 mm corner triangle as well as a 600 × 100 backer. Thus a careful one-off build can recover all its corners without buying a third sheet. The baseline retains your shared-corner-sheet approach because repeated 300 mm grid cuts are faster to batch and give consistent replacement stock. The offcut SVG shows the optional recovery.
+## Backers and pads from the eight identical offcuts
 
-## Backing the corner joints
-
-Per gate, cut from the main-panel offcuts:
-
-| Part | Qty | Size | Role |
+| Part | Quantity | Size | Function |
 |---|---:|---|---|
-| B1 | 4 | 600 × 100 mm | Diagonal seam backer, including the three-piece junction |
-| B2 | 4 | 140 × 100 mm | Short seam between pentagon and corner triangle |
-| A-pad | 24 | 70 × 50 mm | Reinforcement behind the face saddles |
-| Stitch pads | As needed | about 25 × 25 mm | Local front spreaders under seam ties |
+| B1 | 4 | 350 × 80 mm | Supports the main diagonal panel seam |
+| B2 | 4 | 220 × 220 mm | Supports both square-infill seams and the three-piece junction |
+| A-pad | 24 | 70 × 50 mm | Reinforces the face saddles |
+| Front spreaders | 56 used, 64 available | 25 × 25 mm | Two per seam stitch |
 
-A 600 × 100 rectangular strip fits diagonally inside each 600-leg triangular offcut. The exact offcut layout is supplied as SVG. A 140 × 100 tab fits in each smaller 300-leg offcut; use remaining scrap for pads. These are all Coroplast, not large printed plates.
+Use four 450-leg offcuts for B2, three saddle pads and eight small spreaders each. Use the other four for B1, three saddle pads and eight small spreaders each. The SVG and `face_geometry.py` provide exact nesting; every piece is verified inside its offcut with no overlap. B2 is cut from the right-angle corner; its far corner is 440 mm along the triangle's 450 mm sum limit. The B1 strip is centered at (170,170), oriented −45° inside its offcut.
 
-At the top-right corner, the long diagonal joint runs from (750, 2100) toward (1350, 2700). Center the 600 × 100 backer at **(1050, 2400)**, with its long axis at 45°. Center the 140 × 100 short-joint tab at **(1050, 2620)**. Rotate this arrangement through the other three corners. The two backers do not overlap. Their rear surfaces share Y = 8 mm.
+At the top-right gate corner, B2 occupies **X=1090…1310, Z=2440…2660 mm**, centered at the three-piece junction (1200,2550). It backs 110 × 110 mm of the visible 150 mm infill, leaving 40 mm exposed border at the two outside edges. B1 is centered at **(925,2275)**, long axis +45°. The two backers do not overlap; their rear surfaces are Y=8 mm. Rotate this arrangement to the other corners.
 
-Use **three tie stitches** along each diagonal backer, at −230, 0 and +230 mm along its centerline, and **two** along each short-joint tab, 25 mm above/below its center. The tie legs straddle the seam. Add small front scrap spreaders, especially at the three-panel junction. Butt the visible face edges together; do not lap the front panels. Close the seam with matching tape after fastening. The lightly different blue tones in Blender identify pieces; use the same sheet color in production.
+Use **seven tie stitches per corner**: three along B1 at −120, 0 and +120 mm along its centerline; two across the vertical infill seam at Z=2580 and 2635; and two across the horizontal infill seam at X=1260 and 1295. All tie legs are 60 mm apart, 30 mm each side of the seam. Each front leg gets a 25 mm scrap spreader; punch through the face and backer together. Total seam ties: **28**. With 48 saddle ties and 32 brace-joint ties, there are **108 working ties**, plus base straps and spares.
 
-Do not rely on tape as the structural connection. Polypropylene can be difficult to bond; the backers and ties connect the panels. [Coroplast bonding guidance](https://www.coroplast.com/resources/)
+Butt the front edges, lightly tighten ties without crushing the flutes, then tape the front seams. Place heads behind the face. Tape is a seam finish, not the sole joint. [Coroplast bonding guidance](https://www.coroplast.com/resources/)
+
+## A1 Mini cutting and marking jigs
+
+The A1 Mini's build volume is **180 × 180 × 180 mm**. All gate clips and the three new jigs fit individually. The largest jig is 155 × 155 mm; a 5 mm brim brings its footprint to 165 × 165 mm. [Bambu Lab A1 Mini quick-start specifications](https://cdn1.bambulab.com/documentation/quick-start-f507128172bdf/Quick%20start%20guide%20-%20A1%20mini-EN.pdf)
+
+| STL | Envelope | Use |
+|---|---|---|
+| `jig_square_150_mm.stl` | 155 × 155 × 9 mm | Register two stock edges; mark a 150 mm square or a shoulder location |
+| `jig_45_degree_mm.stl` | 150 × 150 × 9 mm | Register one stock edge; align a metal straightedge to 45° |
+| `jig_tie_slots_60_mm.stl` | 80 × 40 × 3 mm | Align center notches to seam; mark two 4 × 6 mm tie slots, 60 mm apart |
+
+Print the two registration jigs **flat with raised fences UP**, then flip them so their fences hang down over the sheet edges during use. The square jig's inside fence faces are 150 mm from its opposite outside edges; do not measure from the outer fence walls. Fences extend 6 mm below the contact plane, clearing a 4 mm sheet. Use the small tie template flat on top of the sheet. Printed apertures are marking guides, not drill bushings or enclosed blade slots.
+
+Use PETG, 0.20 mm layers, four perimeters and about 20–30% infill as starting settings. They are reusable shop tools, not per-gate consumables. Budget an additional **$3–5 of filament once per crew**, pending slicing; print time is slicer-dependent. Do not scale the STLs to fit. Verify the 150 mm span with a steel rule, the 60 mm hole spacing, and the 45° jig by flipping it against a drawn reference line. Adjust dimensional compensation only after a calibration sample.
+
+1. Support the entire sheet on a flat sacrificial board. Square a datum corner and verify real stock dimensions.
+2. Measure the **600 mm widths and 2400 mm lengths with a steel rule/tape from the same datum**. Clamp a long metal straightedge for each cut. Do not accumulate four 150 mm jig steps to define 600 mm.
+3. Mark 150 mm down from the outer edge at both ends and 450 mm inward along the inner edge. Confirm a 1500 mm inner span. The 45° jig helps set the ruler through both marks; clamp it, remove the printed jig, then cut the full 636.4 mm diagonal against metal. Reuse the same measured pattern for all eight cuts.
+4. On sheet 3, mark absolute 150 mm grid coordinates from a single datum, then cut strips and squares. Use the square jig as a setup/check gauge; avoid cumulative indexing error.
+5. Cut backers/pads to the SVG coordinates and use the tie template to mark stitches. Punch on a sacrificial board. Test assemble one corner before batch cutting the remaining stock.
+
+The jigs make repeated setup easier; they cannot guarantee exact cuts independently of printer calibration, ruler alignment, sheet squareness or knife technique. They intentionally do not form a long segmented plastic knife rail.
 
 ## PVC structure
 
@@ -73,7 +91,7 @@ Use US **solid-wall Schedule 40** pipe. Nominal diameter is not outside diameter
 
 The single 2100 mm backing frame uses 1-inch pipe. Its top corners use elbows and its lower corners use tees continuing down to the feet. Each of its four sides is now one continuous pipe: the midpoint reducing tees, connecting pipes, and rear square have been removed. Four short ¾-inch diagonal braces stiffen the corners, each joined by two of the existing printed 45° connectors.
 
-The main frame pipe axis is Y ≈ **31.9005 mm**, set by the face/pad/saddle stack. Brace axes sit at Y ≈ **72.336 mm**; the furthest rear tie surface is near Y = 90 mm. Front washers/ties project a few millimetres ahead of the face, making overall body thickness approximately **94 mm**. The feet and guy lines are excluded from that dimension. The current geometry is measured in `validation.json`.
+The main frame pipe axis is Y ≈ **31.9005 mm**, set by the face/pad/saddle stack. Brace axes sit at Y ≈ **72.336 mm**; the furthest rear tie surface is near Y = 90 mm. Front spreaders/ties project a few millimetres ahead of the face, making overall body thickness approximately **96 mm**. The feet and guy lines are excluded from that dimension. The current geometry is measured in `validation.json`.
 
 ### Purchased fittings
 
@@ -164,8 +182,8 @@ For the hard-floor setup, nominal tipping resistance from 60 kg about a foot end
 ## Assembly
 
 1. Measure sheet thickness, actual pipe OD and fitting engagement. Print one face saddle/washer and one of each brace joint. Verify pipe seating and all tie passages.
-2. Mark/cut two identical pentagons on each of two sheets. Batch-cut the shared corner sheet. Cut seam backers and pads from the main-panel offcuts.
-3. On a flat jig, rotate the four pentagons around a 1500 mm square opening and add four corner triangles. Fit the diagonal backers and short tabs. Stitch mechanically, with spreaders, then tape the front seams. Check 2700 mm outer dimensions.
+2. Mark/cut two symmetric panels on each of two sheets. Batch-cut the shared corner sheet. Cut seam backers and pads from the main-panel offcuts.
+3. On a flat jig, rotate the four panels around a 1500 mm square opening and add four 150 mm corner squares. Fit the diagonal backers and square patches. Stitch mechanically, with spreaders, then tape the front seams. Check 2700 mm outer dimensions.
 4. Cut PVC from the measured socket formula. Assemble the single backing frame, legs and selected feet. Check 2100 mm frame centerlines and square diagonals. Retain sockets positively.
 5. Fit the eight printed brace joints and four diagonal braces. Thread/seat both pipe-retaining tie pairs at each end. Tighten only after the frame is square.
 6. Position the face and install 24 saddle/washer assemblies with pads and 48 ties at the listed locations. Keep tie heads and sharp tails behind the face; flush-trim tails.
@@ -181,20 +199,20 @@ Planning USD before tax, shipping, labor, tools, and ballast fill. Pickup quotes
 | Item | Quantity / allowance | Per-gate estimate |
 |---|---|---:|
 | Main 4 mm Coroplast | 2 sheets × $30 | $60.00 |
-| Shared corner sheet | 1/16 sheet × $30 | $1.88 |
+| Shared corner sheet | 1/32 sheet × $30 | $0.94 |
 | 1-inch Sch40 | 4 × 10 ft at $13.50 | $54 |
 | ¾-inch Sch40 | 1 × 10 ft at $10 allowance | $10 |
 | All fittings | 10 fittings total, allowance | $24 |
 | PETG and spare prints | Allowance, slice to confirm | $22 |
-| UV ties / retaining screws | ~100 working ties + spares; 16 socket screws | $20 |
+| UV ties / retaining screws | 108 working ties + spares; 16 socket screws | $20 |
 | Tape | Allocated share | $8 |
 | Guy cord / adjustment | About 16 m | $12 |
 | Ground anchors | 4 | $20 |
-| **Grass gate, allocated batch cost** | | **about $232** |
+| **Grass gate, allocated batch cost** | | **about $231** |
 | Hard-surface add-on | 2 extra 1-inch pipes + bag/strap/rubber allowance | **about $57** |
-| **Dual-surface allocated cost** | Before ballast fill | **about $289** |
+| **Dual-surface allocated cost** | Before ballast fill | **about $288** |
 
-For one gate with a freshly purchased shared corner sheet, cash outlay is about **$260 grass / $317 dual-surface**, leaving 60 unused corner triangles for subsequent gates. Recovering the four corners from main-panel scrap avoids that third-sheet purchase. At a full batch, face-sheet allocation is 2.0625 sheets per gate. Existing cord/stakes, cut scrap washers, and local sheet pricing can reduce cost.
+For one gate buying a whole shared corner sheet, cash outlay remains about **$260 grass / $317 dual-surface**, leaving 124 corner squares. Full-batch allocated cost is **$230.94 grass / $287.94 dual-surface**. Reusable cutting jigs add a one-time $3–5 filament allowance per crew, excluded from those gate costs. Existing cord/stakes and local sheet pricing can reduce cost.
 
 A Home Depot search result displayed $13.50 for the 1-inch 10-foot pipe. A sheet supplier listed $22.99 at its minimum 10-sheet tier; this is not a one-sheet quote. The $30 sheet and other amounts above are explicit budgeting assumptions. [Pipe listing](https://www.homedepot.com/p/100348473), [sheet supplier](https://corrugatedplastics.net/48x96_Blue4mmCorrugatedPlasticSheets.html), checked 2026-09-17.
 
@@ -202,14 +220,14 @@ Removing the second square and its depth links saves **three 10-foot ¾-inch pip
 
 ## WIP reference: retained and changed
 
-Retained: correct outer/inner dimensions, repairs concentrated near corners, actual pipe OD for printed fits, and zip-tie retention. Changed: four identical pentagons and batch corner infills; one 1-inch backing square with ¾-inch corner braces; commercial fitting geometry in the cut calculations; printed positive-angle brace joints at both ends; scrap-sheet seam backers; PETG rather than reliance on PLA snap action; and explicit anchored/ballasted bases. The WIP's “outer size minus twice socket depth” is not a valid general cut formula. Its proposed third-sheet straight-strip layout for four 140 mm and four 260 mm strips needs 1600 mm width, exceeding a 1219.2 mm sheet; that tunnel-wall concept is no longer used.
+Retained: correct outer/inner dimensions, repairs concentrated near corners, actual pipe OD for printed fits, and zip-tie retention. Changed: four symmetric panels and square corner infills; one 1-inch backing square with ¾-inch corner braces; commercial fitting geometry in the cut calculations; printed positive-angle brace joints at both ends; scrap-sheet seam backers; PETG rather than reliance on PLA snap action; and explicit anchored/ballasted bases. The WIP's “outer size minus twice socket depth” is not a valid general cut formula. Its proposed third-sheet straight-strip layout for four 140 mm and four 260 mm strips needs 1600 mm width, exceeding a 1219.2 mm sheet; that tunnel-wall concept is no longer used.
 
 ## Files and validation
 
-- `FPV_Gate_2700.blend`: nine editable scenes; fonts and build guide embedded.
+- `FPV_Gate_2700.blend`: ten editable scenes; fonts and build guide embedded.
 - `renders/`, `Assembly_Views.pdf`, `START_HERE.html`: visual assembly references.
-- `printable/`: face saddle, washer, two handed brace connectors, and optional ¾-inch saddle. STL coordinates are millimetres.
-- `cut-layouts/`: main pentagon layout, shared corners, offcut backers, attachment template and polygon JSON.
+- `printable/`: face saddle, washer, two handed brace connectors, optional ¾-inch saddle, and three A1 Mini jigs. STL coordinates are millimetres.
+- `cut-layouts/`: symmetric panel layout, shared corners, offcut backers, attachment template and polygon JSON.
 - `BOM.csv`, `HARD_SURFACE_ADD_ON.csv`, `PVC_CUT_LIST.csv`: quantities and cost/cut assumptions.
 - `validation.json`, `polygon_validation.json`: printable topology, stock use, polygon coverage and overlap checks.
 - `../scripts/build_gate.py`: regenerates the current model and STL/render outputs with local Blender.

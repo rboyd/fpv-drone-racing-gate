@@ -44,12 +44,48 @@
       24.0
     ]
   },
+  "JIG / 150 mm square / flip fences down": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 34350.0,
+    "bounds_mm": [
+      155.0,
+      155.0,
+      9.0
+    ]
+  },
+  "JIG / 45 degree straightedge alignment": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 21412.5,
+    "bounds_mm": [
+      150.0,
+      150.0,
+      9.0
+    ]
+  },
+  "JIG / seam tie marking / 60 mm span": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 9408.0,
+    "bounds_mm": [
+      80.0,
+      40.0,
+      3.0
+    ]
+  },
+  "a1_mini": {
+    "build_volume_mm": [
+      180,
+      180,
+      180
+    ],
+    "jig_max_xy_with_5mm_brim": 165,
+    "jig_count": 3
+  },
   "face": {
-    "pentagon_area_mm2": 1215000.0,
-    "corner_area_mm2": 45000,
+    "main_panel_area_mm2": 1237500.0,
+    "corner_area_mm2": 22500,
     "total_face_area_mm2": 5040000,
-    "shared_corners_per_sheet": 64,
-    "gates_per_corner_sheet": 16,
+    "shared_corners_per_sheet": 128,
+    "gates_per_corner_sheet": 32,
     "panels_per_main_sheet": 2
   },
   "hard_surface": {
@@ -66,7 +102,7 @@
     "midpoint_tees_absent": true,
     "continuous_main_members": 4,
     "body_y_bounds_mm": [
-      -3.8,
+      -6.049,
       89.536
     ],
     "pipe_stock_1in": 4,
@@ -82,10 +118,10 @@
       1500,
       1500
     ],
-    "body_depth_mm": 93.336,
+    "body_depth_mm": 95.585,
     "face_area_m2": 5.04,
     "saddle_count": 24,
-    "sheet_nesting": "main panels and shared triangles within stock; polygon union verified separately",
+    "sheet_nesting": "main panels and shared squares within stock; polygon union verified separately",
     "pipe_stock_1in_mm": 3048,
     "main_rail_cut_mm": 2065.075,
     "square_frame_count": 1,

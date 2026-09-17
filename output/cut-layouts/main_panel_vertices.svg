@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270.0mm" height="105.0mm" viewBox="0 0 2700 1050">
+<rect width="2700" height="1050" fill="white"/>
+<text x="60" y="65" font-family="Arial" font-size="38" font-weight="bold" fill="#142e47">SYMMETRIC MAIN PANEL / CUT 4 / TWO PER SHEET / SCALE 1:10</text>
+<polygon points="100.0000,200.0000 2500.0000,200.0000 2500.0000,350.0000 2050.0000,800.0000 550.0000,800.0000 100.0000,350.0000" fill="#dce7f7" stroke="#19334e" stroke-width="3"/>
+<rect x="100" y="200" width="2400" height="600" fill="none" stroke="#e38639" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="110" y="180" font-family="Arial" font-size="29" fill="#18334e">(0, 600)</text>
+<text x="2240" y="180" font-family="Arial" font-size="29" fill="#18334e">(2400, 600)</text>
+<text x="2240" y="330" font-family="Arial" font-size="29" fill="#18334e">(2400, 450)</text>
+<text x="2060" y="850" font-family="Arial" font-size="29" fill="#18334e">(1950, 0)</text>
+<text x="560" y="850" font-family="Arial" font-size="29" fill="#18334e">(450, 0)</text>
+<text x="110" y="330" font-family="Arial" font-size="29" fill="#18334e">(0, 450)</text>
+<text x="780" y="470" font-family="Arial" font-size="38" fill="#18334e">1500 inner / 2400 outer / 600 border</text>
+<text x="810" y="545" font-family="Arial" font-size="33" fill="#18334e">Equal 45-degree cuts / 150 mm shoulders</text>
+<path d="M1300,150 L1300,850" stroke="#e38639" stroke-width="2" stroke-dasharray="10 8"/>
+<text x="100" y="930" font-family="Arial" font-size="27" fill="#18334e">Coordinates from lower-left of blank. Mirror symmetry about x = 1200. Rotate panels during assembly.</text>
+<text x="100" y="995" font-family="Arial" font-size="27" fill="#18334e">150 mm corner squares complete the 2700 mm outer dimension. All measurements are millimetres.</text>
+</svg>

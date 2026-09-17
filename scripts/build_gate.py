@@ -1,8 +1,10 @@
 """FPV gate: reproducible Blender model. Units: metres; STL export: millimetres."""
-import bpy, math, os, json, struct
+import bpy, math, os, json, struct, sys
 from mathutils import Vector, Matrix
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'output'
+sys.path.insert(0,str(ROOT/'scripts'))
+from face_geometry import PANEL, TOP, CORNER
 for d in ['renders','printable','cut-layouts']: (OUT/d).mkdir(parents=True,exist_ok=True)
 bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
 for s in list(bpy.data.scenes)[1:]: bpy.data.scenes.remove(s)
@@ -207,20 +209,21 @@ footer('24 saddles + 24 washers per gate. STL units: mm. Print one fit sample fi
 
 # Gate parts grouped for assembly and exploded views.
 setup('01_ASSEMBLED',(-3.6,-7,3.7),(.6,0,1.48),6.4)
-coll('01 / four identical pentagons and four corner triangles'); FACE=[]
-PENTA=[(-1.35,2.7),(1.05,2.7),(1.05,2.4),(.75,2.1),(-.75,2.1)]
-TRI=[(1.05,2.7),(1.35,2.7),(1.05,2.4)]
+coll('01 / four symmetric panels and four square corners'); FACE=[]
+PENTA=[(x/1000,z/1000) for x,z in TOP]
+TRI=[(x/1000,z/1000) for x,z in CORNER]
 for k in range(4):
- FACE.append(polygon_panel(f'F{k+1} / identical pentagon / 2400 x 600 blank',rotate_face(PENTA,k),0,.004,BLUE))
- FACE.append(polygon_panel(f'C{k+1} / corner triangle / 300 mm legs',rotate_face(TRI,k),0,.004,BLUE2))
+ FACE.append(polygon_panel(f'F{k+1} / symmetric panel / 2400 x 600 blank',rotate_face(PENTA,k),0,.004,BLUE))
+ FACE.append(polygon_panel(f'C{k+1} / corner square / 150 x 150',rotate_face(TRI,k),0,.004,BLUE2))
 coll('02 / scrap backers / no stacked intersections'); BACK=[]
-# A 600 x 100 strip crosses the long diagonal seam; 140 x 100 plate crosses the short seam.
+# Four 220 mm square patches reinforce all three pieces at each junction.
+# Separate 350 x 80 strips support the remaining diagonal seams.
 for k in range(4):
- center=Vector((1.05,2.4)); u=Vector((1,1)).normalized(); v=Vector((-1,1)).normalized()
- pts=[tuple(center+u*a+v*b) for a,b in [(-.3,-.05),(.3,-.05),(.3,.05),(-.3,.05)]]
- BACK.append(polygon_panel('B1 / diagonal scrap backer / 600 x 100',rotate_face(pts,k),.004,.004,PATCH))
- pts=[(.98,2.57),(1.12,2.57),(1.12,2.67),(.98,2.67)]
- BACK.append(polygon_panel('B2 / short-seam scrap backer / 140 x 100',rotate_face(pts,k),.004,.004,PATCH))
+ center=Vector((.925,2.275)); u=Vector((1,1)).normalized(); v=Vector((-1,1)).normalized()
+ pts=[tuple(center+u*a+v*b) for a,b in [(-.175,-.04),(.175,-.04),(.175,.04),(-.175,.04)]]
+ BACK.append(polygon_panel('B1 / diagonal scrap backer / 350 x 80',rotate_face(pts,k),.004,.004,PATCH))
+ pts=[(1.09,2.44),(1.31,2.44),(1.31,2.66),(1.09,2.66)]
+ BACK.append(polygon_panel('B2 / square corner backer / 220 x 220',rotate_face(pts,k),.004,.004,PATCH))
 # No solid Coroplast tunnel walls: shared corner sheet stays available for other gates.
 RET=[]
 coll('04 / 1 inch PVC frame and feet'); FRAME=[]
@@ -293,17 +296,20 @@ for i,(x,z,vert) in enumerate(positions):
   pts +=[(.023*math.cos(a),yy,.024+.020*math.sin(a)) for a in [j*math.pi/16 for j in range(17)]]
   pts +=[(-.023,yy,-.0105)]
   line('4.8 mm UV zip tie / attachment',[M@Vector(p) for p in pts],.0013,DARK)
-# Mechanically stitch diagonal and short seams at every corner, with scrap spreaders.
+# Seven stitches per corner: three on the diagonal and two on each square seam.
 for k in range(4):
- for t in [-.23,0,.23]:
-  cen=Vector((1.05,2.4))+Vector((1,1)).normalized()*t
-  v=Vector((-1,1)).normalized()*.035
-  endpoints=rotate_face([tuple(cen-v),tuple(cen+v)],k)
-  (xa,za),(xb,zb)=endpoints
-  line('Corner diagonal / tie bridge',[(xa,-.001,za),(xb,-.001,zb),(xb,.009,zb),(xa,.009,za)],.0012,DARK,True)
- for dz in [-.025,.025]:
-  (xa,za),(xb,zb)=rotate_face([(1.00,2.62+dz),(1.10,2.62+dz)],k)
-  line('Corner short seam / tie bridge',[(xa,-.001,za),(xb,-.001,zb),(xb,.009,zb),(xa,.009,za)],.0012,DARK,True)
+ stitches=[]
+ for t in [-.12,0,.12]:
+  cen=Vector((.925,2.275))+Vector((1,1)).normalized()*t
+  v=Vector((-1,1)).normalized()*.030
+  stitches.append((tuple(cen-v),tuple(cen+v)))
+ for z in [2.580,2.635]: stitches.append(((1.17,z),(1.23,z)))
+ for x in [1.260,1.295]: stitches.append(((x,2.52),(x,2.58)))
+ for endpoints in stitches:
+  (xa,za),(xb,zb)=rotate_face(endpoints,k)
+  line('Corner seam / tie stitch',[(xa,-.0052,za),(xb,-.0052,zb),(xb,.009,zb),(xa,.009,za)],.0012,DARK,True)
+  # Small front spreaders distribute the load at each tie leg.
+  for x,z in [(xa,za),(xb,zb)]: cube('Corner stitch / 25 mm front scrap spreader',(x,-.002,z),(.025,.004,.025),BLUE2)
 coll('07 / guy lines and ground anchors'); ANCHOR=[]
 for sx in [-1,1]:
  for sy in [-1,1]:
@@ -321,10 +327,10 @@ def dim(a,b,label,offset=(0,0,0),ts=.055):
 dim((-1.35,-.06,2.86),(1.35,-.06,2.86),'2700 mm',(0,0,.055))
 dim((-.75,-.065,1.33),(.75,-.065,1.33),'1500 mm clear',(0,0,.075))
 dim((-1.52,-.04,0),(-1.52,-.04,2.7),'2700',(-.08,0,0))
-header('01','FPV / 2700','Four identical pentagons. Four small corners. One braced PVC backing frame.')
+header('01','FPV / 2700','Four symmetric panels. Four square corners. One braced PVC backing frame.')
 overlay('2700 x 2700',.735,.31,.025,True); overlay('Face / 600 mm border',.735,.355,.015,color=MUTED)
 overlay('1500 x 1500',.735,.45,.025,True); overlay('Clear opening / shallow backing',.735,.495,.015,color=MUTED)
-overlay('2 sheets per face',.735,.59,.023,True); overlay('Shared corner sheet: 16 gates\nOne frame + four corner braces',.735,.635,.015,color=MUTED)
+overlay('2 sheets per face',.735,.59,.023,True); overlay('Shared corner sheet: 32 gates\nOne frame + four corner braces',.735,.635,.015,color=MUTED)
 overlay('Stake in both directions',.735,.76,.017,True); overlay('Feet and anchors extend\nbeyond the shallow gate body.',.735,.80,.014,color=MUTED)
 footer('DESIGN PROTOTYPE  /  4 mm Coroplast assumed  /  Grass stakes shown  /  Verify wind response before racing')
 ASSEMBLY=SC
@@ -349,16 +355,16 @@ for c in ASSEMBLY.collection.children:
  if key in ['01','02','03','04','05','06']:
   delta={'01':(-.65,-.9,0),'02':(-.25,-.45,0),'03':(.85,1.1,0),'04':(.3,.25,0),'05':(.3,.25,0),'06':(0,-.15,0)}[key]
   dup_collection(c,delta)
-header('03','Assembly / layer by layer','Pentagons + corners -> scrap backers -> saddles -> one backing frame with corner braces')
-overlay('1  CUT + SPLICE',.75,.30,.017,True); overlay('Four identical 2400 x 600 blanks\nFour 300 mm corner triangles',.75,.34,.014,color=MUTED)
+header('03','Assembly / layer by layer','Symmetric panels + squares -> scrap backers -> saddles -> one backing frame with corner braces')
+overlay('1  CUT + SPLICE',.75,.30,.017,True); overlay('Four identical 2400 x 600 blanks\nFour 150 x 150 mm squares',.75,.34,.014,color=MUTED)
 overlay('2  BUILD THE FRAME',.75,.47,.017,True); overlay('Standard tees and elbows\nAdd braces and broad feet',.75,.51,.014,color=MUTED)
 overlay('3  TIE ON THE FACE',.75,.64,.017,True); overlay('24 saddles / two ties each\nUse washers + scrap pads',.75,.68,.014,color=MUTED)
 overlay('4  STAND + ANCHOR',.75,.81,.017,True); overlay('Fit the selected feet and guy lines',.75,.85,.014,color=MUTED)
-footer('Exploded spacing is for instruction only. Body is about 94 mm thick; feet and guys extend beyond it.')
-# Sheet layouts use exact local cut polygons; third stock yields 64 triangles / 16 gates.
+footer('Exploded spacing is for instruction only. Body is about 96 mm thick; feet and guys extend beyond it.')
+# Two panels per sheet; third sheet yields 128 squares / 32 gates.
 setup('04_SHEET_LAYOUT',(0,-8,2.35),(0,0,2.35),7.9,False)
 coll('01 / polygon sheet nesting'); layout=[]
-LOCAL_PENTA=[(0,600),(2400,600),(2400,300),(2100,0),(600,0)]
+LOCAL_PENTA=PANEL
 for sh in [1,2,3]:
  ox=(sh-2)*2.55; oz=.52
  cube('Stock / 2438.4 x 1219.2',(ox,.008,oz+2.4384/2),(1.2192,.006,2.4384),GREEN)
@@ -368,25 +374,23 @@ for sh in [1,2,3]:
   for row in range(2):
    poly=[(x,y+600*row) for x,y in LOCAL_PENTA]
    pts=[(ox-.6096+y/1000,oz+x/1000) for x,y in poly]
-   polygon_panel('F / pentagon / identical',pts,-.004,.004,BLUE)
-   layout.append({'sheet':sh,'type':'pentagon','polygon_mm':poly})
+   polygon_panel('F / symmetric six-sided panel',pts,-.004,.004,BLUE)
+   layout.append({'sheet':sh,'type':'symmetric_panel','polygon_mm':poly})
    text('Part label','2400\nx 600',(ox-.3096+.6*row,-.009,1.65),.10,LIGHTTEXT,align='CENTER',bold=True)
   text('Scrap label','OFFCUTS -> BACKERS',(ox-.60,-.02,.61),.045,INK)
  else:
-  for i in range(8):
-   for j in range(4):
-    for half in range(2):
-     x=i*300;y=j*300
-     poly=[(x,y),(x+300,y),(x,y+300)] if half==0 else [(x+300,y),(x+300,y+300),(x,y+300)]
-     pts=[(ox-.6096+v/1000,oz+u/1000) for u,v in poly]
-     polygon_panel('C / shared corner / 300 legs',pts,-.004,.004,BLUE2 if half else BLUE)
-     layout.append({'sheet':sh,'type':'corner','polygon_mm':poly})
-     line('Triangle cut line',[(pts[0][0],-.009,pts[0][1]),(pts[-1][0],-.009,pts[-1][1])],.001,RETURN)
-header('04','Two identical cuts per sheet','Sheets 1 and 2 make four identical pentagons. Share sheet 3 across the fleet.')
+  for i in range(16):
+   for j in range(8):
+    x=i*150;y=j*150
+    poly=[(x,y),(x+150,y),(x+150,y+150),(x,y+150)]
+    pts=[(ox-.6096+v/1000,oz+u/1000) for u,v in poly]
+    polygon_panel('C / shared square / 150 x 150',pts,-.004,.004,BLUE2 if (i+j)%2 else BLUE)
+    layout.append({'sheet':sh,'type':'corner','polygon_mm':poly})
+header('04','Two identical cuts per sheet','Sheets 1 and 2 make four symmetric panels. Share sheet 3 across the fleet.')
 overlay('4 MAIN PANELS / GATE',.062,.865,.018,True);overlay('2400 x 600 mm bounding blanks',.062,.905,.013,color=MUTED)
-overlay('BACKERS FROM OFFCUTS',.389,.865,.018,True);overlay('4 diagonal strips + 4 short tabs',.389,.905,.013,color=MUTED)
-overlay('64 CORNERS / SHEET',.711,.865,.018,True);overlay('300 mm right triangles = 16 gates',.711,.905,.013,color=MUTED)
-footer('Knife cuts / no saw kerf. Face sheets: 2 per gate. Shared corner allocation: 1/16 sheet per gate. See SVG for backer nesting.')
+overlay('BACKERS FROM OFFCUTS',.389,.865,.018,True);overlay('4 strips + 4 square backers',.389,.905,.013,color=MUTED)
+overlay('128 SQUARES / SHEET',.711,.865,.018,True);overlay('150 mm squares = 32 gates',.711,.905,.013,color=MUTED)
+footer('Knife cuts / no saw kerf. Face sheets: 2 per gate. Shared corner allocation: 1/32 sheet per gate. See SVG for backer nesting.')
 # Front dimensional elevation, useful separately from hero.
 setup('06_DIMENSIONS',(0,-8,1.60),(0,0,1.60),6.2,False)
 for c in ASSEMBLY.collection.children:
@@ -396,7 +400,7 @@ coll('02 / supplementary dimensions')
 dim((-.75,-.07,.46),(.75,-.07,.46),'1500',(0,0,.06),.06)
 dim((1.50,-.07,.6),(1.50,-.07,2.1),'1500',(.15,0,0),.06)
 text('Border dimension','600',(1.06,-.07,1.35),.07,LIGHTTEXT,align='CENTER')
-footer('Face: x = -1350..1350, z = 0..2700. Opening: x = -750..750, z = 600..2100. Body thickness: about 94 mm including ties; excludes feet and guys.')
+footer('Face: x = -1350..1350, z = 0..2700. Opening: x = -750..750, z = 600..2100. Body thickness: about 96 mm including ties; excludes feet and guys.')
 # Hard-surface configuration: longer self-contained feet, ballasted at guy attachment points.
 setup('07_HARD_SURFACE',(4.8,6.4,4.4),(-.4,0,1.45),6.5)
 for c in ASSEMBLY.collection.children:
@@ -464,28 +468,30 @@ coll('01 / face explosion')
 for k in range(4):
  off=rotate_face([(0,1.65)],k)[0]; offset=Vector((off[0],off[1]-1.35))
  pts=[tuple(Vector(q)+offset) for q in rotate_face(PENTA,k)]
- polygon_panel('Pentagon / identical',pts,0,.004,BLUE)
- p2=rotate_face(TRI,k); c=Vector((sum(q[0] for q in p2)/3,sum(q[1] for q in p2)/3));delta=(c-Vector((0,1.35))).normalized()*.43
+ polygon_panel('Symmetric panel / identical',pts,0,.004,BLUE)
+ p2=rotate_face(TRI,k); c=Vector((sum(q[0] for q in p2)/len(p2),sum(q[1] for q in p2)/len(p2)));delta=(c-Vector((0,1.35))).normalized()*.43
  polygon_panel('Corner infill', [tuple(Vector(q)+delta) for q in p2],0,.004,BLUE2)
-header('09','Four pentagons. Four corners.','Identical border pieces rotate through 90 degrees. All long midspans stay continuous.')
-footer('Assembled face: 2700 x 2700 mm / opening: 1500 x 1500 mm. Each corner infill is a right triangle with 300 mm legs.')
+header('09','Symmetric cuts. Square corners.','Identical border pieces rotate through 90 degrees. All long midspans stay continuous.')
+footer('Assembled face: 2700 x 2700 mm / opening: 1500 x 1500 mm. Four 150 x 150 mm squares. Main panels have matching 45-degree cuts at both ends.')
+exec((ROOT/'scripts/cutting_jigs.py').read_text(),globals())
 # Embed practical guide and scene index.
-t=bpy.data.texts.new('START_HERE.txt'); t.write('FPV GATE / 2700\n\nScenes:\n01_ASSEMBLED: complete staked gate\n02_REAR_STRUCTURE: rear construction\n03_EXPLODED: separated assembly layers\n04_SHEET_LAYOUT: exact 8x4 ft stock nesting\n05_CLIP_DETAIL: printable saddle and load washer\n06_DIMENSIONS: orthographic front elevation\n07_HARD_SURFACE: long feet, integrated guys, four 15 kg bags\n08_BRACE_JOINT: handed printed joints, tie routes and cutaway\n09_FACE_PARTS: four pentagons and corner triangles\n\nModel uses meters; display is millimeters. Exported STL files use millimeters.\nRead BUILD_GUIDE.md for cut lengths, socket measurement, assembly, wind assumptions, cost and WIP review.\nPurchased fittings and zip tie paths are simplified. Printed STL parts are actual watertight solids, pending physical fit/load testing.\n')
+t=bpy.data.texts.new('START_HERE.txt'); t.write('FPV GATE / 2700\n\nScenes:\n01_ASSEMBLED: complete staked gate\n02_REAR_STRUCTURE: rear construction\n03_EXPLODED: separated assembly layers\n04_SHEET_LAYOUT: exact 8x4 ft stock nesting\n05_CLIP_DETAIL: printable saddle and load washer\n06_DIMENSIONS: orthographic front elevation\n07_HARD_SURFACE: long feet, integrated guys, four 15 kg bags\n08_BRACE_JOINT: handed printed joints, tie routes and cutaway\n09_FACE_PARTS: symmetric panels and square corners\n10_CUTTING_JIGS: A1 Mini marking jigs and straightedge setup\n\nModel uses meters; display is millimeters. Exported STL files use millimeters.\nRead BUILD_GUIDE.md for cut lengths, socket measurement, assembly, wind assumptions, cost and WIP review.\nPurchased fittings and zip tie paths are simplified. Printed STL parts are actual watertight solids, pending physical fit/load testing.\n')
 guide=bpy.data.texts.new('BUILD_GUIDE.md'); guide.write((OUT/'BUILD_GUIDE.md').read_text())
 # Verification of dimensional/nesting and printable topology.
 import bmesh
 checks={}
-for o in [SADDLE,SADDLE34,WASH,JPLUS,JMINUS]:
+for o in [SADDLE,SADDLE34,WASH,JPLUS,JMINUS]+JIGS:
  bm=bmesh.new(); bm.from_mesh(o.data); checks[o.name]={'nonmanifold_edges':sum(not e.is_manifold for e in bm.edges),'volume_mm3':round(abs(bm.calc_volume())*1e9,2),'bounds_mm':[round(d*1000,3) for d in o.dimensions]}; bm.free()
  assert checks[o.name]['nonmanifold_edges']==0, checks[o.name]
 def area2(poly):
  return abs(sum(poly[i][0]*poly[(i+1)%len(poly)][1]-poly[(i+1)%len(poly)][0]*poly[i][1] for i in range(len(poly))))/2
 for r in layout:
  assert all(0<=x<=2438.4 and 0<=y<=1219.2 for x,y in r['polygon_mm'])
-assert len([r for r in layout if r['type']=='corner'])==64
-assert abs(area2(LOCAL_PENTA)*4+45000*4-5040000)<.001
+assert len([r for r in layout if r['type']=='corner'])==128
+assert abs(area2(LOCAL_PENTA)*4+22500*4-5040000)<.001
 assert len(JOINTS)==8
-checks['face']={'pentagon_area_mm2':area2(LOCAL_PENTA),'corner_area_mm2':45000,'total_face_area_mm2':5040000,'shared_corners_per_sheet':64,'gates_per_corner_sheet':16,'panels_per_main_sheet':2}
+checks['a1_mini']={'build_volume_mm':[180,180,180],'jig_max_xy_with_5mm_brim':165,'jig_count':3}
+checks['face']={'main_panel_area_mm2':area2(LOCAL_PENTA),'corner_area_mm2':22500,'total_face_area_mm2':5040000,'shared_corners_per_sheet':128,'gates_per_corner_sheet':32,'panels_per_main_sheet':2}
 checks['hard_surface']={'extra_1in_stock_count':2,'extended_foot_qty':4,'cut_mm':1182.5375,'stock_use_two_cuts_with_kerf_mm':2*1182.5375+6,'ballast_kg':60,'feet_span_mm':2400}
 # Verify removal, continuity of four main members, and actual evaluated body bounds.
 bpy.context.window.scene=ASSEMBLY; bpy.context.view_layer.update()
@@ -509,7 +515,7 @@ for c in ASSEMBLY.collection.children:
 body_depth_mm=(max(ys)-min(ys))*1000
 assert 90<body_depth_mm<100,body_depth_mm
 checks['single_frame']={'rear_square_absent':True,'depth_links_absent':True,'midpoint_tees_absent':True,'continuous_main_members':4,'body_y_bounds_mm':[round(min(ys)*1000,3),round(max(ys)*1000,3)],'pipe_stock_1in':4,'pipe_stock_3_4in':1,'brace_stock_used_with_kerf_mm':4*646+12}
-checks['dimensions']={'outer_mm':[2700,2700],'clear_opening_mm':[1500,1500],'body_depth_mm':round(body_depth_mm,3),'face_area_m2':5.04,'saddle_count':len(positions),'sheet_nesting':'main panels and shared triangles within stock; polygon union verified separately','pipe_stock_1in_mm':3048,'main_rail_cut_mm':2065.075,'square_frame_count':1,'brace_count':4,'brace_joint_count':len(JOINTS),'leg_cut_mm':290.075,'foot_cut_mm':582.5375,'stock_worst_used_with_3mm_kerf':2065.075+290.075+582.5375+9}
+checks['dimensions']={'outer_mm':[2700,2700],'clear_opening_mm':[1500,1500],'body_depth_mm':round(body_depth_mm,3),'face_area_m2':5.04,'saddle_count':len(positions),'sheet_nesting':'main panels and shared squares within stock; polygon union verified separately','pipe_stock_1in_mm':3048,'main_rail_cut_mm':2065.075,'square_frame_count':1,'brace_count':4,'brace_joint_count':len(JOINTS),'leg_cut_mm':290.075,'foot_cut_mm':582.5375,'stock_worst_used_with_3mm_kerf':2065.075+290.075+582.5375+9}
 (OUT/'validation.json').write_text(json.dumps(checks,indent=2)); (OUT/'cut-layouts'/'nesting.json').write_text(json.dumps(layout,indent=2))
 # Save with assembled scene and camera view, useful material shading in the viewport.
 bpy.context.window.scene=ASSEMBLY
@@ -519,7 +525,7 @@ for screen in bpy.data.screens:
    area.spaces.active.region_3d.view_perspective='CAMERA'; area.spaces.active.shading.type='MATERIAL'
 bpy.ops.file.pack_all()
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'FPV_Gate_2700.blend'))
-render_names=os.environ.get('RENDER_SCENES','01_ASSEMBLED,02_REAR_STRUCTURE,03_EXPLODED,04_SHEET_LAYOUT,05_CLIP_DETAIL,06_DIMENSIONS,07_HARD_SURFACE,08_BRACE_JOINT,09_FACE_PARTS').split(',')
+render_names=os.environ.get('RENDER_SCENES','01_ASSEMBLED,02_REAR_STRUCTURE,03_EXPLODED,04_SHEET_LAYOUT,05_CLIP_DETAIL,06_DIMENSIONS,07_HARD_SURFACE,08_BRACE_JOINT,09_FACE_PARTS,10_CUTTING_JIGS').split(',')
 for name in render_names:
  s=bpy.data.scenes[name]; bpy.context.window.scene=s; s.render.filepath=str(OUT/'renders'/f'{name}.png'); bpy.ops.render.render(write_still=True,scene=name)
 print('BUILD COMPLETE',json.dumps(checks))

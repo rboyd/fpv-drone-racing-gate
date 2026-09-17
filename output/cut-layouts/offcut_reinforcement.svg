@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140.0mm" height="90.0mm" viewBox="0 0 1400 900">
+<rect width="1400" height="900" fill="white"/>
+<text x="60" y="65" font-family="Arial" font-size="38" font-weight="bold" fill="#142e47">OFFCUT RECOVERY / 4 OF EACH TYPE / SCALE 1:10</text>
+<polygon points="80.0000,650.0000 530.0000,650.0000 80.0000,200.0000" fill="#e0eddf" stroke="#19334e" stroke-width="3"/>
+<polygon points="80.0000,650.0000 300.0000,650.0000 300.0000,430.0000 80.0000,430.0000" fill="#91b9d0" stroke="#19334e" stroke-width="1"/>
+<polygon points="310.0000,650.0000 380.0000,650.0000 380.0000,600.0000 310.0000,600.0000" fill="#4b7acf" stroke="#19334e" stroke-width="1"/>
+<polygon points="310.0000,600.0000 380.0000,600.0000 380.0000,550.0000 310.0000,550.0000" fill="#4b7acf" stroke="#19334e" stroke-width="1"/>
+<polygon points="310.0000,550.0000 380.0000,550.0000 380.0000,500.0000 310.0000,500.0000" fill="#4b7acf" stroke="#19334e" stroke-width="1"/>
+<polygon points="80.0000,420.0000 105.0000,420.0000 105.0000,395.0000 80.0000,395.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="80.0000,390.0000 105.0000,390.0000 105.0000,365.0000 80.0000,365.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="110.0000,420.0000 135.0000,420.0000 135.0000,395.0000 110.0000,395.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="110.0000,390.0000 135.0000,390.0000 135.0000,365.0000 110.0000,365.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="140.0000,420.0000 165.0000,420.0000 165.0000,395.0000 140.0000,395.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="140.0000,390.0000 165.0000,390.0000 165.0000,365.0000 140.0000,365.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="170.0000,420.0000 195.0000,420.0000 195.0000,395.0000 170.0000,395.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="170.0000,390.0000 195.0000,390.0000 195.0000,365.0000 170.0000,365.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<text x="80" y="145" font-family="Arial" font-size="30" fill="#18334e">220 square patch</text>
+<text x="80" y="715" font-family="Arial" font-size="23" fill="#18334e">+ 3 pads (70 x 50) + 8 spreaders (25 x 25)</text>
+<text x="80" y="765" font-family="Arial" font-size="25" fill="#18334e">Use 4 identical 450-leg offcuts</text>
+<text x="80" y="815" font-family="Arial" font-size="22" fill="#18334e">Coordinates in reinforcement_nesting.json</text>
+<polygon points="730.0000,650.0000 1180.0000,650.0000 730.0000,200.0000" fill="#e0eddf" stroke="#19334e" stroke-width="3"/>
+<polygon points="747.9720,384.5406 995.4594,632.0280 1052.0280,575.4594 804.5406,327.9720" fill="#91b9d0" stroke="#19334e" stroke-width="1"/>
+<polygon points="730.0000,650.0000 800.0000,650.0000 800.0000,600.0000 730.0000,600.0000" fill="#4b7acf" stroke="#19334e" stroke-width="1"/>
+<polygon points="805.0000,650.0000 875.0000,650.0000 875.0000,600.0000 805.0000,600.0000" fill="#4b7acf" stroke="#19334e" stroke-width="1"/>
+<polygon points="730.0000,595.0000 800.0000,595.0000 800.0000,545.0000 730.0000,545.0000" fill="#4b7acf" stroke="#19334e" stroke-width="1"/>
+<polygon points="730.0000,540.0000 755.0000,540.0000 755.0000,515.0000 730.0000,515.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="730.0000,510.0000 755.0000,510.0000 755.0000,485.0000 730.0000,485.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="758.0000,540.0000 783.0000,540.0000 783.0000,515.0000 758.0000,515.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="758.0000,510.0000 783.0000,510.0000 783.0000,485.0000 758.0000,485.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="786.0000,540.0000 811.0000,540.0000 811.0000,515.0000 786.0000,515.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="786.0000,510.0000 811.0000,510.0000 811.0000,485.0000 786.0000,485.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="814.0000,540.0000 839.0000,540.0000 839.0000,515.0000 814.0000,515.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<polygon points="814.0000,510.0000 839.0000,510.0000 839.0000,485.0000 814.0000,485.0000" fill="#e8a96f" stroke="#19334e" stroke-width="1"/>
+<text x="730" y="145" font-family="Arial" font-size="30" fill="#18334e">350 x 80 diagonal strip</text>
+<text x="730" y="715" font-family="Arial" font-size="23" fill="#18334e">+ 3 pads (70 x 50) + 8 spreaders (25 x 25)</text>
+<text x="730" y="765" font-family="Arial" font-size="25" fill="#18334e">Use 4 identical 450-leg offcuts</text>
+<text x="730" y="815" font-family="Arial" font-size="22" fill="#18334e">Coordinates in reinforcement_nesting.json</text>
+</svg>

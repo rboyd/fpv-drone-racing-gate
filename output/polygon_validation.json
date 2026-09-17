@@ -4,8 +4,17 @@
   "outer_coverage": "exact ring; no gaps or area overlaps",
   "opening": "1500 x 1500 unobstructed",
   "stock_polygons": "all pairwise intersections have zero area",
-  "backer_in_offcut": true,
-  "optional_corner_does_not_overlap_backer": true,
+  "symmetric_main_panels": true,
+  "corners_per_shared_sheet": 128,
+  "gates_per_shared_sheet": 32,
+  "offcut_recovery": {
+    "square_backers": 4,
+    "diagonal_strips": 4,
+    "saddle_pads": 24,
+    "small_spreaders": 64,
+    "all_fit_without_overlap": true
+  },
+  "all_prints_fit_a1_mini": true,
   "stl_mm_units": {
     "saddle_1in_OD33p40_mm.stl": {
       "triangles": 272,
@@ -21,6 +30,14 @@
         60.0,
         40.0,
         2.5
+      ]
+    },
+    "jig_square_150_mm.stl": {
+      "triangles": 94,
+      "bounds_mm": [
+        155.0,
+        155.0,
+        9.0
       ]
     },
     "brace_joint_plus45_mm.stl": {
@@ -45,6 +62,22 @@
         60.0,
         24.0,
         60.0
+      ]
+    },
+    "jig_tie_slots_60_mm.stl": {
+      "triangles": 84,
+      "bounds_mm": [
+        80.0,
+        40.0,
+        3.0
+      ]
+    },
+    "jig_45_degree_mm.stl": {
+      "triangles": 56,
+      "bounds_mm": [
+        150.0,
+        150.0,
+        9.0
       ]
     }
   }

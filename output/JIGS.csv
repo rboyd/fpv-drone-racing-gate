@@ -1,0 +1,5 @@
+Part,Print quantity per crew,STL,Envelope mm,Print orientation,Use
+150 mm square gauge,1,jig_square_150_mm.stl,155 x 155 x 9,Flat base down fences up,Flip to register sheet edges; opposite edges mark150 mm
+45 degree alignment gauge,1,jig_45_degree_mm.stl,150 x 150 x 9,Flat base down fence up,Flip to register edge and align metal straightedge
+Tie marking template,1,jig_tie_slots_60_mm.stl,80 x 40 x 3,Flat,Mark4x6 mm slots60 mm apart across seam
+Reusable jig filament allowance,1 crew set,,3-5 USD,,Excluded from per-gate BOM; slice to confirm
