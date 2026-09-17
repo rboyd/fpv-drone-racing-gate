@@ -1,0 +1,51 @@
+{
+  "face_parts": 8,
+  "face_area_mm2": 5040000.0,
+  "outer_coverage": "exact ring; no gaps or area overlaps",
+  "opening": "1500 x 1500 unobstructed",
+  "stock_polygons": "all pairwise intersections have zero area",
+  "backer_in_offcut": true,
+  "optional_corner_does_not_overlap_backer": true,
+  "stl_mm_units": {
+    "saddle_1in_OD33p40_mm.stl": {
+      "triangles": 272,
+      "bounds_mm": [
+        60.0,
+        40.0,
+        18.0
+      ]
+    },
+    "front_load_washer_mm.stl": {
+      "triangles": 92,
+      "bounds_mm": [
+        60.0,
+        40.0,
+        2.5
+      ]
+    },
+    "brace_joint_plus45_mm.stl": {
+      "triangles": 710,
+      "bounds_mm": [
+        60.0,
+        24.0,
+        60.0
+      ]
+    },
+    "optional_saddle_3_4in_OD26p67_mm.stl": {
+      "triangles": 272,
+      "bounds_mm": [
+        60.0,
+        40.0,
+        18.0
+      ]
+    },
+    "brace_joint_minus45_mm.stl": {
+      "triangles": 724,
+      "bounds_mm": [
+        60.0,
+        24.0,
+        60.0
+      ]
+    }
+  }
+}

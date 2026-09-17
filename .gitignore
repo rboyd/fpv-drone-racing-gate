@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.blend1
+*.log
+output/previous_*/
+output/FPV_Gate_Kit.zip

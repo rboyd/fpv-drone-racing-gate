@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160.0mm" height="100.0mm" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="white"/>
+<text x="60" y="65" font-family="Arial" font-size="38" font-weight="bold" fill="#142e47">OFFCUT RECOVERY / 4 OF EACH OFFCUT PER GATE / SCALE 1:10</text>
+<polygon points="100.0000,800.0000 700.0000,800.0000 100.0000,200.0000" fill="#e0eddf" stroke="#19334e" stroke-width="3"/>
+<polygon points="102.5126,373.2233 526.7767,797.4874 597.4874,726.7767 173.2233,302.5126" fill="#b9d4e4" stroke="#19334e" stroke-width="3"/>
+<polygon points="100.0000,800.0000 400.0000,800.0000 100.0000,500.0000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<text x="80" y="160" font-family="Arial" font-size="32" fill="#18334e">600 mm-leg offcut</text>
+<text x="250" y="520" font-family="Arial" font-size="25" fill="#18334e">600 x 100 backer</text>
+<text x="105" y="735" font-family="Arial" font-size="24" fill="white">Optional 300 corner</text>
+<polygon points="900.0000,800.0000 1200.0000,800.0000 1200.0000,500.0000" fill="#e0eddf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1060.0000,800.0000 1200.0000,800.0000 1200.0000,700.0000 1060.0000,700.0000" fill="#b9d4e4" stroke="#19334e" stroke-width="3"/>
+<text x="880" y="465" font-family="Arial" font-size="30" fill="#18334e">300 mm-leg offcut</text>
+<text x="930" y="840" font-family="Arial" font-size="27" fill="#18334e">140 x 100 short tab</text>
+<text x="70" y="910" font-family="Arial" font-size="25" fill="#18334e">Diagonal strip: center (250,250), 600 long x 100 wide, long axis at -45 degrees.</text>
+<text x="70" y="952" font-family="Arial" font-size="24" fill="#18334e">Green remainder supplies 70 x 50 saddle pads and smaller stitch pads. Shared sheet remains baseline.</text>
+</svg>

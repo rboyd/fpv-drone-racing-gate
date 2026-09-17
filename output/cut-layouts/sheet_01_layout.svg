@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270.0mm" height="150.0mm" viewBox="0 0 2700 1500">
+<rect width="2700" height="1500" fill="white"/>
+<text x="60" y="65" font-family="Arial" font-size="38" font-weight="bold" fill="#142e47">SHEET 1 / 2 IDENTICAL PENTAGONS / SCALE 1:10</text>
+<rect x="100" y="140" width="2438.4" height="1219.2" fill="#e0eddf" stroke="#142e47" stroke-width="3"/>
+<polygon points="100.0000,759.2000 2500.0000,759.2000 2500.0000,1059.2000 2200.0000,1359.2000 700.0000,1359.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<text x="950" y="1080" font-family="Arial" font-size="40" fill="white">2400 x 600 mm blank / 5 sides</text>
+<polygon points="100.0000,159.2000 2500.0000,159.2000 2500.0000,459.2000 2200.0000,759.2000 700.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<text x="950" y="480" font-family="Arial" font-size="40" fill="white">2400 x 600 mm blank / 5 sides</text>
+<text x="100" y="1430" font-family="Arial" font-size="27" fill="#18334e">Same five vertices in each blank: (0,600) (2400,600) (2400,300) (2100,0) (600,0)</text>
+</svg>

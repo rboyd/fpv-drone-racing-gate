@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270.0mm" height="100.0mm" viewBox="0 0 2700 1000">
+<rect width="2700" height="1000" fill="white"/>
+<text x="60" y="65" font-family="Arial" font-size="38" font-weight="bold" fill="#142e47">MAIN PENTAGON / CUT 4 IDENTICAL / TWO PER SHEET / SCALE 1:10</text>
+<polygon points="100.0000,200.0000 2500.0000,200.0000 2500.0000,500.0000 2200.0000,800.0000 700.0000,800.0000" fill="#dce7f7" stroke="#19334e" stroke-width="3"/>
+<rect x="100" y="200" width="2400" height="600" fill="none" stroke="#e38639" stroke-width="3" stroke-dasharray="12 8"/>
+<circle cx="100" cy="200" r="8" fill="#1c3a56"/>
+<text x="110" y="180" font-family="Arial" font-size="30" fill="#18334e">(0, 600)</text>
+<circle cx="2500" cy="200" r="8" fill="#1c3a56"/>
+<text x="2250" y="180" font-family="Arial" font-size="30" fill="#18334e">(2400, 600)</text>
+<circle cx="2500" cy="500" r="8" fill="#1c3a56"/>
+<text x="2250" y="480" font-family="Arial" font-size="30" fill="#18334e">(2400, 300)</text>
+<circle cx="2200" cy="800" r="8" fill="#1c3a56"/>
+<text x="1950" y="850" font-family="Arial" font-size="30" fill="#18334e">(2100, 0)</text>
+<circle cx="700" cy="800" r="8" fill="#1c3a56"/>
+<text x="710" y="850" font-family="Arial" font-size="30" fill="#18334e">(600, 0)</text>
+<text x="820" y="510" font-family="Arial" font-size="37" fill="#18334e">1500 mm inner edge / 2400 mm outer edge</text>
+<text x="100" y="925" font-family="Arial" font-size="29" fill="#18334e">Coordinates from lower-left of the dashed 2400 x 600 blank. Rotate completed panels; do not mirror.</text>
+</svg>

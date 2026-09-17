@@ -1,0 +1,98 @@
+{
+  "PRINT / saddle 1 inch / 60 x 40 x 18 mm": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 22293.22,
+    "bounds_mm": [
+      60.0,
+      40.0,
+      18.0
+    ]
+  },
+  "PRINT / optional saddle 3-4 inch / 60 x 40 x 18 mm": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 23648.82,
+    "bounds_mm": [
+      60.0,
+      40.0,
+      18.0
+    ]
+  },
+  "PRINT / front load washer / 60 x 40 x 2.5 mm": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 5808.0,
+    "bounds_mm": [
+      60.0,
+      40.0,
+      2.5
+    ]
+  },
+  "PRINT / brace joint +45": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 63042.14,
+    "bounds_mm": [
+      60.0,
+      60.0,
+      24.0
+    ]
+  },
+  "PRINT / brace joint -45": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 63042.14,
+    "bounds_mm": [
+      60.0,
+      60.0,
+      24.0
+    ]
+  },
+  "face": {
+    "pentagon_area_mm2": 1215000.0,
+    "corner_area_mm2": 45000,
+    "total_face_area_mm2": 5040000,
+    "shared_corners_per_sheet": 64,
+    "gates_per_corner_sheet": 16,
+    "panels_per_main_sheet": 2
+  },
+  "hard_surface": {
+    "extra_1in_stock_count": 2,
+    "extended_foot_qty": 4,
+    "cut_mm": 1182.5375,
+    "stock_use_two_cuts_with_kerf_mm": 2371.075,
+    "ballast_kg": 60,
+    "feet_span_mm": 2400
+  },
+  "single_frame": {
+    "rear_square_absent": true,
+    "depth_links_absent": true,
+    "midpoint_tees_absent": true,
+    "continuous_main_members": 4,
+    "body_y_bounds_mm": [
+      -3.8,
+      89.536
+    ],
+    "pipe_stock_1in": 4,
+    "pipe_stock_3_4in": 1,
+    "brace_stock_used_with_kerf_mm": 2596
+  },
+  "dimensions": {
+    "outer_mm": [
+      2700,
+      2700
+    ],
+    "clear_opening_mm": [
+      1500,
+      1500
+    ],
+    "body_depth_mm": 93.336,
+    "face_area_m2": 5.04,
+    "saddle_count": 24,
+    "sheet_nesting": "main panels and shared triangles within stock; polygon union verified separately",
+    "pipe_stock_1in_mm": 3048,
+    "main_rail_cut_mm": 2065.075,
+    "square_frame_count": 1,
+    "brace_count": 4,
+    "brace_joint_count": 8,
+    "leg_cut_mm": 290.075,
+    "foot_cut_mm": 582.5375,
+    "stock_worst_used_with_3mm_kerf": 2946.6874999999995
+  }
+}

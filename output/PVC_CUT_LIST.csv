@@ -1,0 +1,7 @@
+Part,Quantity,Nominal pipe,Example cut mm,Stock allocation,Condition
+Horizontal rail,2,1 inch Sch40,2065.075,One per stick1-2,2100 minus2x17.4625 fitting offsets
+Upright,2,1 inch Sch40,2065.075,One per stick3-4,2100 minus2x17.4625 fitting offsets
+Leg,2,1 inch Sch40,290.075,One each from sticks1-2,325 centerline span minus2x17.4625
+Grass half-foot,4,1 inch Sch40,582.5375,One from each stick1-4,600 minus teeG17.4625
+Corner brace,4,3/4 inch Sch40,646,All four from stick5,400x400 crossing span plus40 end overruns
+Hard-surface half-foot,4,1 inch Sch40,1182.5375,Two each from extra sticks6-7,Replaces grass feet;1200 minus teeG17.4625

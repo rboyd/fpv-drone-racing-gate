@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270.0mm" height="150.0mm" viewBox="0 0 2700 1500">
+<rect width="2700" height="1500" fill="white"/>
+<text x="60" y="65" font-family="Arial" font-size="38" font-weight="bold" fill="#142e47">SHEET 3 / 64 CORNERS = 16 GATES / SCALE 1:10</text>
+<rect x="100" y="140" width="2438.4" height="1219.2" fill="#e0eddf" stroke="#142e47" stroke-width="3"/>
+<polygon points="100.0000,1359.2000 400.0000,1359.2000 100.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,1359.2000 400.0000,1059.2000 100.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="100.0000,1059.2000 400.0000,1059.2000 100.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,1059.2000 400.0000,759.2000 100.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="100.0000,759.2000 400.0000,759.2000 100.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,759.2000 400.0000,459.2000 100.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="100.0000,459.2000 400.0000,459.2000 100.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,459.2000 400.0000,159.2000 100.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,1359.2000 700.0000,1359.2000 400.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,1359.2000 700.0000,1059.2000 400.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,1059.2000 700.0000,1059.2000 400.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,1059.2000 700.0000,759.2000 400.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,759.2000 700.0000,759.2000 400.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,759.2000 700.0000,459.2000 400.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="400.0000,459.2000 700.0000,459.2000 400.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,459.2000 700.0000,159.2000 400.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,1359.2000 1000.0000,1359.2000 700.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,1359.2000 1000.0000,1059.2000 700.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,1059.2000 1000.0000,1059.2000 700.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,1059.2000 1000.0000,759.2000 700.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,759.2000 1000.0000,759.2000 700.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,759.2000 1000.0000,459.2000 700.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="700.0000,459.2000 1000.0000,459.2000 700.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,459.2000 1000.0000,159.2000 700.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,1359.2000 1300.0000,1359.2000 1000.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,1359.2000 1300.0000,1059.2000 1000.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,1059.2000 1300.0000,1059.2000 1000.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,1059.2000 1300.0000,759.2000 1000.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,759.2000 1300.0000,759.2000 1000.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,759.2000 1300.0000,459.2000 1000.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1000.0000,459.2000 1300.0000,459.2000 1000.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,459.2000 1300.0000,159.2000 1000.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,1359.2000 1600.0000,1359.2000 1300.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,1359.2000 1600.0000,1059.2000 1300.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,1059.2000 1600.0000,1059.2000 1300.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,1059.2000 1600.0000,759.2000 1300.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,759.2000 1600.0000,759.2000 1300.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,759.2000 1600.0000,459.2000 1300.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1300.0000,459.2000 1600.0000,459.2000 1300.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,459.2000 1600.0000,159.2000 1300.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,1359.2000 1900.0000,1359.2000 1600.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,1359.2000 1900.0000,1059.2000 1600.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,1059.2000 1900.0000,1059.2000 1600.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,1059.2000 1900.0000,759.2000 1600.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,759.2000 1900.0000,759.2000 1600.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,759.2000 1900.0000,459.2000 1600.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1600.0000,459.2000 1900.0000,459.2000 1600.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,459.2000 1900.0000,159.2000 1600.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,1359.2000 2200.0000,1359.2000 1900.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,1359.2000 2200.0000,1059.2000 1900.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,1059.2000 2200.0000,1059.2000 1900.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,1059.2000 2200.0000,759.2000 1900.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,759.2000 2200.0000,759.2000 1900.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,759.2000 2200.0000,459.2000 1900.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="1900.0000,459.2000 2200.0000,459.2000 1900.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,459.2000 2200.0000,159.2000 1900.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,1359.2000 2500.0000,1359.2000 2200.0000,1059.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2500.0000,1359.2000 2500.0000,1059.2000 2200.0000,1059.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,1059.2000 2500.0000,1059.2000 2200.0000,759.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2500.0000,1059.2000 2500.0000,759.2000 2200.0000,759.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,759.2000 2500.0000,759.2000 2200.0000,459.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2500.0000,759.2000 2500.0000,459.2000 2200.0000,459.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<polygon points="2200.0000,459.2000 2500.0000,459.2000 2200.0000,159.2000" fill="#2c5dbe" stroke="#19334e" stroke-width="3"/>
+<polygon points="2500.0000,459.2000 2500.0000,159.2000 2200.0000,159.2000" fill="#4b7acf" stroke="#19334e" stroke-width="3"/>
+<text x="100" y="1430" font-family="Arial" font-size="30" fill="#18334e">300 x 300 mm squares, each split diagonally. Knife cuts; saw kerf reduces yield.</text>
+</svg>
