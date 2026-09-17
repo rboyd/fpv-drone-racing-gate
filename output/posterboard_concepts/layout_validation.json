@@ -1,0 +1,109 @@
+{
+  "A": {
+    "four_cassettes_cover_exact_ring": true,
+    "one_cardstock_size": true,
+    "stock_nesting_no_overlap": true,
+    "cuts": 36,
+    "paper_sheets": 12,
+    "outer_mm": 2724.4,
+    "opening_mm": 1590.8,
+    "packed_longest_mm": 1078.8,
+    "no_card_crosses_fold": true,
+    "equal_U_rail_segments": 480
+  },
+  "B": {
+    "four_cassettes_cover_exact_ring": true,
+    "one_cardstock_size": true,
+    "stock_nesting_no_overlap": true,
+    "cuts": 12,
+    "paper_sheets": 12,
+    "outer_mm": 2720.4,
+    "opening_mm": 1594.8,
+    "packed_longest_mm": 1078.8,
+    "no_card_crosses_fold": true,
+    "equal_U_rail_segments": 336
+  },
+  "C": {
+    "four_cassettes_cover_exact_ring": true,
+    "one_cardstock_size": true,
+    "stock_nesting_no_overlap": true,
+    "cuts": 0,
+    "paper_sheets": 12,
+    "outer_mm": 2708.4,
+    "opening_mm": 1582.8,
+    "packed_longest_mm": 715.2,
+    "no_card_crosses_fold": true,
+    "equal_U_rail_segments": 216
+  },
+  "D": {
+    "four_cassettes_cover_exact_ring": true,
+    "one_cardstock_size": true,
+    "stock_nesting_no_overlap": true,
+    "cuts": 90,
+    "paper_sheets": 18,
+    "outer_mm": 2700.0,
+    "opening_mm": 1500.0,
+    "packed_longest_mm": 1050.0,
+    "no_card_crosses_fold": true,
+    "equal_U_rail_segments": 720
+  },
+  "coupons": {
+    "hinge_split_pin_flat_mm.stl": {
+      "bounds_mm": [
+        8.0,
+        19.0,
+        3.0
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    },
+    "hinge_knuckle_flat_mm.stl": {
+      "bounds_mm": [
+        32.0,
+        12.0,
+        6.0
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    },
+    "dovetail_receiver_50_mm.stl": {
+      "bounds_mm": [
+        50.0,
+        25.4,
+        7.0
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    },
+    "dovetail_shoe_release_spring_mm.stl": {
+      "bounds_mm": [
+        45.0,
+        29.2,
+        5.6
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    },
+    "support_rib_150_mm.stl": {
+      "bounds_mm": [
+        150.0,
+        5.0,
+        2.0
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    },
+    "channel_150_on_spine_mm.stl": {
+      "bounds_mm": [
+        150.0,
+        10.0,
+        6.0
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    },
+    "PVC_C_saddle_OD33p4_mm.stl": {
+      "bounds_mm": [
+        37.215,
+        40.288,
+        8.0
+      ],
+      "triangles_steeper_than_45deg_down_above_bed": 0
+    }
+  },
+  "limitations": "Geometry, nesting and bed envelopes only; no physical fit, slicing, fatigue or structural validation."
+}

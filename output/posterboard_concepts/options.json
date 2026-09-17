@@ -1,0 +1,294 @@
+[
+  {
+    "id": "A",
+    "name": "Quarter sheets",
+    "card": [
+      355.6,
+      279.4
+    ],
+    "grid": [
+      6,
+      2
+    ],
+    "sheets": 12,
+    "cuts_per_sheet": 3,
+    "fold_columns": [
+      3
+    ],
+    "rib": false,
+    "stock_pattern": [
+      [
+        0,
+        0,
+        279.4,
+        355.6
+      ],
+      [
+        0,
+        355.6,
+        279.4,
+        355.6
+      ],
+      [
+        279.4,
+        0,
+        279.4,
+        355.6
+      ],
+      [
+        279.4,
+        355.6,
+        279.4,
+        355.6
+      ]
+    ],
+    "note": "48 identical inserts; one fold per cassette",
+    "pitch": [
+      359.6,
+      283.4
+    ],
+    "cassette": [
+      2157.6000000000004,
+      566.8
+    ],
+    "outer": 2724.4000000000005,
+    "opening": 1590.8000000000004,
+    "inserts": 48,
+    "cuts": 36,
+    "leaf_lengths": [
+      1078.8000000000002,
+      1078.8000000000002
+    ],
+    "pack": [
+      1078.8000000000002,
+      566.8,
+      40
+    ],
+    "channel_length_m": 61.728,
+    "rib_length_m": 0,
+    "PETG_kg": 3.124033189376001,
+    "spools": 4,
+    "paper_USD": 11.879999999999999,
+    "consumed_USD": 74.36066378752001,
+    "cash_USD": 91.88,
+    "field_fold_locks": 8,
+    "field_corner_keys": 8,
+    "PVC_docks": 16,
+    "max_insert_support_bay_mm": [
+      355.6,
+      279.4
+    ]
+  },
+  {
+    "id": "B",
+    "name": "Half sheets",
+    "card": [
+      355.6,
+      558.8
+    ],
+    "grid": [
+      6,
+      1
+    ],
+    "sheets": 12,
+    "cuts_per_sheet": 1,
+    "fold_columns": [
+      3
+    ],
+    "rib": true,
+    "stock_pattern": [
+      [
+        0,
+        0,
+        558.8,
+        355.6
+      ],
+      [
+        0,
+        355.6,
+        558.8,
+        355.6
+      ]
+    ],
+    "note": "24 identical inserts; one cut per stock sheet",
+    "pitch": [
+      359.6,
+      562.8
+    ],
+    "cassette": [
+      2157.6000000000004,
+      562.8
+    ],
+    "outer": 2720.4000000000005,
+    "opening": 1594.8000000000004,
+    "inserts": 24,
+    "cuts": 12,
+    "leaf_lengths": [
+      1078.8000000000002,
+      1078.8000000000002
+    ],
+    "pack": [
+      1078.8000000000002,
+      562.8,
+      40
+    ],
+    "channel_length_m": 44.2752,
+    "rib_length_m": 8.630400000000002,
+    "PETG_kg": 2.5519855606784,
+    "spools": 3,
+    "paper_USD": 11.879999999999999,
+    "consumed_USD": 62.91971121356799,
+    "cash_USD": 71.88,
+    "field_fold_locks": 8,
+    "field_corner_keys": 8,
+    "PVC_docks": 16,
+    "max_insert_support_bay_mm": [
+      355.6,
+      279.4
+    ]
+  },
+  {
+    "id": "C",
+    "name": "Whole sheets",
+    "card": [
+      711.2,
+      558.8
+    ],
+    "grid": [
+      3,
+      1
+    ],
+    "sheets": 12,
+    "cuts_per_sheet": 0,
+    "fold_columns": [
+      1,
+      2
+    ],
+    "rib": true,
+    "stock_pattern": [
+      [
+        0,
+        0,
+        558.8,
+        711.2
+      ]
+    ],
+    "note": "12 uncut inserts; two folds per cassette",
+    "pitch": [
+      715.2,
+      562.8
+    ],
+    "cassette": [
+      2145.6000000000004,
+      562.8
+    ],
+    "outer": 2708.4000000000005,
+    "opening": 1582.8000000000004,
+    "inserts": 12,
+    "cuts": 0,
+    "leaf_lengths": [
+      715.2,
+      715.2,
+      715.2
+    ],
+    "pack": [
+      715.2,
+      562.8,
+      65
+    ],
+    "channel_length_m": 30.672,
+    "rib_length_m": 15.336000000000002,
+    "PETG_kg": 2.369817511424,
+    "spools": 3,
+    "paper_USD": 11.879999999999999,
+    "consumed_USD": 59.27635022848,
+    "cash_USD": 71.88,
+    "field_fold_locks": 16,
+    "field_corner_keys": 8,
+    "PVC_docks": 16,
+    "max_insert_support_bay_mm": [
+      355.6,
+      279.4
+    ]
+  },
+  {
+    "id": "D",
+    "name": "Exact-size metric",
+    "card": [
+      346.0,
+      196.0
+    ],
+    "grid": [
+      6,
+      3
+    ],
+    "sheets": 18,
+    "cuts_per_sheet": 5,
+    "fold_columns": [
+      3
+    ],
+    "rib": false,
+    "stock_pattern": [
+      [
+        0,
+        0,
+        196,
+        346
+      ],
+      [
+        0,
+        346,
+        196,
+        346
+      ],
+      [
+        196,
+        0,
+        196,
+        346
+      ],
+      [
+        196,
+        346,
+        196,
+        346
+      ]
+    ],
+    "note": "72 identical inserts; trim to 392 x 692, then quarter",
+    "pitch": [
+      350.0,
+      200.0
+    ],
+    "cassette": [
+      2100.0,
+      600.0
+    ],
+    "outer": 2700.0,
+    "opening": 1500.0,
+    "inserts": 72,
+    "cuts": 90,
+    "leaf_lengths": [
+      1050.0,
+      1050.0
+    ],
+    "pack": [
+      1050.0,
+      600.0,
+      40
+    ],
+    "channel_length_m": 79.2,
+    "rib_length_m": 0,
+    "PETG_kg": 3.8183598464000004,
+    "spools": 4,
+    "paper_USD": 17.82,
+    "consumed_USD": 94.18719692800002,
+    "cash_USD": 97.82,
+    "field_fold_locks": 8,
+    "field_corner_keys": 8,
+    "PVC_docks": 16,
+    "max_insert_support_bay_mm": [
+      346.0,
+      196.0
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "channel_150_on_spine_mm.stl": {
+    "bounds_mm": [
+      150.0,
+      10.0,
+      6.0
+    ],
+    "solid_volume_mm3": 3528.0,
+    "nonmanifold_edges": 0,
+    "orientation": "150 x 10 mm spine on bed; slot faces UP",
+    "overhang_design": "None: constant extrusion / open features",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  },
+  "dovetail_receiver_50_mm.stl": {
+    "bounds_mm": [
+      50.0,
+      25.4,
+      7.0
+    ],
+    "solid_volume_mm3": 3109.8,
+    "nonmanifold_edges": 0,
+    "orientation": "Flat base on bed; groove and release notch face UP",
+    "overhang_design": "45-degree inward groove walls; notch is open on top",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  },
+  "dovetail_shoe_release_spring_mm.stl": {
+    "bounds_mm": [
+      45.0,
+      29.2,
+      5.6
+    ],
+    "solid_volume_mm3": 3911.04,
+    "nonmanifold_edges": 0,
+    "orientation": "Broad plate on bed; trapezoid foot points UP; spring flexes in XY",
+    "overhang_design": "45-degree widening runner; cantilever lies flat",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  },
+  "hinge_knuckle_flat_mm.stl": {
+    "bounds_mm": [
+      32.0,
+      12.0,
+      6.0
+    ],
+    "solid_volume_mm3": 1781.81,
+    "nonmanifold_edges": 0,
+    "orientation": "Eye axis vertical on bed; two separate knuckles stack along the pin",
+    "overhang_design": "None: constant extrusion / open features",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  },
+  "hinge_split_pin_flat_mm.stl": {
+    "bounds_mm": [
+      8.0,
+      19.0,
+      3.0
+    ],
+    "solid_volume_mm3": 205.2,
+    "nonmanifold_edges": 0,
+    "orientation": "Flat fork on bed; flex legs in XY; pinch tips to remove",
+    "overhang_design": "None: constant extrusion / open features",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  },
+  "PVC_C_saddle_OD33p4_mm.stl": {
+    "bounds_mm": [
+      37.215,
+      40.288,
+      8.0
+    ],
+    "solid_volume_mm3": 2985.65,
+    "nonmanifold_edges": 0,
+    "orientation": "Pipe axis vertical; ring profile flat on bed",
+    "overhang_design": "None; open C profile. Positive keeper still to be detailed.",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  },
+  "support_rib_150_mm.stl": {
+    "bounds_mm": [
+      150.0,
+      5.0,
+      2.0
+    ],
+    "solid_volume_mm3": 1500.0,
+    "nonmanifold_edges": 0,
+    "orientation": "150 x 5 mm side on bed",
+    "overhang_design": "None: constant extrusion / open features",
+    "status": "Prototype coupon; not physically fit/cycle tested"
+  }
+}

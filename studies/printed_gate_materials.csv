@@ -1,0 +1,7 @@
+construction,equivalent_solid_mm,face_kg,minimum_1kg_spools_no_extras,whole_spool_USD_at_20
+0.2 mm film,0.2,1.2902,2,40
+0.4 mm sheet,0.4,2.5805,3,60
+0.8 mm sheet,0.8,5.161,6,120
+1.0 mm sheet,1,6.4512,7,140
+4 mm sandwich: two 0.4 mm skins and 10% core,1.12,7.2253,8,160
+4 mm solid,4,25.8048,26,520

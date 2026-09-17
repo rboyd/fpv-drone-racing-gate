@@ -4,3 +4,5 @@ __pycache__/
 *.log
 output/previous_*/
 output/FPV_Gate_Kit.zip
+
+output/posterboard_concepts/Posterboard_Concepts.zip

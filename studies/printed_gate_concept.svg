@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f4f6f8"/>
+<style>text{font-family:Arial,sans-serif;fill:#183449}.title{font-size:30px;font-weight:700}.h{font-size:20px;font-weight:700}.t{font-size:16px}.small{font-size:14px}.part{fill:#efa24b;stroke:#a86622;stroke-width:2}.blue{fill:#3973c9;stroke:#1a4d96;stroke-width:2}</style>
+<text x="40" y="48" class="title">Printed gate / feasibility concepts</text>
+<text x="40" y="79" class="t">150 mm modular grid · PVC support retained · schematic only, not a tested joint design</text>
+<defs><pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse"><rect width="15" height="15" fill="none" stroke="#3973c9" stroke-width="1.2"/></pattern></defs>
+<g transform="translate(40 145)">
+<rect width="270" height="270" fill="url(#grid)" stroke="#1a4d96" stroke-width="3"/>
+<rect x="60" y="60" width="150" height="150" fill="#f4f6f8" stroke="#1a4d96" stroke-width="3"/>
+<text x="135" y="127" text-anchor="middle" class="h">1500 mm</text><text x="135" y="153" text-anchor="middle" class="t">clear opening</text>
+<text x="0" y="310" class="h">224 tiles</text><text x="0" y="339" class="t">18 × 18 outside / 10 × 10 hole</text><text x="0" y="366" class="t">2700 mm outside / 600 mm border</text>
+</g>
+<g transform="translate(375 145)">
+<path d="M0 0H150V150H0Z M9 9V70H70V9Z M80 9V70H141V9Z M9 80V141H70V80Z M80 80V141H141V80Z" fill-rule="evenodd" class="blue"/>
+<path d="M61 0V12H89V0 M61 150V138H89V150" fill="none" stroke="#efa24b" stroke-width="5"/>
+<text x="0" y="188" class="h">A / open tile</text><text x="0" y="217" class="t">Perimeter + cross ribs</text><text x="0" y="244" class="small">150 mm pitch; ribs exaggerated</text>
+</g>
+<g transform="translate(650 160)">
+<path d="M0 18L43 38L43 62L0 82Z M86 18L43 38L43 62L86 82Z" class="part"/>
+<path d="M35 25H52V55H67" fill="none" stroke="#183449" stroke-width="5"/>
+<text x="-15" y="173" class="h">B / click key</text><text x="-15" y="202" class="t">Dovetail + retaining detent</text><text x="-15" y="229" class="small">Replaceable; release from rear</text>
+</g>
+<g transform="translate(985 205)">
+<circle r="45" fill="#d9e0e4" stroke="#8a9da9" stroke-width="2"/>
+<path d="M38 -38 A54 54 0 1 0 38 38" fill="none" stroke="#efa24b" stroke-width="14"/>
+<path d="M35 -39L60 -25L60 25L35 39" fill="none" stroke="#a86622" stroke-width="5"/>
+<rect x="-93" y="-16" width="38" height="32" class="part"/>
+<text x="-70" y="128" class="h">C / PVC clip</text><text x="-70" y="157" class="t">Split saddle + locking latch</text><text x="-70" y="184" class="small">33.4 mm OD pipe; rear tile mount</text>
+</g>
+<rect x="375" y="454" width="780" height="117" rx="8" fill="#e4ebf1"/>
+<text x="397" y="488" class="h">Low-filament concept: about 92% open</text>
+<text x="397" y="518" class="t">2 mm wide × 3 mm deep ribs → 1.52 kg bare face</text>
+<text x="397" y="546" class="t">New clips + keys + 10% waste → 2.22 kg / 3 spools</text>
+<text x="40" y="625" class="t">One spool spreads to just 0.155 mm over a solid face. Two spools: 0.310 mm, before any hardware.</text>
+<text x="40" y="657" class="small">Existing brace connectors are additional if not reused. All mass estimates require later slicer and physical checks.</text>
+</svg>

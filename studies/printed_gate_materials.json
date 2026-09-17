@@ -1,0 +1,87 @@
+{
+  "area_m2": 5.040000000000001,
+  "PETG_density_g_cm3": 1.28,
+  "spool_filament_g": 1000,
+  "assumed_USD_kg": 20,
+  "rows": [
+    {
+      "construction": "0.2 mm film",
+      "equivalent_solid_mm": 0.2,
+      "face_kg": 1.2902,
+      "minimum_1kg_spools_no_extras": 2,
+      "whole_spool_USD_at_20": 40
+    },
+    {
+      "construction": "0.4 mm sheet",
+      "equivalent_solid_mm": 0.4,
+      "face_kg": 2.5805,
+      "minimum_1kg_spools_no_extras": 3,
+      "whole_spool_USD_at_20": 60
+    },
+    {
+      "construction": "0.8 mm sheet",
+      "equivalent_solid_mm": 0.8,
+      "face_kg": 5.161,
+      "minimum_1kg_spools_no_extras": 6,
+      "whole_spool_USD_at_20": 120
+    },
+    {
+      "construction": "1.0 mm sheet",
+      "equivalent_solid_mm": 1,
+      "face_kg": 6.4512,
+      "minimum_1kg_spools_no_extras": 7,
+      "whole_spool_USD_at_20": 140
+    },
+    {
+      "construction": "4 mm sandwich: two 0.4 mm skins and 10% core",
+      "equivalent_solid_mm": 1.12,
+      "face_kg": 7.2253,
+      "minimum_1kg_spools_no_extras": 8,
+      "whole_spool_USD_at_20": 160
+    },
+    {
+      "construction": "4 mm solid",
+      "equivalent_solid_mm": 4,
+      "face_kg": 25.8048,
+      "minimum_1kg_spools_no_extras": 26,
+      "whole_spool_USD_at_20": 520
+    }
+  ],
+  "tile_grid": {
+    "pitch_mm": 150,
+    "outer_tiles": 18,
+    "hole_tiles": 10,
+    "tiles": 224,
+    "tile_to_tile_seams": 392,
+    "nominal_flat_tiles_per_A1_mini_plate": 1
+  },
+  "example_lattice": {
+    "width_mm": 2,
+    "depth_mm": 3,
+    "tile_area_fraction": 0.0784,
+    "open_fraction": 0.9216,
+    "face_kg": 1.51732224,
+    "new_joiner_and_PVC_clip_allowance_kg": 0.5,
+    "waste_allowance_fraction": 0.1,
+    "total_budget_kg": 2.219054464,
+    "whole_spools": 3
+  },
+  "budgets": [
+    {
+      "spools": 1,
+      "uniform_sheet_mm_no_extras": 0.1550099206349206,
+      "max_3mm_lattice_coverage_with_500g_hardware_and_10pct_waste": 0.021137716450216445
+    },
+    {
+      "spools": 2,
+      "uniform_sheet_mm_no_extras": 0.3100198412698412,
+      "max_3mm_lattice_coverage_with_500g_hardware_and_10pct_waste": 0.06811041967291966
+    },
+    {
+      "spools": 3,
+      "uniform_sheet_mm_no_extras": 0.46502976190476186,
+      "max_3mm_lattice_coverage_with_500g_hardware_and_10pct_waste": 0.11508312289562286
+    }
+  ],
+  "retained_8_brace_connectors_solid_volume_kg": 0.6455515136000001
+}
