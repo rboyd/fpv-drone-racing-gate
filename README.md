@@ -1,8 +1,12 @@
 # FPV racing gate design
 
+Recommended next print: [24 × 8 inch clickable paper-frame demonstrator](output/full_width_demo/index.html), with [sliced print queue and assembly PDF](output/full_width_demo/Assembly_and_Print_Queue.pdf). Four main part types / 42 pieces; 211 g PETG across five plate runs, plus a small initial fit check.
+
+Latest study: [paper-roll face, picture-frame click joints, magnets and diagonal print stacks](output/paper_roll_study/index.html). Includes [Blender scenes](output/paper_roll_study/Paper_Roll_Joinery_Study.blend), [visual PDF](output/paper_roll_study/Paper_Roll_Study.pdf), [test instructions](output/paper_roll_study/STUDY_AND_TEST_GUIDE.md), and A1 Mini PETG fit plates. Four 2090.4 × 609.6 mm paper strips; one PVC backing frame. Full-gate members are schematic; exported parts are experimental interfaces and manufacturing samples.
+
 Assembly instructions: [two-part PDF — nine-piece prototype and full gate](output/a1_full_size/Assembly_and_Test_Instructions.pdf).
 
-Latest iteration: [full-size whole-posterboard gate for the A1 Mini](output/a1_full_size/index.html), with [Blender assembly](output/a1_full_size/A1_Full_Size_Gate.blend), [19-type / 740-piece BOM](output/a1_full_size/BOM.csv), and a [1:1 interface fit kit](output/a1_full_size/sliced/Fit_Kit_1to1_LAYOUT/Fit_Kit_1to1_LAYOUT_A1Mini_PETG.3mf). Channels are standardized to just two types (120 long, 96 short). Every unique part fits 180 mm cubed and slices without supports. About 2.97 kg PETG per gate, plus 856 ties: substantial workshop labor. Physical validation remains outstanding. Read the [build guide](output/a1_full_size/BUILD_AND_PRINT_GUIDE.md).
+Committed whole-sheet baseline (`732f592`): [full-size whole-posterboard gate for the A1 Mini](output/a1_full_size/index.html), with [Blender assembly](output/a1_full_size/A1_Full_Size_Gate.blend), [19-type / 740-piece BOM](output/a1_full_size/BOM.csv), and a [1:1 interface fit kit](output/a1_full_size/sliced/Fit_Kit_1to1_LAYOUT/Fit_Kit_1to1_LAYOUT_A1Mini_PETG.3mf). Channels are standardized to just two types (120 long, 96 short). Every unique part fits 180 mm cubed and slices without supports. About 2.97 kg PETG per gate, plus 856 ties: substantial workshop labor. Physical validation remains outstanding. Read the [build guide](output/a1_full_size/BUILD_AND_PRINT_GUIDE.md).
 
 The [earlier rigid concept and 1:15 tabletop model](output/rigid_whole_sheet/index.html) remain available. The material estimate and full-size printable geometry in the new iteration supersede that concept.
 

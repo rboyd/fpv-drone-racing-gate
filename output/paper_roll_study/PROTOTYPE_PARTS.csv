@@ -1,0 +1,26 @@
+code,description,print_bounds_mm,file
+CLICK_KEY,Replaceable double-ended key; XY flexures and 45-degree rigid guide runners,"[66.0, 32.0, 5.0]",CLICK_KEY.stl
+CLICK_SOCKET_25,Track-style socket test; 0.25 mm side clearance; press fork tips to release,"[48.0, 32.0, 5.0]",CLICK_SOCKET_25.stl
+CLICK_SOCKET_40,Track-style socket test; 0.40 mm side clearance; press fork tips to release,"[48.0, 32.0, 5.0]",CLICK_SOCKET_40.stl
+MAG_RAIL_END,Rail-end coupon; one 6x2 magnet and two 3.6 mm locating holes,"[50.0, 30.0, 4.0]",MAG_RAIL_END.stl
+MAG_SPLICE_CAP,"Keyed magnetic bridge; two 6x2 magnets; pins carry in-plane load, magnets retain against lift","[44.0, 28.0, 5.48]",MAG_SPLICE_CAP.stl
+PAPER_WINDOW_04,Magnet behind 0.4 mm local frame skin; 6.3 mm pocket; rear-load 6x2 disc,"[70.0, 28.0, 4.0]",PAPER_WINDOW_04.stl
+PAPER_WINDOW_08,Magnet behind 0.8 mm local frame skin; 6.3 mm pocket; rear-load 6x2 disc,"[70.0, 28.0, 4.0]",PAPER_WINDOW_08.stl
+PAPER_WINDOW_12,Magnet behind 1.2 mm local frame skin; 6.3 mm pocket; rear-load 6x2 disc,"[70.0, 28.0, 4.0]",PAPER_WINDOW_12.stl
+PAPER_PAD,Front magnet pad with 0.4 mm paper-facing skin; rear-loaded 6x2 disc,"[24.0, 24.0, 3.0]",PAPER_PAD.stl
+MAGNET_POCKET_GAUGE,"Left to right: 6.1 / 6.3 / 6.5 mm bores, 2.2 mm deep; measure supplied magnets","[52.0, 20.0, 3.0]",MAGNET_POCKET_GAUGE.stl
+PAPER_SNAP_BASE,No-magnet paper clamp coupon; paper over the flat central face,"[22.0, 3.0, 60.0]",PAPER_SNAP_BASE.stl
+PAPER_SNAP_CAP_15,"End-printed paper batten, 0.15 mm trial added clearance; paper slips/friction need test","[24.0, 5.25, 60.0]",PAPER_SNAP_CAP_15.stl
+PAPER_SNAP_CAP_30,"End-printed paper batten, 0.30 mm trial added clearance; paper slips/friction need test","[24.0, 5.4, 60.0]",PAPER_SNAP_CAP_30.stl
+PVC_HALF_33,Print two identical halves; 33.4 mm PVC; two M3 through-bolts/nuts; no zip ties; mounting pad for DOCK_SOCKET on the 33.4 mm version,"[65.8, 31.5, 12.0]",PVC_HALF_33.stl
+PVC_HALF_27,Print two identical halves; 26.67 mm PVC; two M3 through-bolts/nuts; no zip ties; mounting pad for DOCK_SOCKET on the 33.4 mm version,"[59.07, 28.135, 12.0]",PVC_HALF_27.stl
+STACK_TEST_06,"Three short rails, 0.6 mm continuous scoring neck; separation experiment","[60.0, 20.0, 37.8]",STACK_TEST_06.stl
+STACK_TEST_08,"Three short rails, 0.8 mm continuous scoring neck; separation experiment","[60.0, 20.0, 37.8]",STACK_TEST_08.stl
+STACK_TEST_TABS,"Three short rails, 0.6 mm 2 mm tabs on 10 mm pitch; 8 mm bridges; separation experiment","[60.0, 20.0, 37.8]",STACK_TEST_TABS.stl
+DIAGONAL_1x220,1 full-length 220 mm diamond-section rails; sacrificial 0.6 mm necks; 45-degree orientation; not final joinery,"[169.706, 169.706, 13.0]",DIAGONAL_1x220.stl
+DIAGONAL_8x220,8 full-length 220 mm diamond-section rails; sacrificial 0.6 mm necks; 45-degree orientation; not final joinery,"[169.706, 169.706, 99.8]",DIAGONAL_8x220.stl
+DIAGONAL_13x198,"Thirteen 198 mm plain rails, 0.6 mm necks; two stacks fit diagonally on one A1 Mini bed","[154.149, 154.149, 161.8]",DIAGONAL_13x198.stl
+D_MAGNET_LUG,Half-cylinder edge lug with 0.4 mm paper face and 6.3 mm rear pocket; two M3 holes on test flange,"[32.0, 18.025, 3.0]",D_MAGNET_LUG.stl
+DOCK_SOCKET,Click socket bolted to PVC_HALF_33 pad with two M3x22 or longer bolts and nuts; rear access for release,"[48.0, 32.0, 5.0]",DOCK_SOCKET.stl
+DOCK_TONGUE,One-sided releasable fork dock with vertical frame flange; two M3 frame bolts; supported by solid guide runners,"[46.0, 32.0, 37.0]",DOCK_TONGUE.stl
+FRAME_DOCK_NODE,Two opposed frame sockets and two central M3 holes; use same CLICK_KEY to connect rails; bench dock node,"[80.0, 32.0, 5.0]",FRAME_DOCK_NODE.stl

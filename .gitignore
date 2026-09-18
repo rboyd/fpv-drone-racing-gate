@@ -14,3 +14,8 @@ output/a1_full_size/A1_Full_Size_Kit.zip
 output/a1_full_size/sliced/**/*.gcode
 
 output/a1_full_size/manual_assets/*.png
+
+output/paper_roll_study/Paper_Roll_Study_Kit.zip
+output/paper_roll_study/sliced/**/*.gcode
+output/full_width_demo/sliced/**/*.gcode
+output/full_width_demo/Full_Width_Demo_Kit.zip

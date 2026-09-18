@@ -1,0 +1,469 @@
+{
+  "parts": [
+    {
+      "code": "CLICK_KEY",
+      "description": "Replaceable double-ended key; XY flexures and 45-degree rigid guide runners",
+      "file": "CLICK_KEY.stl",
+      "print_bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 3573.01,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "CLICK_SOCKET_25",
+      "description": "Track-style socket test; 0.25 mm side clearance; press fork tips to release",
+      "file": "CLICK_SOCKET_25.stl",
+      "print_bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 5879.98,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "CLICK_SOCKET_40",
+      "description": "Track-style socket test; 0.40 mm side clearance; press fork tips to release",
+      "file": "CLICK_SOCKET_40.stl",
+      "print_bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 5805.28,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "MAG_RAIL_END",
+      "description": "Rail-end coupon; one 6x2 magnet and two 3.6 mm locating holes",
+      "file": "MAG_RAIL_END.stl",
+      "print_bounds_mm": [
+        50.0,
+        30.0,
+        4.0
+      ],
+      "solid_volume_mm3": 5870.56,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "MAG_SPLICE_CAP",
+      "description": "Keyed magnetic bridge; two 6x2 magnets; pins carry in-plane load, magnets retain against lift",
+      "file": "MAG_SPLICE_CAP.stl",
+      "print_bounds_mm": [
+        44.0,
+        28.0,
+        5.48
+      ],
+      "solid_volume_mm3": 3605.35,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_WINDOW_04",
+      "description": "Magnet behind 0.4 mm local frame skin; 6.3 mm pocket; rear-load 6x2 disc",
+      "file": "PAPER_WINDOW_04.stl",
+      "print_bounds_mm": [
+        70.0,
+        28.0,
+        4.0
+      ],
+      "solid_volume_mm3": 7632.33,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_WINDOW_08",
+      "description": "Magnet behind 0.8 mm local frame skin; 6.3 mm pocket; rear-load 6x2 disc",
+      "file": "PAPER_WINDOW_08.stl",
+      "print_bounds_mm": [
+        70.0,
+        28.0,
+        4.0
+      ],
+      "solid_volume_mm3": 7644.78,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_WINDOW_12",
+      "description": "Magnet behind 1.2 mm local frame skin; 6.3 mm pocket; rear-load 6x2 disc",
+      "file": "PAPER_WINDOW_12.stl",
+      "print_bounds_mm": [
+        70.0,
+        28.0,
+        4.0
+      ],
+      "solid_volume_mm3": 7657.23,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_PAD",
+      "description": "Front magnet pad with 0.4 mm paper-facing skin; rear-loaded 6x2 disc",
+      "file": "PAPER_PAD.stl",
+      "print_bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "solid_volume_mm3": 1552.2,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "MAGNET_POCKET_GAUGE",
+      "description": "Left to right: 6.1 / 6.3 / 6.5 mm bores, 2.2 mm deep; measure supplied magnets",
+      "file": "MAGNET_POCKET_GAUGE.stl",
+      "print_bounds_mm": [
+        52.0,
+        20.0,
+        3.0
+      ],
+      "solid_volume_mm3": 2914.45,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_SNAP_BASE",
+      "description": "No-magnet paper clamp coupon; paper over the flat central face",
+      "file": "PAPER_SNAP_BASE.stl",
+      "print_bounds_mm": [
+        22.0,
+        3.0,
+        60.0
+      ],
+      "solid_volume_mm3": 2820.0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_SNAP_CAP_15",
+      "description": "End-printed paper batten, 0.15 mm trial added clearance; paper slips/friction need test",
+      "file": "PAPER_SNAP_CAP_15.stl",
+      "print_bounds_mm": [
+        24.0,
+        5.25,
+        60.0
+      ],
+      "solid_volume_mm3": 3768.9,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_SNAP_CAP_30",
+      "description": "End-printed paper batten, 0.30 mm trial added clearance; paper slips/friction need test",
+      "file": "PAPER_SNAP_CAP_30.stl",
+      "print_bounds_mm": [
+        24.0,
+        5.4,
+        60.0
+      ],
+      "solid_volume_mm3": 3782.4,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PVC_HALF_33",
+      "description": "Print two identical halves; 33.4 mm PVC; two M3 through-bolts/nuts; no zip ties; mounting pad for DOCK_SOCKET on the 33.4 mm version",
+      "file": "PVC_HALF_33.stl",
+      "print_bounds_mm": [
+        65.8,
+        31.5,
+        12.0
+      ],
+      "solid_volume_mm3": 7485.64,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PVC_HALF_27",
+      "description": "Print two identical halves; 26.67 mm PVC; two M3 through-bolts/nuts; no zip ties; mounting pad for DOCK_SOCKET on the 33.4 mm version",
+      "file": "PVC_HALF_27.stl",
+      "print_bounds_mm": [
+        59.07,
+        28.135,
+        12.0
+      ],
+      "solid_volume_mm3": 7007.4,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "STACK_TEST_06",
+      "description": "Three short rails, 0.6 mm continuous scoring neck; separation experiment",
+      "file": "STACK_TEST_06.stl",
+      "print_bounds_mm": [
+        60.0,
+        20.0,
+        37.8
+      ],
+      "solid_volume_mm3": 14391.72,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "STACK_TEST_08",
+      "description": "Three short rails, 0.8 mm continuous scoring neck; separation experiment",
+      "file": "STACK_TEST_08.stl",
+      "print_bounds_mm": [
+        60.0,
+        20.0,
+        37.8
+      ],
+      "solid_volume_mm3": 14621.76,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "STACK_TEST_TABS",
+      "description": "Three short rails, 0.6 mm 2 mm tabs on 10 mm pitch; 8 mm bridges; separation experiment",
+      "file": "STACK_TEST_TABS.stl",
+      "print_bounds_mm": [
+        60.0,
+        20.0,
+        37.8
+      ],
+      "solid_volume_mm3": 14370.74,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DIAGONAL_1x220",
+      "description": "1 full-length 220 mm diamond-section rails; sacrificial 0.6 mm necks; 45-degree orientation; not final joinery",
+      "file": "DIAGONAL_1x220.stl",
+      "print_bounds_mm": [
+        169.706,
+        169.706,
+        13.0
+      ],
+      "solid_volume_mm3": 19349.88,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DIAGONAL_8x220",
+      "description": "8 full-length 220 mm diamond-section rails; sacrificial 0.6 mm necks; 45-degree orientation; not final joinery",
+      "file": "DIAGONAL_8x220.stl",
+      "print_bounds_mm": [
+        169.706,
+        169.706,
+        99.8
+      ],
+      "solid_volume_mm3": 136319.04,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DIAGONAL_13x198",
+      "description": "Thirteen 198 mm plain rails, 0.6 mm necks; two stacks fit diagonally on one A1 Mini bed",
+      "file": "DIAGONAL_13x198.stl",
+      "print_bounds_mm": [
+        154.149,
+        154.149,
+        161.8
+      ],
+      "solid_volume_mm3": 197881.57,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "D_MAGNET_LUG",
+      "description": "Half-cylinder edge lug with 0.4 mm paper face and 6.3 mm rear pocket; two M3 holes on test flange",
+      "file": "D_MAGNET_LUG.stl",
+      "print_bounds_mm": [
+        32.0,
+        18.025,
+        3.0
+      ],
+      "solid_volume_mm3": 1106.9,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DOCK_SOCKET",
+      "description": "Click socket bolted to PVC_HALF_33 pad with two M3x22 or longer bolts and nuts; rear access for release",
+      "file": "DOCK_SOCKET.stl",
+      "print_bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 5714.63,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DOCK_TONGUE",
+      "description": "One-sided releasable fork dock with vertical frame flange; two M3 frame bolts; supported by solid guide runners",
+      "file": "DOCK_TONGUE.stl",
+      "print_bounds_mm": [
+        46.0,
+        32.0,
+        37.0
+      ],
+      "solid_volume_mm3": 9263.38,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "FRAME_DOCK_NODE",
+      "description": "Two opposed frame sockets and two central M3 holes; use same CLICK_KEY to connect rails; bench dock node",
+      "file": "FRAME_DOCK_NODE.stl",
+      "print_bounds_mm": [
+        80.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 8959.91,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "plates": {
+    "01_CLICK_AND_MAGNET_JOINTS": [
+      [
+        "CLICK_KEY",
+        5,
+        5
+      ],
+      [
+        "CLICK_SOCKET_25",
+        78,
+        5
+      ],
+      [
+        "CLICK_SOCKET_40",
+        78,
+        44
+      ],
+      [
+        "MAG_RAIL_END",
+        5,
+        86
+      ],
+      [
+        "MAG_RAIL_END",
+        62,
+        86
+      ],
+      [
+        "MAG_SPLICE_CAP",
+        120,
+        86
+      ]
+    ],
+    "02_PAPER_CLAMP_TESTS": [
+      [
+        "PAPER_WINDOW_04",
+        5,
+        5
+      ],
+      [
+        "PAPER_WINDOW_08",
+        81,
+        5
+      ],
+      [
+        "PAPER_WINDOW_12",
+        5,
+        40
+      ],
+      [
+        "PAPER_PAD",
+        82,
+        41
+      ],
+      [
+        "MAGNET_POCKET_GAUGE",
+        112,
+        42
+      ],
+      [
+        "PAPER_SNAP_BASE",
+        5,
+        84
+      ],
+      [
+        "PAPER_SNAP_CAP_15",
+        38,
+        84
+      ],
+      [
+        "PAPER_SNAP_CAP_30",
+        71,
+        84
+      ]
+    ],
+    "03_STACK_SEPARATION_TESTS": [
+      [
+        "STACK_TEST_06",
+        5,
+        5
+      ],
+      [
+        "STACK_TEST_08",
+        75,
+        5
+      ],
+      [
+        "STACK_TEST_TABS",
+        5,
+        40
+      ]
+    ],
+    "04_PVC_COLLAR_TEST": [
+      [
+        "PVC_HALF_33",
+        5,
+        5
+      ],
+      [
+        "PVC_HALF_33",
+        80,
+        5
+      ],
+      [
+        "PVC_HALF_27",
+        5,
+        60
+      ],
+      [
+        "PVC_HALF_27",
+        80,
+        60
+      ]
+    ],
+    "05_D_MAGNET_AND_DOCK": [
+      [
+        "D_MAGNET_LUG",
+        5,
+        5
+      ],
+      [
+        "PAPER_PAD",
+        44,
+        5
+      ],
+      [
+        "DOCK_SOCKET",
+        75,
+        5
+      ],
+      [
+        "DOCK_TONGUE",
+        5,
+        50
+      ],
+      [
+        "FRAME_DOCK_NODE",
+        70,
+        50
+      ],
+      [
+        "PVC_HALF_33",
+        5,
+        100
+      ],
+      [
+        "PVC_HALF_33",
+        80,
+        100
+      ]
+    ],
+    "06_OVERNIGHT_26_RAILS": [
+      [
+        "DIAGONAL_13x198",
+        20.556349186104043,
+        5
+      ],
+      [
+        "DIAGONAL_13x198",
+        5,
+        20.556349186104043
+      ]
+    ]
+  },
+  "production_BOM": false
+}

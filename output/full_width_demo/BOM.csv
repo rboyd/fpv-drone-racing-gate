@@ -1,0 +1,8 @@
+code,quantity,description,print_bounds_mm,file
+DEMO_EDGE,8,141.9 mm edge rail; three .40 mm click sockets and two integral D magnet holders,"[141.9, 41.95, 5.0]",DEMO_EDGE.stl
+DEMO_RUNG,4,111.2 mm crossmember; two .40 mm click sockets,"[111.2, 32.0, 5.0]",DEMO_RUNG.stl
+CLICK_KEY,14,Shared replaceable double-ended click key; pinch both prongs at each end to release,"[66.0, 32.0, 5.0]",CLICK_KEY.stl
+PAPER_PAD,16,Front magnetic pressure pad; rear-load one 6 x 2 mm magnet against .4 mm skin,"[24.0, 24.0, 3.0]",PAPER_PAD.stl
+FIT_SOCKET_25,0,Fit check only: 0.25 mm side clearance,"[48.0, 32.0, 5.0]",FIT_SOCKET_25.stl
+FIT_SOCKET_40,0,Fit check only: 0.4 mm side clearance,"[48.0, 32.0, 5.0]",FIT_SOCKET_40.stl
+MAGNET_GAUGE,0,"Fit check only: left/middle/right 6.1, 6.3, 6.5 mm bores","[52.0, 20.0, 3.0]",MAGNET_GAUGE.stl

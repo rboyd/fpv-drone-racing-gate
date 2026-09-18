@@ -1,0 +1,250 @@
+{
+  "assembled_mm": [
+    609.6,
+    203.2,
+    8.2
+  ],
+  "parts": [
+    {
+      "code": "DEMO_EDGE",
+      "quantity": 8,
+      "description": "141.9 mm edge rail; three .40 mm click sockets and two integral D magnet holders",
+      "file": "DEMO_EDGE.stl",
+      "print_bounds_mm": [
+        141.9,
+        41.95,
+        5.0
+      ],
+      "solid_volume_mm3": 17853.8,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DEMO_RUNG",
+      "quantity": 4,
+      "description": "111.2 mm crossmember; two .40 mm click sockets",
+      "file": "DEMO_RUNG.stl",
+      "print_bounds_mm": [
+        111.2,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 14042.55,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "CLICK_KEY",
+      "quantity": 14,
+      "description": "Shared replaceable double-ended click key; pinch both prongs at each end to release",
+      "file": "CLICK_KEY.stl",
+      "print_bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 3573.01,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PAPER_PAD",
+      "quantity": 16,
+      "description": "Front magnetic pressure pad; rear-load one 6 x 2 mm magnet against .4 mm skin",
+      "file": "PAPER_PAD.stl",
+      "print_bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "solid_volume_mm3": 1552.2,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "FIT_SOCKET_25",
+      "quantity": 0,
+      "description": "Fit check only: 0.25 mm side clearance",
+      "file": "FIT_SOCKET_25.stl",
+      "print_bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 5879.98,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "FIT_SOCKET_40",
+      "quantity": 0,
+      "description": "Fit check only: 0.4 mm side clearance",
+      "file": "FIT_SOCKET_40.stl",
+      "print_bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 5805.28,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "MAGNET_GAUGE",
+      "quantity": 0,
+      "description": "Fit check only: left/middle/right 6.1, 6.3, 6.5 mm bores",
+      "file": "MAGNET_GAUGE.stl",
+      "print_bounds_mm": [
+        52.0,
+        20.0,
+        3.0
+      ],
+      "solid_volume_mm3": 2914.45,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "plates": {
+    "00_FIT_CHECK": [
+      [
+        "CLICK_KEY",
+        5,
+        5
+      ],
+      [
+        "FIT_SOCKET_25",
+        76,
+        5
+      ],
+      [
+        "FIT_SOCKET_40",
+        76,
+        42
+      ],
+      [
+        "MAGNET_GAUGE",
+        5,
+        43
+      ],
+      [
+        "PAPER_PAD",
+        5,
+        70
+      ]
+    ],
+    "01_FRAME_REPEAT_4_TIMES": [
+      [
+        "DEMO_EDGE",
+        5,
+        5
+      ],
+      [
+        "DEMO_EDGE",
+        5,
+        51.5
+      ],
+      [
+        "DEMO_RUNG",
+        5,
+        99
+      ],
+      [
+        "CLICK_KEY",
+        5,
+        136
+      ],
+      [
+        "CLICK_KEY",
+        75,
+        136
+      ],
+      [
+        "PAPER_PAD",
+        121,
+        99
+      ],
+      [
+        "PAPER_PAD",
+        148,
+        99
+      ]
+    ],
+    "02_KEYS_AND_PADS_ONCE": [
+      [
+        "CLICK_KEY",
+        5,
+        5
+      ],
+      [
+        "CLICK_KEY",
+        5,
+        40
+      ],
+      [
+        "CLICK_KEY",
+        5,
+        75
+      ],
+      [
+        "CLICK_KEY",
+        75,
+        5
+      ],
+      [
+        "CLICK_KEY",
+        75,
+        40
+      ],
+      [
+        "CLICK_KEY",
+        75,
+        75
+      ],
+      [
+        "PAPER_PAD",
+        5,
+        114
+      ],
+      [
+        "PAPER_PAD",
+        5,
+        142
+      ],
+      [
+        "PAPER_PAD",
+        33,
+        114
+      ],
+      [
+        "PAPER_PAD",
+        33,
+        142
+      ],
+      [
+        "PAPER_PAD",
+        61,
+        114
+      ],
+      [
+        "PAPER_PAD",
+        61,
+        142
+      ],
+      [
+        "PAPER_PAD",
+        89,
+        114
+      ],
+      [
+        "PAPER_PAD",
+        89,
+        142
+      ]
+    ]
+  },
+  "plate_runs": {
+    "00_FIT_CHECK": 1,
+    "01_FRAME_REPEAT_4_TIMES": 4,
+    "02_KEYS_AND_PADS_ONCE": 1
+  },
+  "main_frame_pieces": 42,
+  "main_unique_types": 4,
+  "magnets_6x2": 32,
+  "paper_mm": [
+    609.6,
+    203.2
+  ]
+}

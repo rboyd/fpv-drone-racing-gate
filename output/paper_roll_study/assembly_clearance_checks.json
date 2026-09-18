@@ -1,0 +1,25 @@
+{
+  "method": "Exact mesh boolean intersection at nominal assembly positions; excludes fasteners, adhesive and paper compression. Not a fit or load test.",
+  "intersection_mm3": {
+    "CLICK_KEY / CLICK_SOCKET_25": 0.0,
+    "CLICK_KEY / CLICK_SOCKET_40": 0.0,
+    "PAPER_SNAP_BASE / PAPER_SNAP_CAP_15": 0.0,
+    "PAPER_SNAP_BASE / PAPER_SNAP_CAP_30": 0.0,
+    "MAG_SPLICE_CAP / MAG_RAIL_END": 0.0,
+    "collar front / collar back": 0.0,
+    "collar front / socket": 0.0,
+    "collar front / tongue": 0.0,
+    "collar front / frame node": 0.0,
+    "collar front / pipe": 0.0,
+    "collar back / socket": 0.0,
+    "collar back / tongue": 0.0,
+    "collar back / frame node": 0.0,
+    "collar back / pipe": 0.0,
+    "socket / tongue": 0.0,
+    "socket / frame node": 0.0,
+    "socket / pipe": 0.0,
+    "tongue / frame node": 0.00086,
+    "tongue / pipe": 0.0,
+    "frame node / pipe": 0.0
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "option": "LADDER",
+    "rail_m_per_border": 12.640799999999999,
+    "rail_m_per_gate": 50.563199999999995,
+    "members_per_border": 14
+  },
+  {
+    "option": "ALTERNATING",
+    "rail_m_per_border": 19.808280159721416,
+    "rail_m_per_gate": 79.23312063888567,
+    "members_per_border": 34
+  },
+  {
+    "option": "CROSSHATCH",
+    "rail_m_per_border": 26.975760319442852,
+    "rail_m_per_gate": 107.90304127777141,
+    "members_per_border": 54
+  }
+]

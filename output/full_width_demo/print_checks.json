@@ -1,0 +1,214 @@
+{
+  "geometry": {
+    "DEMO_EDGE": {
+      "bounds_mm": [
+        141.9,
+        41.95,
+        5.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 17853.799
+    },
+    "DEMO_RUNG": {
+      "bounds_mm": [
+        111.2,
+        32.0,
+        5.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 14042.551
+    },
+    "CLICK_KEY": {
+      "bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 3573.015
+    },
+    "PAPER_PAD": {
+      "bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 1552.198
+    },
+    "FIT_SOCKET_25": {
+      "bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 5879.976
+    },
+    "FIT_SOCKET_40": {
+      "bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 5805.276
+    },
+    "MAGNET_GAUGE": {
+      "bounds_mm": [
+        52.0,
+        20.0,
+        3.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 2914.454
+    }
+  },
+  "plates": {
+    "DEMO_RUNG": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "FIT_SOCKET_25": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "FIT_SOCKET_40": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "02_KEYS_AND_PADS_ONCE": {
+      "parts": 14,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "01_FRAME_REPEAT_4_TIMES": {
+      "parts": 7,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "CLICK_KEY": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "MAGNET_GAUGE": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "00_FIT_CHECK": {
+      "parts": 5,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "PAPER_PAD": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "DEMO_EDGE": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    }
+  },
+  "slices": {
+    "DEMO_RUNG": {
+      "grams": 9.86,
+      "minutes": 29.29,
+      "support": false,
+      "warning": ""
+    },
+    "FIT_SOCKET_25": {
+      "grams": 4.43,
+      "minutes": 17.43,
+      "support": false,
+      "warning": ""
+    },
+    "FIT_SOCKET_40": {
+      "grams": 4.39,
+      "minutes": 17.23,
+      "support": false,
+      "warning": ""
+    },
+    "02_KEYS_AND_PADS_ONCE": {
+      "grams": 30.43,
+      "minutes": 92.03,
+      "support": false,
+      "warning": ""
+    },
+    "01_FRAME_REPEAT_4_TIMES": {
+      "grams": 45.22,
+      "minutes": 118.11,
+      "support": false,
+      "warning": ""
+    },
+    "CLICK_KEY": {
+      "grams": 3.26,
+      "minutes": 16.76,
+      "support": false,
+      "warning": ""
+    },
+    "MAGNET_GAUGE": {
+      "grams": 2.77,
+      "minutes": 13.39,
+      "support": false,
+      "warning": ""
+    },
+    "00_FIT_CHECK": {
+      "grams": 16.03,
+      "minutes": 47.38,
+      "support": false,
+      "warning": ""
+    },
+    "PAPER_PAD": {
+      "grams": 1.47,
+      "minutes": 10.84,
+      "support": false,
+      "warning": ""
+    },
+    "DEMO_EDGE": {
+      "grams": 13.16,
+      "minutes": 38.22,
+      "support": false,
+      "warning": ""
+    }
+  },
+  "kit_totals": {
+    "grams": 211.31,
+    "minutes": 564.47
+  },
+  "kit_plus_fit_check": {
+    "grams": 227.34,
+    "minutes": 611.85
+  },
+  "assembly_checks": {
+    "method": "Ray entry/exit classification plus nearest-surface distance sampled on 0.25 mm XY grid at Z=0.5/1/1.5/2.5/3.5/4.5 mm. Surface contact tolerance 0.01 mm. This sampling is not an exhaustive collision proof or physical fit test.",
+    "interfaces": [
+      {
+        "a": "DEMO_EDGE",
+        "b": "CLICK_KEY",
+        "max_sampled_penetration_mm": 0
+      },
+      {
+        "a": "DEMO_EDGE",
+        "b": "CLICK_KEY",
+        "max_sampled_penetration_mm": 1e-05
+      },
+      {
+        "a": "DEMO_RUNG",
+        "b": "CLICK_KEY",
+        "max_sampled_penetration_mm": 0
+      },
+      {
+        "a": "DEMO_EDGE",
+        "b": "CLICK_KEY",
+        "max_sampled_penetration_mm": 0
+      }
+    ]
+  }
+}

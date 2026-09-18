@@ -1,0 +1,720 @@
+{
+  "geometry": {
+    "CLICK_KEY": {
+      "bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "positive_volume_mm3": 3573.01,
+      "nonmanifold_edges": 0
+    },
+    "CLICK_SOCKET_25": {
+      "bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "positive_volume_mm3": 5879.98,
+      "nonmanifold_edges": 0
+    },
+    "CLICK_SOCKET_40": {
+      "bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "positive_volume_mm3": 5805.28,
+      "nonmanifold_edges": 0
+    },
+    "MAG_RAIL_END": {
+      "bounds_mm": [
+        50.0,
+        30.0,
+        4.0
+      ],
+      "positive_volume_mm3": 5870.56,
+      "nonmanifold_edges": 0
+    },
+    "MAG_SPLICE_CAP": {
+      "bounds_mm": [
+        44.0,
+        28.0,
+        5.48
+      ],
+      "positive_volume_mm3": 3605.35,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_WINDOW_04": {
+      "bounds_mm": [
+        70.0,
+        28.0,
+        4.0
+      ],
+      "positive_volume_mm3": 7632.33,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_WINDOW_08": {
+      "bounds_mm": [
+        70.0,
+        28.0,
+        4.0
+      ],
+      "positive_volume_mm3": 7644.78,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_WINDOW_12": {
+      "bounds_mm": [
+        70.0,
+        28.0,
+        4.0
+      ],
+      "positive_volume_mm3": 7657.23,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_PAD": {
+      "bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "positive_volume_mm3": 1552.2,
+      "nonmanifold_edges": 0
+    },
+    "MAGNET_POCKET_GAUGE": {
+      "bounds_mm": [
+        52.0,
+        20.0,
+        3.0
+      ],
+      "positive_volume_mm3": 2914.45,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_SNAP_BASE": {
+      "bounds_mm": [
+        22.0,
+        3.0,
+        60.0
+      ],
+      "positive_volume_mm3": 2820.0,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_SNAP_CAP_15": {
+      "bounds_mm": [
+        24.0,
+        5.25,
+        60.0
+      ],
+      "positive_volume_mm3": 3768.9,
+      "nonmanifold_edges": 0
+    },
+    "PAPER_SNAP_CAP_30": {
+      "bounds_mm": [
+        24.0,
+        5.4,
+        60.0
+      ],
+      "positive_volume_mm3": 3782.4,
+      "nonmanifold_edges": 0
+    },
+    "PVC_HALF_33": {
+      "bounds_mm": [
+        65.8,
+        31.5,
+        12.0
+      ],
+      "positive_volume_mm3": 7485.64,
+      "nonmanifold_edges": 0
+    },
+    "PVC_HALF_27": {
+      "bounds_mm": [
+        59.07,
+        28.135,
+        12.0
+      ],
+      "positive_volume_mm3": 7007.4,
+      "nonmanifold_edges": 0
+    },
+    "STACK_TEST_06": {
+      "bounds_mm": [
+        60.0,
+        20.0,
+        37.8
+      ],
+      "positive_volume_mm3": 14391.72,
+      "nonmanifold_edges": 0
+    },
+    "STACK_TEST_08": {
+      "bounds_mm": [
+        60.0,
+        20.0,
+        37.8
+      ],
+      "positive_volume_mm3": 14621.76,
+      "nonmanifold_edges": 0
+    },
+    "STACK_TEST_TABS": {
+      "bounds_mm": [
+        60.0,
+        20.0,
+        37.8
+      ],
+      "positive_volume_mm3": 14370.74,
+      "nonmanifold_edges": 0
+    },
+    "DIAGONAL_1x220": {
+      "bounds_mm": [
+        169.706,
+        169.706,
+        13.0
+      ],
+      "positive_volume_mm3": 19349.88,
+      "nonmanifold_edges": 0
+    },
+    "DIAGONAL_8x220": {
+      "bounds_mm": [
+        169.706,
+        169.706,
+        99.8
+      ],
+      "positive_volume_mm3": 136319.06,
+      "nonmanifold_edges": 0
+    },
+    "DIAGONAL_13x198": {
+      "bounds_mm": [
+        154.149,
+        154.149,
+        161.8
+      ],
+      "positive_volume_mm3": 197881.63,
+      "nonmanifold_edges": 0
+    },
+    "D_MAGNET_LUG": {
+      "bounds_mm": [
+        32.0,
+        18.025,
+        3.0
+      ],
+      "positive_volume_mm3": 1106.9,
+      "nonmanifold_edges": 0
+    },
+    "DOCK_SOCKET": {
+      "bounds_mm": [
+        48.0,
+        32.0,
+        5.0
+      ],
+      "positive_volume_mm3": 5714.63,
+      "nonmanifold_edges": 0
+    },
+    "DOCK_TONGUE": {
+      "bounds_mm": [
+        46.0,
+        32.0,
+        37.0
+      ],
+      "positive_volume_mm3": 9263.38,
+      "nonmanifold_edges": 0
+    },
+    "FRAME_DOCK_NODE": {
+      "bounds_mm": [
+        80.0,
+        32.0,
+        5.0
+      ],
+      "positive_volume_mm3": 8959.91,
+      "nonmanifold_edges": 0
+    }
+  },
+  "plates": {
+    "01_CLICK_AND_MAGNET_JOINTS": {
+      "objects": 6,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "02_PAPER_CLAMP_TESTS": {
+      "objects": 8,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "03_STACK_SEPARATION_TESTS": {
+      "objects": 3,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "04_PVC_COLLAR_TEST": {
+      "objects": 4,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "05_D_MAGNET_AND_DOCK": {
+      "objects": 7,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "06_OVERNIGHT_26_RAILS": {
+      "objects": 2,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "CLICK_KEY": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "CLICK_SOCKET_25": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "CLICK_SOCKET_40": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "DIAGONAL_13x198": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "DIAGONAL_1x220": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "DIAGONAL_8x220": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "DOCK_SOCKET": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "DOCK_TONGUE": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "D_MAGNET_LUG": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "FRAME_DOCK_NODE": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "MAGNET_POCKET_GAUGE": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "MAG_RAIL_END": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "MAG_SPLICE_CAP": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_PAD": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_SNAP_BASE": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_SNAP_CAP_15": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_SNAP_CAP_30": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_WINDOW_04": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_WINDOW_08": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PAPER_WINDOW_12": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PVC_HALF_27": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "PVC_HALF_33": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "STACK_TEST_06": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "STACK_TEST_08": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    },
+    "STACK_TEST_TABS": {
+      "objects": 1,
+      "inside_180mm_volume": true,
+      "separated_mesh_envelopes": true
+    }
+  },
+  "slices": {
+    "01_CLICK_AND_MAGNET_JOINTS": {
+      "PETG_g": 23.9,
+      "minutes": 65.03,
+      "main_minutes": 58.33,
+      "supports": false,
+      "warning": ""
+    },
+    "02_PAPER_CLAMP_TESTS": {
+      "PETG_g": 32.89,
+      "minutes": 123.62,
+      "main_minutes": 116.92,
+      "supports": false,
+      "warning": ""
+    },
+    "03_STACK_SEPARATION_TESTS": {
+      "PETG_g": 33.32,
+      "minutes": 93.7,
+      "main_minutes": 87.0,
+      "supports": false,
+      "warning": ""
+    },
+    "04_PVC_COLLAR_TEST": {
+      "PETG_g": 23.44,
+      "minutes": 70.9,
+      "main_minutes": 64.21,
+      "supports": false,
+      "warning": ""
+    },
+    "05_D_MAGNET_AND_DOCK": {
+      "PETG_g": 33.23,
+      "minutes": 112.78,
+      "main_minutes": 106.08,
+      "supports": false,
+      "warning": ""
+    },
+    "06_OVERNIGHT_26_RAILS": {
+      "PETG_g": 301.42,
+      "minutes": 714.38,
+      "main_minutes": 707.69,
+      "supports": false,
+      "warning": ""
+    },
+    "CLICK_KEY": {
+      "PETG_g": 3.26,
+      "minutes": 16.76,
+      "main_minutes": 10.06,
+      "supports": false,
+      "warning": ""
+    },
+    "CLICK_SOCKET_25": {
+      "PETG_g": 4.43,
+      "minutes": 17.43,
+      "main_minutes": 10.73,
+      "supports": false,
+      "warning": ""
+    },
+    "CLICK_SOCKET_40": {
+      "PETG_g": 4.39,
+      "minutes": 17.23,
+      "main_minutes": 10.53,
+      "supports": false,
+      "warning": ""
+    },
+    "DIAGONAL_13x198": {
+      "PETG_g": 150.74,
+      "minutes": 377.19,
+      "main_minutes": 370.49,
+      "supports": false,
+      "warning": ""
+    },
+    "DIAGONAL_1x220": {
+      "PETG_g": 15.9,
+      "minutes": 43.28,
+      "main_minutes": 36.59,
+      "supports": false,
+      "warning": ""
+    },
+    "DIAGONAL_8x220": {
+      "PETG_g": 104.3,
+      "minutes": 259.32,
+      "main_minutes": 252.62,
+      "supports": false,
+      "warning": ""
+    },
+    "DOCK_SOCKET": {
+      "PETG_g": 4.48,
+      "minutes": 18.02,
+      "main_minutes": 11.33,
+      "supports": false,
+      "warning": ""
+    },
+    "DOCK_TONGUE": {
+      "PETG_g": 7.32,
+      "minutes": 49.75,
+      "main_minutes": 43.06,
+      "supports": false,
+      "warning": ""
+    },
+    "D_MAGNET_LUG": {
+      "PETG_g": 1.18,
+      "minutes": 10.91,
+      "main_minutes": 4.21,
+      "supports": false,
+      "warning": ""
+    },
+    "FRAME_DOCK_NODE": {
+      "PETG_g": 7.05,
+      "minutes": 24.16,
+      "main_minutes": 17.47,
+      "supports": false,
+      "warning": ""
+    },
+    "MAGNET_POCKET_GAUGE": {
+      "PETG_g": 2.77,
+      "minutes": 13.39,
+      "main_minutes": 6.7,
+      "supports": false,
+      "warning": ""
+    },
+    "MAG_RAIL_END": {
+      "PETG_g": 4.47,
+      "minutes": 16.85,
+      "main_minutes": 10.16,
+      "supports": false,
+      "warning": ""
+    },
+    "MAG_SPLICE_CAP": {
+      "PETG_g": 3.23,
+      "minutes": 15.0,
+      "main_minutes": 8.31,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_PAD": {
+      "PETG_g": 1.47,
+      "minutes": 10.84,
+      "main_minutes": 4.15,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_SNAP_BASE": {
+      "PETG_g": 3.4,
+      "minutes": 42.57,
+      "main_minutes": 35.87,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_SNAP_CAP_15": {
+      "PETG_g": 4.51,
+      "minutes": 54.67,
+      "main_minutes": 47.97,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_SNAP_CAP_30": {
+      "PETG_g": 4.52,
+      "minutes": 54.84,
+      "main_minutes": 48.14,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_WINDOW_04": {
+      "PETG_g": 5.55,
+      "minutes": 19.02,
+      "main_minutes": 12.32,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_WINDOW_08": {
+      "PETG_g": 5.57,
+      "minutes": 19.04,
+      "main_minutes": 12.34,
+      "supports": false,
+      "warning": ""
+    },
+    "PAPER_WINDOW_12": {
+      "PETG_g": 5.6,
+      "minutes": 19.1,
+      "main_minutes": 12.4,
+      "supports": false,
+      "warning": ""
+    },
+    "PVC_HALF_27": {
+      "PETG_g": 5.75,
+      "minutes": 24.02,
+      "main_minutes": 17.32,
+      "supports": false,
+      "warning": ""
+    },
+    "PVC_HALF_33": {
+      "PETG_g": 6.08,
+      "minutes": 24.14,
+      "main_minutes": 17.44,
+      "supports": false,
+      "warning": ""
+    },
+    "STACK_TEST_06": {
+      "PETG_g": 11.14,
+      "minutes": 48.21,
+      "main_minutes": 41.52,
+      "supports": false,
+      "warning": ""
+    },
+    "STACK_TEST_08": {
+      "PETG_g": 11.23,
+      "minutes": 48.47,
+      "main_minutes": 41.78,
+      "supports": false,
+      "warning": ""
+    },
+    "STACK_TEST_TABS": {
+      "PETG_g": 11.1,
+      "minutes": 47.71,
+      "main_minutes": 41.01,
+      "supports": false,
+      "warning": ""
+    }
+  },
+  "stack_neck_toolpaths": {
+    "06_OVERNIGHT_26_RAILS": {
+      "neck_layer_z_mm": [
+        0.8,
+        13.2,
+        25.6,
+        38.0,
+        50.4,
+        62.8,
+        75.2,
+        87.6,
+        100.0,
+        112.4,
+        124.8,
+        137.2,
+        149.6
+      ],
+      "extruding_xy_moves": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "all_neck_layers_have_material": true
+    },
+    "DIAGONAL_13x198": {
+      "neck_layer_z_mm": [
+        0.8,
+        13.2,
+        25.6,
+        38.0,
+        50.4,
+        62.8,
+        75.2,
+        87.6,
+        100.0,
+        112.4,
+        124.8,
+        137.2,
+        149.6
+      ],
+      "extruding_xy_moves": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "all_neck_layers_have_material": true
+    },
+    "DIAGONAL_8x220": {
+      "neck_layer_z_mm": [
+        0.8,
+        13.2,
+        25.6,
+        38.0,
+        50.4,
+        62.8,
+        75.2,
+        87.6
+      ],
+      "extruding_xy_moves": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "all_neck_layers_have_material": true
+    }
+  },
+  "physical_testing": "Not performed",
+  "nominal_assembly_intersections_mm3": {
+    "CLICK_KEY / CLICK_SOCKET_25": 0.0,
+    "CLICK_KEY / CLICK_SOCKET_40": 0.0,
+    "PAPER_SNAP_BASE / PAPER_SNAP_CAP_15": 0.0,
+    "PAPER_SNAP_BASE / PAPER_SNAP_CAP_30": 0.0,
+    "MAG_SPLICE_CAP / MAG_RAIL_END": 0.0,
+    "collar front / collar back": 0.0,
+    "collar front / socket": 0.0,
+    "collar front / tongue": 0.0,
+    "collar front / frame node": 0.0,
+    "collar front / pipe": 0.0,
+    "collar back / socket": 0.0,
+    "collar back / tongue": 0.0,
+    "collar back / frame node": 0.0,
+    "collar back / pipe": 0.0,
+    "socket / tongue": 0.0,
+    "socket / frame node": 0.0,
+    "socket / pipe": 0.0,
+    "tongue / frame node": 0.00086,
+    "tongue / pipe": 0.0,
+    "frame node / pipe": 0.0
+  },
+  "complete_slice_coverage": true
+}

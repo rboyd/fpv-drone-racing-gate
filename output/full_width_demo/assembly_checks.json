@@ -1,0 +1,25 @@
+{
+  "method": "Ray entry/exit classification plus nearest-surface distance sampled on 0.25 mm XY grid at Z=0.5/1/1.5/2.5/3.5/4.5 mm. Surface contact tolerance 0.01 mm. This sampling is not an exhaustive collision proof or physical fit test.",
+  "interfaces": [
+    {
+      "a": "DEMO_EDGE",
+      "b": "CLICK_KEY",
+      "max_sampled_penetration_mm": 0
+    },
+    {
+      "a": "DEMO_EDGE",
+      "b": "CLICK_KEY",
+      "max_sampled_penetration_mm": 1e-05
+    },
+    {
+      "a": "DEMO_RUNG",
+      "b": "CLICK_KEY",
+      "max_sampled_penetration_mm": 0
+    },
+    {
+      "a": "DEMO_EDGE",
+      "b": "CLICK_KEY",
+      "max_sampled_penetration_mm": 0
+    }
+  ]
+}
