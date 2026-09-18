@@ -1,0 +1,285 @@
+{
+  "gate_mm": {
+    "outside": 2716.4000000000005,
+    "opening": 1586.8000000000004,
+    "border": [
+      2151.6000000000004,
+      564.8
+    ],
+    "paper": [
+      711.2,
+      558.8
+    ]
+  },
+  "unique_printed_parts": 19,
+  "printed_piece_count": 740,
+  "parts": [
+    {
+      "code": "SPLINT",
+      "quantity": 168,
+      "description": "40 mm registered channel splint; two ties per joint",
+      "file": "SPLINT.stl",
+      "print_bounds_mm": [
+        40.0,
+        8.0,
+        4.4
+      ],
+      "solid_volume_mm3": 809.34,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "CORNER_NODE",
+      "quantity": 48,
+      "description": "Inside L node; two rail ties; spare paired holes for border bridges",
+      "file": "CORNER_NODE.stl",
+      "print_bounds_mm": [
+        34.0,
+        34.0,
+        7.0
+      ],
+      "solid_volume_mm3": 2380.48,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_ANCHOR",
+      "quantity": 48,
+      "description": "Rib endpoint saddle; two rail ties and one rib tie",
+      "file": "RIB_ANCHOR.stl",
+      "print_bounds_mm": [
+        40.0,
+        26.0,
+        7.0
+      ],
+      "solid_volume_mm3": 3218.56,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_CROSS",
+      "quantity": 12,
+      "description": "Cross node: horizontal ribs on 3 mm seat, vertical ribs on 6 mm seat",
+      "file": "RIB_CROSS.stl",
+      "print_bounds_mm": [
+        48.0,
+        48.0,
+        6.0
+      ],
+      "solid_volume_mm3": 5507.52,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "BORDER_BRIDGE",
+      "quantity": 16,
+      "description": "Fixed bridge between neighboring whole-sheet cells; two ties",
+      "file": "BORDER_BRIDGE.stl",
+      "print_bounds_mm": [
+        60.0,
+        12.0,
+        3.0
+      ],
+      "solid_volume_mm3": 2043.84,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "FIELD_RECEIVER",
+      "quantity": 16,
+      "description": "Gate corner socket cap; diamond hole; two rail ties",
+      "file": "FIELD_RECEIVER.stl",
+      "print_bounds_mm": [
+        40.0,
+        24.0,
+        6.4
+      ],
+      "solid_volume_mm3": 2410.05,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "SNAP_BRIDGE",
+      "quantity": 24,
+      "description": "Two reusable fork latches, 24 mm socket pitch; 2.4 mm receiver thickness",
+      "file": "SNAP_BRIDGE.stl",
+      "print_bounds_mm": [
+        36.0,
+        16.8,
+        3.0
+      ],
+      "solid_volume_mm3": 645.73,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_H_LOW",
+      "quantity": 32,
+      "description": "H rib, 126.867 mm, lower layer, integrated paper support",
+      "file": "RIB_H_LOW.stl",
+      "print_bounds_mm": [
+        126.867,
+        17.825,
+        12.0
+      ],
+      "solid_volume_mm3": 5989.44,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_H_LOW_DOCK",
+      "quantity": 16,
+      "description": "H rib, 126.867 mm, lower layer, integrated paper support; dock mounting holes",
+      "file": "RIB_H_LOW_DOCK.stl",
+      "print_bounds_mm": [
+        126.867,
+        17.825,
+        16.0
+      ],
+      "solid_volume_mm3": 7908.48,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_H_HIGH",
+      "quantity": 24,
+      "description": "H rib, 126.867 mm, raised layer, integrated paper support",
+      "file": "RIB_H_HIGH.stl",
+      "print_bounds_mm": [
+        126.867,
+        20.825,
+        12.0
+      ],
+      "solid_volume_mm3": 6277.44,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_V_LOW",
+      "quantity": 24,
+      "description": "V rib, 144.200 mm, lower layer, integrated paper support",
+      "file": "RIB_V_LOW.stl",
+      "print_bounds_mm": [
+        144.2,
+        17.825,
+        12.0
+      ],
+      "solid_volume_mm3": 6613.44,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "RIB_V_HIGH",
+      "quantity": 24,
+      "description": "V rib, 144.200 mm, raised layer, integrated paper support",
+      "file": "RIB_V_HIGH.stl",
+      "print_bounds_mm": [
+        144.2,
+        20.825,
+        12.0
+      ],
+      "solid_volume_mm3": 6901.44,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PIPE_33",
+      "quantity": 24,
+      "description": "C saddle for 33.40 mm target OD; 33.9 mm bore; mandatory 250 mm keeper tie",
+      "file": "PIPE_33.stl",
+      "print_bounds_mm": [
+        61.0,
+        43.899,
+        16.0
+      ],
+      "solid_volume_mm3": 6959.56,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "PIPE_27",
+      "quantity": 8,
+      "description": "C saddle for 26.67 mm target OD; 27.2 mm bore; mandatory 250 mm keeper tie",
+      "file": "PIPE_27.stl",
+      "print_bounds_mm": [
+        44.0,
+        35.8,
+        16.0
+      ],
+      "solid_volume_mm3": 4820.94,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DOCK_CAP",
+      "quantity": 16,
+      "description": "Rib-side docking socket; two ties through matching rib holes",
+      "file": "DOCK_CAP.stl",
+      "print_bounds_mm": [
+        24.0,
+        18.0,
+        2.4
+      ],
+      "solid_volume_mm3": 881.66,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "DOCK_PEDESTAL",
+      "quantity": 16,
+      "description": "12.35 mm dock stand-off with open clearance beneath snap fork",
+      "file": "DOCK_PEDESTAL.stl",
+      "print_bounds_mm": [
+        7.0,
+        12.35,
+        22.0
+      ],
+      "solid_volume_mm3": 1026.3,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "BRACE_LINK_45",
+      "quantity": 8,
+      "description": "Flat reversible 90 mm brace-end link; two pipe saddles and four heavy ties",
+      "file": "BRACE_LINK_45.stl",
+      "print_bounds_mm": [
+        103.51,
+        127.51,
+        3.0
+      ],
+      "solid_volume_mm3": 12560.74,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "CHANNEL_LONG",
+      "quantity": 120,
+      "description": "140.84 mm universal slide channel; symmetric mounting windows and cord notches; use on every long edge",
+      "file": "CHANNEL_LONG.stl",
+      "print_bounds_mm": [
+        140.84,
+        14.0,
+        6.0
+      ],
+      "solid_volume_mm3": 4849.59,
+      "nonmanifold_edges": 0
+    },
+    {
+      "code": "CHANNEL_SHORT",
+      "quantity": 96,
+      "description": "138.00 mm universal slide channel; symmetric mounting windows and cord notches; use on every short edge",
+      "file": "CHANNEL_SHORT.stl",
+      "print_bounds_mm": [
+        138.0,
+        14.0,
+        6.0
+      ],
+      "solid_volume_mm3": 4856.84,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "purchased_quantities": {
+    "posterboard_22x28": 12,
+    "tie_2p5_standard": 744,
+    "tie_2p5_releasable": 48,
+    "tie_3p6_keeper_250": 32,
+    "front_cord_runs": 24,
+    "tie_3p6_brace_150": 32,
+    "PVC_main_square_sides": 4,
+    "PVC_upper_elbows": 2,
+    "PVC_lower_tees": 2,
+    "PVC_foot_tees": 2,
+    "PVC_foot_caps": 4,
+    "PVC_legs": 2,
+    "PVC_grass_half_feet": 4,
+    "PVC_hard_surface_half_feet_alternative": 4,
+    "PVC_brace_tubes_425p685mm": 4
+  },
+  "front_cord_purchase_m": 20,
+  "geometry_only": true,
+  "physical_validation": "Required: paper slot, splice registration, snap cycle, pipe retention, one complete bay and anchored outdoor test."
+}

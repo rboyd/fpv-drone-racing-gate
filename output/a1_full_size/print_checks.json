@@ -1,0 +1,459 @@
+{
+  "geometry": {
+    "RIB_ANCHOR": {
+      "bounds_mm": [
+        40.0,
+        26.0,
+        7.0
+      ],
+      "volume_mm3": 3218.56,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "SNAP_BRIDGE": {
+      "bounds_mm": [
+        36.0,
+        16.8,
+        3.0
+      ],
+      "volume_mm3": 645.73,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "SPLINT": {
+      "bounds_mm": [
+        40.0,
+        8.0,
+        4.4
+      ],
+      "volume_mm3": 809.34,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "RIB_H_LOW": {
+      "bounds_mm": [
+        126.867,
+        17.825,
+        12.0
+      ],
+      "volume_mm3": 5989.44,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "CHANNEL_SHORT": {
+      "bounds_mm": [
+        138.0,
+        14.0,
+        6.0
+      ],
+      "volume_mm3": 4856.84,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "RIB_H_LOW_DOCK": {
+      "bounds_mm": [
+        126.867,
+        17.825,
+        16.0
+      ],
+      "volume_mm3": 7908.48,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "RIB_V_HIGH": {
+      "bounds_mm": [
+        144.2,
+        20.825,
+        12.0
+      ],
+      "volume_mm3": 6901.44,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "RIB_CROSS": {
+      "bounds_mm": [
+        48.0,
+        48.0,
+        6.0
+      ],
+      "volume_mm3": 5507.52,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "RIB_V_LOW": {
+      "bounds_mm": [
+        144.2,
+        17.825,
+        12.0
+      ],
+      "volume_mm3": 6613.44,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "FIELD_RECEIVER": {
+      "bounds_mm": [
+        40.0,
+        24.0,
+        6.4
+      ],
+      "volume_mm3": 2410.05,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "RIB_H_HIGH": {
+      "bounds_mm": [
+        126.867,
+        20.825,
+        12.0
+      ],
+      "volume_mm3": 6277.44,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "BRACE_LINK_45": {
+      "bounds_mm": [
+        103.51,
+        127.51,
+        3.0
+      ],
+      "volume_mm3": 12560.74,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "PIPE_33": {
+      "bounds_mm": [
+        61.0,
+        43.899,
+        16.0
+      ],
+      "volume_mm3": 6959.56,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "PIPE_27": {
+      "bounds_mm": [
+        44.0,
+        35.8,
+        16.0
+      ],
+      "volume_mm3": 4820.94,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "DOCK_CAP": {
+      "bounds_mm": [
+        24.0,
+        18.0,
+        2.4
+      ],
+      "volume_mm3": 881.66,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "BORDER_BRIDGE": {
+      "bounds_mm": [
+        60.0,
+        12.0,
+        3.0
+      ],
+      "volume_mm3": 2043.84,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "CHANNEL_LONG": {
+      "bounds_mm": [
+        140.84,
+        14.0,
+        6.0
+      ],
+      "volume_mm3": 4849.59,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "CORNER_NODE": {
+      "bounds_mm": [
+        34.0,
+        34.0,
+        7.0
+      ],
+      "volume_mm3": 2380.48,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    },
+    "DOCK_PEDESTAL": {
+      "bounds_mm": [
+        7.0,
+        12.35,
+        22.0
+      ],
+      "volume_mm3": 1026.3,
+      "downward_faces_steeper_than_45deg_above_bed": 0,
+      "source_nonmanifold_edges": 0
+    }
+  },
+  "layouts": {
+    "CORNER_NODE": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "DOCK_PEDESTAL": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "CHANNEL_LONG": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "PIPE_27": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "PIPE_33": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "BRACE_LINK_45": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "BORDER_BRIDGE": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "DOCK_CAP": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_V_HIGH": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_CROSS": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "Minimal_Concept_Test_9_Parts": {
+      "parts": 9,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "Fit_Kit_1to1_LAYOUT": {
+      "parts": 12,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_H_HIGH": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_V_LOW": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "FIELD_RECEIVER": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_H_LOW": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "SPLINT": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "CHANNEL_SHORT": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "SNAP_BRIDGE": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_ANCHOR": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    },
+    "RIB_H_LOW_DOCK": {
+      "parts": 1,
+      "inside_180mm_volume": true,
+      "no_xy_overlap": true
+    }
+  },
+  "slices": {
+    "RIB_V_LOW": {
+      "success": true,
+      "support": false,
+      "PETG_g": 7.07770299911499,
+      "main_PETG_g": 7.07770299911499,
+      "minutes": 23.544331868489582
+    },
+    "Fit_Kit_1to1_LAYOUT": {
+      "success": true,
+      "support": false,
+      "PETG_g": 38.531307220458984,
+      "main_PETG_g": 38.531307220458984,
+      "minutes": 112.6722412109375
+    },
+    "CHANNEL_LONG": {
+      "success": true,
+      "support": false,
+      "PETG_g": 5.704611778259277,
+      "main_PETG_g": 5.704611778259277,
+      "minutes": 22.37729288736979
+    },
+    "RIB_CROSS": {
+      "success": true,
+      "support": false,
+      "PETG_g": 4.7013115882873535,
+      "main_PETG_g": 4.7013115882873535,
+      "minutes": 20.3400390625
+    },
+    "DOCK_PEDESTAL": {
+      "success": true,
+      "support": false,
+      "PETG_g": 1.3360004425048828,
+      "main_PETG_g": 1.3360004425048828,
+      "minutes": 19.594234212239584
+    },
+    "PIPE_27": {
+      "success": true,
+      "support": false,
+      "PETG_g": 4.980804920196533,
+      "main_PETG_g": 4.980804920196533,
+      "minutes": 24.804400634765624
+    },
+    "SPLINT": {
+      "success": true,
+      "support": false,
+      "PETG_g": 0.9891128540039062,
+      "main_PETG_g": 0.9891128540039062,
+      "minutes": 11.965567016601563
+    },
+    "CHANNEL_SHORT": {
+      "success": true,
+      "support": false,
+      "PETG_g": 5.690207004547119,
+      "main_PETG_g": 5.690207004547119,
+      "minutes": 22.174725341796876
+    },
+    "PIPE_33": {
+      "success": true,
+      "support": false,
+      "PETG_g": 6.69448184967041,
+      "main_PETG_g": 6.69448184967041,
+      "minutes": 26.143931070963543
+    },
+    "Minimal_Concept_Test_9_Parts": {
+      "success": true,
+      "support": false,
+      "PETG_g": 32.41368865966797,
+      "main_PETG_g": 32.41368865966797,
+      "minutes": 94.59440104166667
+    },
+    "DOCK_CAP": {
+      "success": true,
+      "support": false,
+      "PETG_g": 1.0375940799713135,
+      "main_PETG_g": 1.0375940799713135,
+      "minutes": 10.412050374348958
+    },
+    "RIB_ANCHOR": {
+      "success": true,
+      "support": false,
+      "PETG_g": 3.0016183853149414,
+      "main_PETG_g": 3.0016183853149414,
+      "minutes": 16.530757649739584
+    },
+    "RIB_H_LOW_DOCK": {
+      "success": true,
+      "support": false,
+      "PETG_g": 8.281046867370605,
+      "main_PETG_g": 8.281046867370605,
+      "minutes": 27.36690673828125
+    },
+    "SNAP_BRIDGE": {
+      "success": true,
+      "support": false,
+      "PETG_g": 0.8215091228485107,
+      "main_PETG_g": 0.8215091228485107,
+      "minutes": 10.407723999023437
+    },
+    "BRACE_LINK_45": {
+      "success": true,
+      "support": false,
+      "PETG_g": 10.613289833068848,
+      "main_PETG_g": 10.613289833068848,
+      "minutes": 29.953924560546874
+    },
+    "BORDER_BRIDGE": {
+      "success": true,
+      "support": false,
+      "PETG_g": 2.022967576980591,
+      "main_PETG_g": 2.022967576980591,
+      "minutes": 12.504613240559896
+    },
+    "FIELD_RECEIVER": {
+      "success": true,
+      "support": false,
+      "PETG_g": 2.53873610496521,
+      "main_PETG_g": 2.53873610496521,
+      "minutes": 15.311684163411458
+    },
+    "RIB_V_HIGH": {
+      "success": true,
+      "support": false,
+      "PETG_g": 7.28352689743042,
+      "main_PETG_g": 7.28352689743042,
+      "minutes": 23.979685465494793
+    },
+    "RIB_H_LOW": {
+      "success": true,
+      "support": false,
+      "PETG_g": 6.335718154907227,
+      "main_PETG_g": 6.335718154907227,
+      "minutes": 22.106449381510416
+    },
+    "RIB_H_HIGH": {
+      "success": true,
+      "support": false,
+      "PETG_g": 6.541574001312256,
+      "main_PETG_g": 6.541574001312256,
+      "minutes": 22.53572794596354
+    },
+    "CORNER_NODE": {
+      "success": true,
+      "support": false,
+      "PETG_g": 2.439631938934326,
+      "main_PETG_g": 2.439631938934326,
+      "minutes": 16.340586344401043
+    }
+  },
+  "gate_estimate": {
+    "PETG_model_g": 2967.6,
+    "PETG_with_10percent_reserve_g": 3264.3,
+    "one_kg_spools_with_reserve": 4,
+    "sum_of_single_part_slices_hours": 228.6,
+    "sum_of_model_print_time_hours": 146.0,
+    "note": "Single-part timing includes repeated startup; batch plates will differ. Reserve excludes PVC, posterboard and ties."
+  },
+  "complete_slice_coverage": true
+}

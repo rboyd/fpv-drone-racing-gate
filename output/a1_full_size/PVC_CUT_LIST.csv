@@ -1,0 +1,6 @@
+Part,Quantity,Nominal pipe,Example cut mm,Condition
+Main square sides,4,1 inch Sch40,2065.075,2100 centerline minus 2x17.4625 example fitting take-up; measure actual fittings
+Legs,2,1 inch Sch40,298.275,333.2 centerline minus 2x17.4625; feet axis -25 relative face datum
+Grass half-feet,4,1 inch Sch40,582.5375,600 center span minus tee take-up
+Hard-surface half-feet,4,1 inch Sch40,1182.5375,1200 center span minus tee take-up; replaces grass feet
+Diagonal braces,4,3/4 inch Sch40,425.685,400x400 diagonal minus 70 mm at each end; link saddles 90 mm from theoretical intersection

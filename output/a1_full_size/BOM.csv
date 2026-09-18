@@ -1,0 +1,20 @@
+code,quantity,description,print_bounds_mm,solid_volume_mm3,file
+SPLINT,168,40 mm registered channel splint; two ties per joint,"[40.0, 8.0, 4.4]",809.34,SPLINT.stl
+CORNER_NODE,48,Inside L node; two rail ties; spare paired holes for border bridges,"[34.0, 34.0, 7.0]",2380.48,CORNER_NODE.stl
+RIB_ANCHOR,48,Rib endpoint saddle; two rail ties and one rib tie,"[40.0, 26.0, 7.0]",3218.56,RIB_ANCHOR.stl
+RIB_CROSS,12,"Cross node: horizontal ribs on 3 mm seat, vertical ribs on 6 mm seat","[48.0, 48.0, 6.0]",5507.52,RIB_CROSS.stl
+BORDER_BRIDGE,16,Fixed bridge between neighboring whole-sheet cells; two ties,"[60.0, 12.0, 3.0]",2043.84,BORDER_BRIDGE.stl
+FIELD_RECEIVER,16,Gate corner socket cap; diamond hole; two rail ties,"[40.0, 24.0, 6.4]",2410.05,FIELD_RECEIVER.stl
+SNAP_BRIDGE,24,"Two reusable fork latches, 24 mm socket pitch; 2.4 mm receiver thickness","[36.0, 16.8, 3.0]",645.73,SNAP_BRIDGE.stl
+RIB_H_LOW,32,"H rib, 126.867 mm, lower layer, integrated paper support","[126.867, 17.825, 12.0]",5989.44,RIB_H_LOW.stl
+RIB_H_LOW_DOCK,16,"H rib, 126.867 mm, lower layer, integrated paper support; dock mounting holes","[126.867, 17.825, 16.0]",7908.48,RIB_H_LOW_DOCK.stl
+RIB_H_HIGH,24,"H rib, 126.867 mm, raised layer, integrated paper support","[126.867, 20.825, 12.0]",6277.44,RIB_H_HIGH.stl
+RIB_V_LOW,24,"V rib, 144.200 mm, lower layer, integrated paper support","[144.2, 17.825, 12.0]",6613.44,RIB_V_LOW.stl
+RIB_V_HIGH,24,"V rib, 144.200 mm, raised layer, integrated paper support","[144.2, 20.825, 12.0]",6901.44,RIB_V_HIGH.stl
+PIPE_33,24,C saddle for 33.40 mm target OD; 33.9 mm bore; mandatory 250 mm keeper tie,"[61.0, 43.899, 16.0]",6959.56,PIPE_33.stl
+PIPE_27,8,C saddle for 26.67 mm target OD; 27.2 mm bore; mandatory 250 mm keeper tie,"[44.0, 35.8, 16.0]",4820.94,PIPE_27.stl
+DOCK_CAP,16,Rib-side docking socket; two ties through matching rib holes,"[24.0, 18.0, 2.4]",881.66,DOCK_CAP.stl
+DOCK_PEDESTAL,16,12.35 mm dock stand-off with open clearance beneath snap fork,"[7.0, 12.35, 22.0]",1026.3,DOCK_PEDESTAL.stl
+BRACE_LINK_45,8,Flat reversible 90 mm brace-end link; two pipe saddles and four heavy ties,"[103.51, 127.51, 3.0]",12560.74,BRACE_LINK_45.stl
+CHANNEL_LONG,120,140.84 mm universal slide channel; symmetric mounting windows and cord notches; use on every long edge,"[140.84, 14.0, 6.0]",4849.59,CHANNEL_LONG.stl
+CHANNEL_SHORT,96,138.00 mm universal slide channel; symmetric mounting windows and cord notches; use on every short edge,"[138.0, 14.0, 6.0]",4856.84,CHANNEL_SHORT.stl

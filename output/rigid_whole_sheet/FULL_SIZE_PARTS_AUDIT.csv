@@ -1,0 +1,12 @@
+part,quantity,envelope_mm,status,axis_aligned_volume_fit
+Channel segment,120,"[142.84, 10.0, 6.0]",rail,True
+Channel segment,96,"[140.5, 10.0, 6.0]",rail,True
+Workshop corner-node marker,48,"[10.0, 10.0, 4.0]",schematic,True
+Long rear rib,12,"[715.2, 5.0, 2.0]",rib,False
+Short rear rib,12,"[562.8, 5.0, 2.0]",rib,False
+Paper keeper,24,"[16.0, 6.0, 1.2]",schematic,True
+Face docking receiver,16,"[55.0, 32.0, 6.0]",schematic,True
+Rigid border splice,16,"[70.0, 22.0, 8.0]",schematic,True
+Gate corner bridge,8,"[65.0, 40.0, 9.0]",schematic,True
+Brace-end clamp assembly,8,"[40.0, 30.0, 25.0]",schematic,True
+Pipe-side docking assembly,16,"[56.8, 40.0, 25.0]",schematic,True

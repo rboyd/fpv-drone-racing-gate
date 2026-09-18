@@ -1,0 +1,64 @@
+{
+  "mini_tabletop_foot_PRINT_2.stl": {
+    "bounds_mm": [
+      20.0,
+      30.0,
+      8.0
+    ],
+    "unsupported_downward_faces": 0
+  },
+  "mini_bridge_looser_OPTIONAL.stl": {
+    "bounds_mm": [
+      11.0,
+      7.0,
+      2.4000000953674316
+    ],
+    "unsupported_downward_faces": 0
+  },
+  "mini_bridge_fit_gauge_FIRST.stl": {
+    "bounds_mm": [
+      18.0,
+      36.0,
+      2.5999999046325684
+    ],
+    "unsupported_downward_faces": 0
+  },
+  "mini_bridge_standard_PRINT_8.stl": {
+    "bounds_mm": [
+      11.199999809265137,
+      7.0,
+      2.4000000953674316
+    ],
+    "unsupported_downward_faces": 0
+  },
+  "mini_1to15_border_PRINT_4.stl": {
+    "bounds_mm": [
+      143.04000854492188,
+      37.52000045776367,
+      2.5999999046325684
+    ],
+    "unsupported_downward_faces": 0
+  },
+  "Mini_1to15_Four_Borders_LAYOUT.3mf": {
+    "parts": 12,
+    "within_180mm_plate": true,
+    "no_part_overlap": true
+  },
+  "Mini_Fit_Test_and_Feet_LAYOUT.3mf": {
+    "parts": 5,
+    "within_180mm_plate": true,
+    "no_part_overlap": true
+  },
+  "Mini_Fit_Test_A1Mini_PLA": {
+    "sliced_successfully": true,
+    "supports": false,
+    "PLA_g": 7.081822872161865,
+    "estimated_minutes": 22.86869913736979
+  },
+  "Mini_1to15_A1Mini_PLA": {
+    "sliced_successfully": true,
+    "supports": false,
+    "PLA_g": 35.24484634399414,
+    "estimated_minutes": 73.06420084635417
+  }
+}

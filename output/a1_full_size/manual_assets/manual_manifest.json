@@ -1,0 +1,26 @@
+{
+  "pdf": "Assembly_and_Test_Instructions.pdf",
+  "pages": 16,
+  "headings": [
+    "Whole-sheet FPV racing gate",
+    "Print nine pieces",
+    "Paper fit, then a straight splice",
+    "Reconfigure as a frame corner",
+    "Build the complete PVC dock",
+    "Release it, repeat it, record it",
+    "The full gate at a glance",
+    "Print and purchase checklist",
+    "Build one sheet-frame perimeter",
+    "Add the stepped rear ribs",
+    "Insert the paper and retention cord",
+    "Join three bays into a rigid border",
+    "Build the single backing frame",
+    "Install all eight printed brace joints",
+    "Set up for grass or hard surfaces",
+    "Attach, inspect and pack away"
+  ],
+  "printed_types": 19,
+  "printed_count": 740,
+  "prototype_parts": 9,
+  "overflow_checks": []
+}

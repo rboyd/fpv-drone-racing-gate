@@ -1,0 +1,332 @@
+{
+  "bay_1_bottom": {
+    "edge_length_mm": 717.2,
+    "segments": [
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 6.1,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 147.14000000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 288.18000000000006,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 429.2200000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 570.2600000000001,
+        "length_mm": 140.84
+      }
+    ]
+  },
+  "bay_1_right": {
+    "edge_length_mm": 564.8,
+    "segments": [
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 6.1,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 144.29999999999998,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 282.5,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 420.7,
+        "length_mm": 138.0
+      }
+    ]
+  },
+  "bay_1_top": {
+    "edge_length_mm": 717.2,
+    "segments": [
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 6.1,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 147.14000000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 288.18000000000006,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 429.2200000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 570.2600000000001,
+        "length_mm": 140.84
+      }
+    ]
+  },
+  "bay_1_left": {
+    "edge_length_mm": 564.8,
+    "segments": [
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 6.1,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 144.29999999999998,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 282.5,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 420.7,
+        "length_mm": 138.0
+      }
+    ]
+  },
+  "bay_2_bottom": {
+    "edge_length_mm": 717.2,
+    "segments": [
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 6.1,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 147.14000000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 288.18000000000006,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 429.2200000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 570.2600000000001,
+        "length_mm": 140.84
+      }
+    ]
+  },
+  "bay_2_right": {
+    "edge_length_mm": 564.8,
+    "segments": [
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 6.1,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 144.29999999999998,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 282.5,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 420.7,
+        "length_mm": 138.0
+      }
+    ]
+  },
+  "bay_2_top": {
+    "edge_length_mm": 717.2,
+    "segments": [
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 6.1,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 147.14000000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 288.18000000000006,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 429.2200000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 570.2600000000001,
+        "length_mm": 140.84
+      }
+    ]
+  },
+  "bay_2_left": {
+    "edge_length_mm": 564.8,
+    "segments": [
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 6.1,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 144.29999999999998,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 282.5,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 420.7,
+        "length_mm": 138.0
+      }
+    ]
+  },
+  "bay_3_bottom": {
+    "edge_length_mm": 717.2,
+    "segments": [
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 6.1,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 147.14000000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 288.18000000000006,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 429.2200000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 570.2600000000001,
+        "length_mm": 140.84
+      }
+    ]
+  },
+  "bay_3_right": {
+    "edge_length_mm": 564.8,
+    "segments": [
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 6.1,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 144.29999999999998,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 282.5,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 420.7,
+        "length_mm": 138.0
+      }
+    ]
+  },
+  "bay_3_top": {
+    "edge_length_mm": 717.2,
+    "segments": [
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 6.1,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 147.14000000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 288.18000000000006,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 429.2200000000001,
+        "length_mm": 140.84
+      },
+      {
+        "code": "CHANNEL_LONG",
+        "start_mm": 570.2600000000001,
+        "length_mm": 140.84
+      }
+    ]
+  },
+  "bay_3_left": {
+    "edge_length_mm": 564.8,
+    "segments": [
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 6.1,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 144.29999999999998,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 282.5,
+        "length_mm": 138.0
+      },
+      {
+        "code": "CHANNEL_SHORT",
+        "start_mm": 420.7,
+        "length_mm": 138.0
+      }
+    ]
+  }
+}

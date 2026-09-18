@@ -1,0 +1,181 @@
+{
+  "scope": "Full-size scene 01_RIGID_GATE only; schematic assembly boxes are NOT finished printable parts. Coupons are test specimens, not production quantities.",
+  "modeled_geometry_variants": 11,
+  "printed_candidate_object_count": 376,
+  "parts": [
+    {
+      "part": "Channel segment",
+      "envelope_mm": [
+        142.84,
+        10.0,
+        6.0
+      ],
+      "quantity": 120,
+      "status": "rail",
+      "axis_aligned_volume_fit": true,
+      "segment_mm": 142.84
+    },
+    {
+      "part": "Channel segment",
+      "envelope_mm": [
+        140.5,
+        10.0,
+        6.0
+      ],
+      "quantity": 96,
+      "status": "rail",
+      "axis_aligned_volume_fit": true,
+      "segment_mm": 140.5
+    },
+    {
+      "part": "Workshop corner-node marker",
+      "envelope_mm": [
+        10.0,
+        10.0,
+        4.0
+      ],
+      "quantity": 48,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    },
+    {
+      "part": "Long rear rib",
+      "envelope_mm": [
+        715.2,
+        5.0,
+        2.0
+      ],
+      "quantity": 12,
+      "status": "rib",
+      "axis_aligned_volume_fit": false
+    },
+    {
+      "part": "Short rear rib",
+      "envelope_mm": [
+        562.8,
+        5.0,
+        2.0
+      ],
+      "quantity": 12,
+      "status": "rib",
+      "axis_aligned_volume_fit": false
+    },
+    {
+      "part": "Paper keeper",
+      "envelope_mm": [
+        16.0,
+        6.0,
+        1.2
+      ],
+      "quantity": 24,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    },
+    {
+      "part": "Face docking receiver",
+      "envelope_mm": [
+        55.0,
+        32.0,
+        6.0
+      ],
+      "quantity": 16,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    },
+    {
+      "part": "Rigid border splice",
+      "envelope_mm": [
+        70.0,
+        22.0,
+        8.0
+      ],
+      "quantity": 16,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    },
+    {
+      "part": "Gate corner bridge",
+      "envelope_mm": [
+        65.0,
+        40.0,
+        9.0
+      ],
+      "quantity": 8,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    },
+    {
+      "part": "Brace-end clamp assembly",
+      "envelope_mm": [
+        40.0,
+        30.0,
+        25.0
+      ],
+      "quantity": 8,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    },
+    {
+      "part": "Pipe-side docking assembly",
+      "envelope_mm": [
+        56.8,
+        40.0,
+        25.0
+      ],
+      "quantity": 16,
+      "status": "schematic",
+      "axis_aligned_volume_fit": true
+    }
+  ],
+  "node_marker_objects": 48,
+  "unique_world_node_marker_centers": 28,
+  "coincident_node_marker_locations": 20,
+  "full_size_STL_fit_samples": [
+    {
+      "file": "PVC_C_saddle_OD33p4_mm.stl",
+      "print_bounds_mm": [
+        37.215,
+        40.288,
+        8.0
+      ],
+      "fits_180mm": true
+    },
+    {
+      "file": "channel_150_on_spine_mm.stl",
+      "print_bounds_mm": [
+        150.0,
+        10.0,
+        6.0
+      ],
+      "fits_180mm": true
+    },
+    {
+      "file": "dovetail_receiver_50_mm.stl",
+      "print_bounds_mm": [
+        50.0,
+        25.4,
+        7.0
+      ],
+      "fits_180mm": true
+    },
+    {
+      "file": "dovetail_shoe_release_spring_mm.stl",
+      "print_bounds_mm": [
+        45.0,
+        29.2,
+        5.6
+      ],
+      "fits_180mm": true
+    },
+    {
+      "file": "support_rib_150_mm.stl",
+      "print_bounds_mm": [
+        150.0,
+        5.0,
+        2.0
+      ],
+      "fits_180mm": true
+    }
+  ],
+  "not_a_manufacturing_BOM": true
+}

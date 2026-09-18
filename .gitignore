@@ -6,3 +6,11 @@ output/previous_*/
 output/FPV_Gate_Kit.zip
 
 output/posterboard_concepts/Posterboard_Concepts.zip
+
+output/rigid_whole_sheet/Rigid_Gate_and_Miniature.zip
+output/rigid_whole_sheet/sliced/**/*.gcode
+
+output/a1_full_size/A1_Full_Size_Kit.zip
+output/a1_full_size/sliced/**/*.gcode
+
+output/a1_full_size/manual_assets/*.png
