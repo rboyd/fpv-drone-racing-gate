@@ -1,3 +1,5 @@
+> **Superseded frame geometry:** the DEMO_EDGE cross-socket leaves a weak neck. Use the [reinforced branch/cleat iteration](../full_paper_gate/index.html) for the next print. CLICK_KEY, PAPER_PAD and the fit/gauge concepts remain useful.
+
 # Recommended print: full-width paper-frame demonstrator
 
 This kit assembles into a **24 × 8 inch (609.6 × 203.2 mm)** paper-frame sample. The 24-inch dimension uses the full roll width; cut just 8 inches along the roll. It demonstrates working-scale click connections, four crossmembers, integral half-cylinder magnet holders, removable front pads, and handling a real full-width paper face. It is a small gate-face specimen, not a full 2.09 m border or a wind-qualified gate.

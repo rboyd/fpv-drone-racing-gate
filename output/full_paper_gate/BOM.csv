@@ -1,0 +1,11 @@
+code,quantity,description,print_bounds_mm,file
+EDGE_PLAIN,64,Continuous 16 x 12 mm spine; two 8 mm deep receivers; integral magnet lug,"[136.314, 49.95, 12.0]",EDGE_PLAIN.stl
+EDGE_BRANCH,48,Projecting crossmember receiver; uninterrupted main spine; integral two-horn cleat and cord eyes,"[136.314, 76.0, 29.0]",EDGE_BRANCH.stl
+RUNG,72,Universal crossmember segment; optional magnet and flush M3 dock mounting holes,"[133.867, 49.95, 12.0]",RUNG.stl
+CLICK_KEY,200,Replaceable double-ended click key; pinch both fork tips at each end to release,"[66.0, 32.0, 5.0]",CLICK_KEY.stl
+PAPER_PAD,136,"Front magnetic pad, 6.3 mm bore and .4 mm paper-facing skin","[24.0, 24.0, 3.0]",PAPER_PAD.stl
+PVC_HALF_33,32,Print two identical halves; 33.4 mm PVC; two M3 through-bolts/nuts; no zip ties; mounting pad for DOCK_SOCKET on the 33.4 mm version,"[65.8, 31.5, 12.0]",PVC_HALF_33.stl
+DOCK_SOCKET,16,8 mm deep receiver bolted to collar pad; two M3 x 25 bolts,"[48.0, 40.0, 8.0]",DOCK_SOCKET.stl
+DOCK_TONGUE,16,One-sided releasable fork dock with vertical frame flange; two M3 frame bolts; supported by solid guide runners,"[46.0, 32.0, 37.0]",DOCK_TONGUE.stl
+V_BLOCK,32,Universal 90-degree V clamp half; four per brace crossing; M4 through-bolts,"[24.0, 64.0, 22.0]",V_BLOCK.stl
+CROSS_PLATE,8,Universal +/-45 degree brace joint; use appropriate diagonal pair of M4 holes,"[70.0, 70.0, 6.0]",CROSS_PLATE.stl

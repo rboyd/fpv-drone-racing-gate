@@ -1,0 +1,53 @@
+{
+  "manifold_masters": true,
+  "all_parts_within_170_mm": true,
+  "panel_counts": {
+    "EDGE_BRANCH": 12,
+    "CLICK_KEY": 50,
+    "EDGE_PLAIN": 16,
+    "RUNG": 18,
+    "PVC_HALF_33": 8,
+    "DOCK_SOCKET": 4,
+    "DOCK_TONGUE": 4,
+    "PAPER_PAD": 34
+  },
+  "old_neck_nominal_mm": [
+    4,
+    5
+  ],
+  "new_continuous_spine_mm": [
+    16,
+    12
+  ],
+  "socket_nearest_y_mm": 28,
+  "spine_y_mm": [
+    -8,
+    8
+  ],
+  "physical_testing": "Not yet performed",
+  "cord_bays_per_border": 5,
+  "magnet_pairs_per_border": 34,
+  "interfaces": [
+    {
+      "a": "EDGE_BRANCH",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 0
+    },
+    {
+      "a": "EDGE_BRANCH",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 9.313225746154785e-07
+    },
+    {
+      "a": "RUNG",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 1.0412503081980162e-06
+    },
+    {
+      "a": "DOCK_SOCKET",
+      "b": "DOCK_TONGUE",
+      "sampled_penetration_mm": 5.206251540990081e-07
+    }
+  ],
+  "interface_method": "0.25 mm XY grid at Z 0.5/1/1.5/2.5/3.5/4.5 mm; ray inside classification, .01 mm tolerance. Sampled screen, not exhaustive proof."
+}

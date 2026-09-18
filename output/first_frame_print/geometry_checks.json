@@ -1,0 +1,84 @@
+{
+  "plates": {
+    "FIRST_FRAME_TEST": {
+      "parts": 4,
+      "minimum_part_gap_mm": 1.685712218284607,
+      "bed_margin_mm": 5,
+      "maximum_height_mm": 29.0
+    },
+    "FIRST_FRAME_TEST_WITH_PAD": {
+      "parts": 5,
+      "minimum_part_gap_mm": 1.685712218284607,
+      "bed_margin_mm": 5,
+      "maximum_height_mm": 29.0
+    }
+  },
+  "production_meshes": {
+    "EDGE_BRANCH": {
+      "identical_to_current_gate_STL": true,
+      "sha256": "727a633da8d6e0f80f9ce639ef335d03f62bed559f226ec7c00d552456650b45",
+      "print_bounds_mm": [
+        136.314,
+        76.0,
+        29.0
+      ],
+      "manifold": true
+    },
+    "CLICK_KEY": {
+      "identical_to_current_gate_STL": true,
+      "sha256": "4850e2ec3586d6c4d19ea7346fe2c1bef652fda735f2dd61403459cc5cd0c0bb",
+      "print_bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "manifold": true
+    },
+    "PAPER_PAD": {
+      "identical_to_current_gate_STL": true,
+      "sha256": "f51a5a011ebf940eb459d444e6e53854d15a6cbeca42849333f8009ebddd4ab1",
+      "print_bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "manifold": true
+    }
+  },
+  "interfaces": [
+    {
+      "configuration": "straight",
+      "parts": [
+        "EDGE_BRANCH",
+        "CLICK_KEY"
+      ],
+      "max_sampled_penetration_mm": 0
+    },
+    {
+      "configuration": "straight",
+      "parts": [
+        "CLICK_KEY",
+        "EDGE_BRANCH"
+      ],
+      "max_sampled_penetration_mm": 0
+    },
+    {
+      "configuration": "perpendicular",
+      "parts": [
+        "EDGE_BRANCH",
+        "CLICK_KEY"
+      ],
+      "max_sampled_penetration_mm": 9.313225746154785e-07
+    },
+    {
+      "configuration": "perpendicular",
+      "parts": [
+        "CLICK_KEY",
+        "EDGE_BRANCH"
+      ],
+      "max_sampled_penetration_mm": 0
+    }
+  ],
+  "interface_method": "0.25 mm XY grid at Z .5/1/1.5/2.5/3.5/4.5 mm; sampled screen, not exhaustive collision proof or physical test.",
+  "magnet_holder": "Unchanged: 6.3 mm rear-loaded bore with .4 mm plastic between rear magnet and paper."
+}

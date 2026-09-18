@@ -1,0 +1,41 @@
+{
+  "plates": {
+    "FIRST_FRAME_TEST": {
+      "pieces": 4,
+      "grams": 80.14,
+      "minutes": 200.29,
+      "minimum_bed_margin_mm": 5,
+      "maximum_height_mm": 29,
+      "overlap": false,
+      "supports": false,
+      "slicer_warnings": [],
+      "prepared_3mf": "sliced/FIRST_FRAME_TEST/FIRST_FRAME_TEST_A1Mini_PETG.3mf"
+    },
+    "FIRST_FRAME_TEST_WITH_PAD": {
+      "pieces": 5,
+      "grams": 81.63,
+      "minutes": 203.92,
+      "minimum_bed_margin_mm": 5,
+      "maximum_height_mm": 29,
+      "overlap": false,
+      "supports": false,
+      "slicer_warnings": [],
+      "prepared_3mf": "sliced/FIRST_FRAME_TEST_WITH_PAD/FIRST_FRAME_TEST_WITH_PAD_A1Mini_PETG.3mf"
+    }
+  },
+  "production_meshes": {
+    "EDGE_BRANCH": {
+      "identical_to_gate": true,
+      "sha256": "727a633da8d6e0f80f9ce639ef335d03f62bed559f226ec7c00d552456650b45"
+    },
+    "CLICK_KEY": {
+      "identical_to_gate": true,
+      "sha256": "4850e2ec3586d6c4d19ea7346fe2c1bef652fda735f2dd61403459cc5cd0c0bb"
+    },
+    "PAPER_PAD": {
+      "identical_to_gate": true,
+      "sha256": "f51a5a011ebf940eb459d444e6e53854d15a6cbeca42849333f8009ebddd4ab1"
+    }
+  },
+  "physical_test": "Not yet printed or tested"
+}

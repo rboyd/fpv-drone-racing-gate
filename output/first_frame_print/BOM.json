@@ -1,0 +1,110 @@
+{
+  "core": {
+    "EDGE_BRANCH": 2,
+    "CLICK_KEY": 2
+  },
+  "optional": {
+    "PAPER_PAD": 1
+  },
+  "plates": {
+    "FIRST_FRAME_TEST": [
+      [
+        "EDGE_BRANCH",
+        5,
+        5,
+        0
+      ],
+      [
+        "EDGE_BRANCH",
+        5,
+        84,
+        0
+      ],
+      [
+        "CLICK_KEY",
+        143,
+        5,
+        90
+      ],
+      [
+        "CLICK_KEY",
+        143,
+        75,
+        90
+      ]
+    ],
+    "FIRST_FRAME_TEST_WITH_PAD": [
+      [
+        "EDGE_BRANCH",
+        5,
+        5,
+        0
+      ],
+      [
+        "EDGE_BRANCH",
+        5,
+        84,
+        0
+      ],
+      [
+        "CLICK_KEY",
+        143,
+        5,
+        90
+      ],
+      [
+        "CLICK_KEY",
+        143,
+        75,
+        90
+      ],
+      [
+        "PAPER_PAD",
+        148,
+        146,
+        0
+      ]
+    ]
+  },
+  "production_scale": 1,
+  "straight_length_mm": 286.62857142857143,
+  "first_run_only": true,
+  "parts": [
+    {
+      "description": "Projecting crossmember receiver; uninterrupted main spine; integral two-horn cleat and cord eyes",
+      "file": "EDGE_BRANCH.stl",
+      "print_bounds_mm": [
+        136.314,
+        76.0,
+        29.0
+      ],
+      "solid_volume_mm3": 53240.58,
+      "nonmanifold_edges": 0,
+      "code": "EDGE_BRANCH"
+    },
+    {
+      "description": "Replaceable double-ended click key; pinch both fork tips at each end to release",
+      "file": "CLICK_KEY.stl",
+      "print_bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "solid_volume_mm3": 3573.01,
+      "nonmanifold_edges": 0,
+      "code": "CLICK_KEY"
+    },
+    {
+      "description": "Front magnetic pad, 6.3 mm bore and .4 mm paper-facing skin",
+      "file": "PAPER_PAD.stl",
+      "print_bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "solid_volume_mm3": 1552.2,
+      "nonmanifold_edges": 0,
+      "code": "PAPER_PAD"
+    }
+  ]
+}

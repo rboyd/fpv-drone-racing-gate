@@ -1,0 +1,397 @@
+{
+  "geometry": {
+    "EDGE_PLAIN": {
+      "bounds_mm": [
+        136.314,
+        49.95,
+        12.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 33192.031
+    },
+    "EDGE_BRANCH": {
+      "bounds_mm": [
+        136.314,
+        76.0,
+        29.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 53240.581
+    },
+    "RUNG": {
+      "bounds_mm": [
+        133.867,
+        49.95,
+        12.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 32356.568
+    },
+    "CLICK_KEY": {
+      "bounds_mm": [
+        66.0,
+        32.0,
+        5.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 3573.015
+    },
+    "PAPER_PAD": {
+      "bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 1552.198
+    },
+    "PVC_HALF_33": {
+      "bounds_mm": [
+        65.8,
+        31.5,
+        12.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 7485.645
+    },
+    "DOCK_SOCKET": {
+      "bounds_mm": [
+        48.0,
+        40.0,
+        8.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 12283.522
+    },
+    "DOCK_TONGUE": {
+      "bounds_mm": [
+        46.0,
+        32.0,
+        37.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 9263.381
+    },
+    "V_BLOCK": {
+      "bounds_mm": [
+        24.0,
+        64.0,
+        22.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 26949.334
+    },
+    "CROSS_PLATE": {
+      "bounds_mm": [
+        70.0,
+        70.0,
+        6.0
+      ],
+      "watertight": true,
+      "positive_volume_mm3": 28696.581
+    }
+  },
+  "plates": {
+    "Q_V_BLOCK_TAIL": {
+      "parts": 8,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "T01_BRANCH": {
+      "parts": 4,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_DOCK_TONGUE_TAIL": {
+      "parts": 4,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_DOCK_SOCKET_TAIL": {
+      "parts": 4,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_EDGE_PLAIN_FULL": {
+      "parts": 3,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_PVC_HALF_33_FULL": {
+      "parts": 10,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "T03_PVC_DOCK": {
+      "parts": 4,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_V_BLOCK_FULL": {
+      "parts": 12,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_DOCK_SOCKET_FULL": {
+      "parts": 12,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_RUNG_FULL": {
+      "parts": 3,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_DOCK_TONGUE_FULL": {
+      "parts": 12,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_PVC_HALF_33_TAIL": {
+      "parts": 2,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_EDGE_PLAIN_TAIL": {
+      "parts": 1,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_PAPER_PAD_FULL": {
+      "parts": 36,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "T04_BRACE": {
+      "parts": 5,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_CROSS_PLATE_FULL": {
+      "parts": 4,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "T05_SINGLE_PLAIN": {
+      "parts": 5,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_PAPER_PAD_TAIL": {
+      "parts": 28,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_CLICK_KEY_FULL": {
+      "parts": 8,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "T02_RUNG": {
+      "parts": 3,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    },
+    "Q_EDGE_BRANCH_FULL": {
+      "parts": 2,
+      "bed_margin_at_least_5mm": true,
+      "no_overlap": true
+    }
+  },
+  "slices": {
+    "Q_V_BLOCK_TAIL": {
+      "grams": 129.64,
+      "minutes": 297.05,
+      "support": false,
+      "warning": ""
+    },
+    "T01_BRANCH": {
+      "grams": 44.95,
+      "minutes": 123.34,
+      "support": false,
+      "warning": ""
+    },
+    "Q_DOCK_TONGUE_TAIL": {
+      "grams": 33.99,
+      "minutes": 100.07,
+      "support": false,
+      "warning": ""
+    },
+    "Q_DOCK_SOCKET_TAIL": {
+      "grams": 35.61,
+      "minutes": 90.35,
+      "support": false,
+      "warning": ""
+    },
+    "Q_EDGE_PLAIN_FULL": {
+      "grams": 73.25,
+      "minutes": 170.26,
+      "support": false,
+      "warning": ""
+    },
+    "Q_PVC_HALF_33_FULL": {
+      "grams": 72.29,
+      "minutes": 199.8,
+      "support": false,
+      "warning": ""
+    },
+    "T03_PVC_DOCK": {
+      "grams": 31.88,
+      "minutes": 106.43,
+      "support": false,
+      "warning": ""
+    },
+    "Q_V_BLOCK_FULL": {
+      "grams": 194.42,
+      "minutes": 440.85,
+      "support": false,
+      "warning": ""
+    },
+    "Q_DOCK_SOCKET_FULL": {
+      "grams": 106.7,
+      "minutes": 256.0,
+      "support": false,
+      "warning": ""
+    },
+    "Q_RUNG_FULL": {
+      "grams": 73.36,
+      "minutes": 174.65,
+      "support": false,
+      "warning": ""
+    },
+    "Q_DOCK_TONGUE_FULL": {
+      "grams": 101.82,
+      "minutes": 277.65,
+      "support": false,
+      "warning": ""
+    },
+    "Q_PVC_HALF_33_TAIL": {
+      "grams": 14.52,
+      "minutes": 46.37,
+      "support": false,
+      "warning": ""
+    },
+    "Q_EDGE_PLAIN_TAIL": {
+      "grams": 24.46,
+      "minutes": 61.96,
+      "support": false,
+      "warning": ""
+    },
+    "Q_PAPER_PAD_FULL": {
+      "grams": 53.56,
+      "minutes": 139.79,
+      "support": false,
+      "warning": ""
+    },
+    "T04_BRACE": {
+      "grams": 82.53,
+      "minutes": 189.99,
+      "support": false,
+      "warning": ""
+    },
+    "Q_CROSS_PLATE_FULL": {
+      "grams": 70.76,
+      "minutes": 154.7,
+      "support": false,
+      "warning": ""
+    },
+    "T05_SINGLE_PLAIN": {
+      "grams": 34.14,
+      "minutes": 89.08,
+      "support": false,
+      "warning": ""
+    },
+    "Q_PAPER_PAD_TAIL": {
+      "grams": 41.68,
+      "minutes": 110.31,
+      "support": false,
+      "warning": ""
+    },
+    "Q_CLICK_KEY_FULL": {
+      "grams": 26.9,
+      "minutes": 86.42,
+      "support": false,
+      "warning": ""
+    },
+    "T02_RUNG": {
+      "grams": 73.36,
+      "minutes": 174.66,
+      "support": false,
+      "warning": ""
+    },
+    "Q_EDGE_BRANCH_FULL": {
+      "grams": 73.43,
+      "minutes": 180.04,
+      "support": false,
+      "warning": ""
+    }
+  },
+  "kit_totals": {
+    "grams": 7130.04,
+    "minutes": 17698.15
+  },
+  "test_runs": {
+    "T01_BRANCH": 4,
+    "T02_RUNG": 2,
+    "T05_SINGLE_PLAIN": 2,
+    "T03_PVC_DOCK": 1
+  },
+  "full_width_test": {
+    "grams": 426.68,
+    "minutes": 1127.27
+  },
+  "assembly_checks": {
+    "manifold_masters": true,
+    "all_parts_within_170_mm": true,
+    "panel_counts": {
+      "EDGE_BRANCH": 12,
+      "CLICK_KEY": 50,
+      "EDGE_PLAIN": 16,
+      "RUNG": 18,
+      "PVC_HALF_33": 8,
+      "DOCK_SOCKET": 4,
+      "DOCK_TONGUE": 4,
+      "PAPER_PAD": 34
+    },
+    "old_neck_nominal_mm": [
+      4,
+      5
+    ],
+    "new_continuous_spine_mm": [
+      16,
+      12
+    ],
+    "socket_nearest_y_mm": 28,
+    "spine_y_mm": [
+      -8,
+      8
+    ],
+    "physical_testing": "Not yet performed",
+    "cord_bays_per_border": 5,
+    "magnet_pairs_per_border": 34,
+    "interfaces": [
+      {
+        "a": "EDGE_BRANCH",
+        "b": "CLICK_KEY",
+        "sampled_penetration_mm": 0
+      },
+      {
+        "a": "EDGE_BRANCH",
+        "b": "CLICK_KEY",
+        "sampled_penetration_mm": 9.313225746154785e-07
+      },
+      {
+        "a": "RUNG",
+        "b": "CLICK_KEY",
+        "sampled_penetration_mm": 1.0412503081980162e-06
+      },
+      {
+        "a": "DOCK_SOCKET",
+        "b": "DOCK_TONGUE",
+        "sampled_penetration_mm": 5.206251540990081e-07
+      }
+    ],
+    "interface_method": "0.25 mm XY grid at Z 0.5/1/1.5/2.5/3.5/4.5 mm; ray inside classification, .01 mm tolerance. Sampled screen, not exhaustive proof."
+  },
+  "scene_counts_match_BOM": true
+}

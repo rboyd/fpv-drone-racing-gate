@@ -1,0 +1,56 @@
+{
+  "manifold_masters": true,
+  "all_parts_within_170_mm": true,
+  "panel_counts": {
+    "EDGE_BRANCH": 12,
+    "CLICK_KEY": 50,
+    "EDGE_PLAIN": 16,
+    "RUNG": 14,
+    "RUNG_SLEEVE": 4,
+    "PAPER_PAD": 34
+  },
+  "old_neck_nominal_mm": [
+    4,
+    5
+  ],
+  "new_continuous_spine_mm": [
+    16,
+    12
+  ],
+  "socket_nearest_y_mm": 28,
+  "spine_y_mm": [
+    -8,
+    8
+  ],
+  "physical_testing": "Not yet performed",
+  "cord_bays_per_border": 5,
+  "magnet_pairs_per_border": 34,
+  "interfaces": [
+    {
+      "a": "EDGE_BRANCH",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 0
+    },
+    {
+      "a": "EDGE_BRANCH",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 9.313225746154785e-07
+    },
+    {
+      "a": "RUNG",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 1.0412503081980162e-06
+    },
+    {
+      "a": "RUNG_SLEEVE",
+      "b": "CLICK_KEY",
+      "sampled_penetration_mm": 1.0412503081980162e-06
+    }
+  ],
+  "sampled_pipe_radial_clearance_mm": 0.3960874748391261,
+  "cord_to_pipe_front_clearance_mm": 5.100000000000001,
+  "sleeve_wall_nominal_mm": 6.0,
+  "no_face_attachment_fasteners": true,
+  "sleeve_connected_components": 1,
+  "interface_method": "0.25 mm XY grid at Z 0.5/1/1.5/2.5/3.5/4.5 mm; ray inside classification, .01 mm tolerance. Sampled screen, not exhaustive proof."
+}

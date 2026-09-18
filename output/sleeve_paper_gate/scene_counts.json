@@ -1,0 +1,73 @@
+{
+  "01_ASSEMBLED_FRONT": {
+    "EDGE_BRANCH": 48,
+    "CLICK_KEY": 200,
+    "EDGE_PLAIN": 64,
+    "RUNG": 56,
+    "RUNG_SLEEVE": 16,
+    "PAPER_PAD": 136,
+    "CROSS_PLATE": 8,
+    "V_BLOCK": 32
+  },
+  "02_REAR_STRUCTURE": {
+    "EDGE_BRANCH": 48,
+    "CLICK_KEY": 200,
+    "EDGE_PLAIN": 64,
+    "RUNG": 56,
+    "RUNG_SLEEVE": 16,
+    "PAPER_PAD": 136,
+    "CROSS_PLATE": 8,
+    "V_BLOCK": 32
+  },
+  "03_ONE_BORDER": {
+    "EDGE_BRANCH": 12,
+    "CLICK_KEY": 50,
+    "EDGE_PLAIN": 16,
+    "RUNG": 14,
+    "RUNG_SLEEVE": 4,
+    "PAPER_PAD": 34
+  },
+  "04_REINFORCED_JUNCTION": {
+    "EDGE_BRANCH": 1,
+    "CLICK_KEY": 1
+  },
+  "05_CORD_THREADING": {
+    "EDGE_BRANCH": 1
+  },
+  "06_INTEGRAL_PVC_SLEEVE": {
+    "RUNG_SLEEVE": 1
+  },
+  "07_BRACE_JOINT": {
+    "CROSS_PLATE": 1,
+    "V_BLOCK": 4
+  },
+  "08_HARD_SURFACE": {
+    "EDGE_BRANCH": 48,
+    "CLICK_KEY": 200,
+    "EDGE_PLAIN": 64,
+    "RUNG": 56,
+    "RUNG_SLEEVE": 16,
+    "PAPER_PAD": 136,
+    "CROSS_PLATE": 8,
+    "V_BLOCK": 32
+  },
+  "09_FULL_WIDTH_TEST": {
+    "EDGE_BRANCH": 4,
+    "CLICK_KEY": 12,
+    "EDGE_PLAIN": 2,
+    "RUNG": 5,
+    "RUNG_SLEEVE": 1,
+    "PAPER_PAD": 8
+  },
+  "10_SLEEVE_PRINT_FACE": {
+    "RUNG_SLEEVE": 1
+  },
+  "11_PIPE_THREADING": {
+    "EDGE_BRANCH": 12,
+    "CLICK_KEY": 50,
+    "EDGE_PLAIN": 16,
+    "RUNG": 14,
+    "RUNG_SLEEVE": 4,
+    "PAPER_PAD": 34
+  }
+}

@@ -1,0 +1,12 @@
+code,quantity,optional,description,print_bounds_mm,file
+EDGE_PLAIN,64,False,Continuous 16 x 12 mm spine; two 8 mm deep receivers; integral magnet lug,"[136.314, 49.95, 12.0]",EDGE_PLAIN.stl
+EDGE_BRANCH,48,False,Projecting crossmember receiver; uninterrupted main spine; integral two-horn cleat and cord eyes,"[136.314, 76.0, 29.0]",EDGE_BRANCH.stl
+RUNG,56,False,Crossmember segment with magnet lug; no mounting hardware or bolt holes,"[133.867, 49.95, 12.0]",RUNG.stl
+CLICK_KEY,200,False,Replaceable double-ended click key; pinch both fork tips at each end to release,"[66.0, 32.0, 5.0]",CLICK_KEY.stl
+PAPER_PAD,136,True,"Optional front magnetic pad, 6.3 mm bore and .4 mm paper-facing skin","[24.0, 24.0, 3.0]",PAPER_PAD.stl
+RUNG_SLEEVE,16,False,"One-piece frame rung + closed sleeve for 33.4 mm OD PVC; 34.2 mm nominal bore, 6 mm wall, 24 mm engagement, broad tapered root; no bolts","[133.867, 49.95, 78.668]",RUNG_SLEEVE.stl
+GAUGE_340,0,False,Fit-only short horizontal bore gauge: 34.0 mm; not a production part,"[44.0, 8.0, 53.113]",GAUGE_340.stl
+GAUGE_342,0,False,Fit-only short horizontal bore gauge: 34.2 mm; not a production part,"[44.2, 8.0, 53.354]",GAUGE_342.stl
+GAUGE_344,0,False,Fit-only short horizontal bore gauge: 34.4 mm; not a production part,"[44.4, 8.0, 53.596]",GAUGE_344.stl
+V_BLOCK,32,False,Universal 90-degree V clamp half; four per brace crossing; M4 through-bolts,"[24.0, 64.0, 22.0]",V_BLOCK.stl
+CROSS_PLATE,8,False,Universal +/-45 degree brace joint; use appropriate diagonal pair of M4 holes,"[70.0, 70.0, 6.0]",CROSS_PLATE.stl
