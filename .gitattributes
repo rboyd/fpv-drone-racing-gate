@@ -1,0 +1,11 @@
+# Preserve standard CSV CRLF records without treating them as whitespace errors.
+*.csv whitespace=cr-at-eol
+
+# Fabrication and visual artifacts are binary, including ASCII-encoded PDFs.
+*.pdf binary
+*.blend binary
+*.3mf binary
+*.stl binary
+*.png binary
+*.jpg binary
+*.jpeg binary
