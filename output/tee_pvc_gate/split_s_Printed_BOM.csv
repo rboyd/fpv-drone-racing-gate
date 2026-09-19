@@ -1,0 +1,6 @@
+part,quantity,description,print_bounds_mm
+ELBOW,2,Two-port elbow for bottom outside corners; accepted 33.5 mm PVC bore; 30 mm engagement and 35 mm center-to-stop,133.314 x 133.314 x 53.345
+TEE,12,"Three-way tee, native ports +X, +Y, -X; two magnetic pads on missing-port side; accepted 33.5 mm PVC bore; 30 mm engagement and 35 mm center-to-stop",136.627 x 133.314 x 53.345
+CROSS,8,Four-way cross for the inner grid intersections; accepted 33.5 mm PVC bore; 30 mm engagement and 35 mm center-to-stop,136.627 x 136.627 x 53.345
+GUY_ELBOW,2,Top elbow with integral 10.5 mm peaked guy passage in 14 mm-thick rear eye; eye connects to central core; accepted 33.5 mm PVC bore; 30 mm engagement and 35 mm center-to-stop,133.314 x 133.314 x 53.345
+MAG_SLEEVE,80,"Universal friction sleeve with 57.0 mm offset magnetic face; no cleat, pin or cord eye; 16 mm pipe engagement",20.0 x 86.75 x 53.345

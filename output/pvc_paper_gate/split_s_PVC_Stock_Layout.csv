@@ -1,0 +1,27 @@
+stock,cut_order,name,length_mm,kerf_mm,reserved_stock_end_mm
+1,1,Outer lower riser OLEFT,1990.4,3,10
+1,2,Diagonal ORT,620.683,3,10
+1,3,Divider left stub L,409.6,3,10
+2,1,Outer upper riser OLEFT,1990.4,3,10
+2,2,Diagonal OLT,620.683,3,10
+2,3,Divider right stub L,409.6,3,10
+3,1,Outer lower riser ORIGHT,1990.4,3,10
+3,2,Divider left stub U,409.6,3,10
+3,3,Divider right stub U,409.6,3,10
+4,1,Outer upper riser ORIGHT,1990.4,3,10
+4,2,Outer divider riser OLEFT,409.6,3,10
+4,3,Outer divider riser ORIGHT,409.6,3,10
+5,1,Divider opening rail L,1480.8,3,10
+5,2,Divider opening rail U,1480.8,3,10
+6,1,Inner bottom,1480.8,3,10
+6,2,Inner top,1480.8,3,10
+7,1,Inner lower riser ILEFT,1480.8,3,10
+7,2,Inner upper riser ILEFT,1480.8,3,10
+8,1,Inner lower riser IRIGHT,1480.8,3,10
+8,2,Inner upper riser IRIGHT,1480.8,3,10
+9,1,Outer bottom left,1200.0,3,10
+9,2,Outer bottom right,1200.0,3,10
+9,3,Diagonal OLB,620.683,3,10
+10,1,Outer top left,1200.0,3,10
+10,2,Outer top right,1200.0,3,10
+10,3,Diagonal ORB,620.683,3,10

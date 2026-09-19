@@ -1,0 +1,43 @@
+use,segment,cut_mm
+socket draw / sleeve location,Outer bottom left,1750
+socket draw / sleeve location,Outer bottom right,1750
+socket draw / sleeve location,Outer top left,1750
+socket draw / sleeve location,Outer top right,1750
+socket draw / sleeve location,Divider left stub L,900
+socket draw / sleeve location,Divider opening rail L,1950
+socket draw / sleeve location,Divider right stub L,900
+socket draw / sleeve location,Divider left stub U,900
+socket draw / sleeve location,Divider opening rail U,1950
+socket draw / sleeve location,Divider right stub U,900
+socket draw / sleeve location,Outer lower riser OLEFT,2500
+socket draw / sleeve location,Outer divider riser OLEFT,900
+socket draw / sleeve location,Outer upper riser OLEFT,2500
+socket draw / sleeve location,Outer lower riser ORIGHT,2500
+socket draw / sleeve location,Outer divider riser ORIGHT,900
+socket draw / sleeve location,Outer upper riser ORIGHT,2500
+socket draw / sleeve location,Inner bottom,1950
+socket draw / sleeve location,Inner top,1950
+socket draw / sleeve location,Inner lower riser ILEFT,1950
+socket draw / sleeve location,Inner upper riser ILEFT,1950
+socket draw / sleeve location,Inner lower riser IRIGHT,1950
+socket draw / sleeve location,Inner upper riser IRIGHT,1950
+socket draw / sleeve location,Diagonal OLB,1200
+socket draw / sleeve location,Diagonal ORB,1200
+socket draw / sleeve location,Diagonal ORT,1200
+socket draw / sleeve location,Diagonal OLT,1200
+paper seam,1,1000
+paper seam,2,1000
+paper seam,3,1000
+paper seam,4,1000
+paper seam,5,1000
+paper seam,6,1000
+paper seam,7,1000
+paper seam,8,1000
+side-band X brace,1,2050
+side-band X brace,2,2050
+side-band X brace,3,2050
+side-band X brace,4,2050
+side-band X brace,5,2050
+side-band X brace,6,2050
+side-band X brace,7,2050
+side-band X brace,8,2050

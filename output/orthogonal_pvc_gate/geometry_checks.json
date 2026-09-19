@@ -1,0 +1,12 @@
+{
+  "single": {
+    "printed_vertices_outside_paper": [],
+    "magnet_centers_outside_paper": [],
+    "only_orthogonal_PVC": true
+  },
+  "split_s": {
+    "printed_vertices_outside_paper": [],
+    "magnet_centers_outside_paper": [],
+    "only_orthogonal_PVC": true
+  }
+}

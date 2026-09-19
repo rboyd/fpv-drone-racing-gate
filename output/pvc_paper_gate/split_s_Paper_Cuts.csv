@@ -1,0 +1,8 @@
+piece,x_mm,y_mm,width_mm,height_mm,roll_cut_length_mm,role
+1,0,0,2700.0,609.6,2700.0,horizontal band
+2,0,4180.799999999999,2700.0,609.6,2700.0,horizontal band
+3,0,2090.4,2700.0,609.6,2700.0,horizontal band
+4,0,573.6,609.6,1552.8000000000002,1552.8000000000002,side insert with 36 mm overlap each end
+5,2090.4,573.6,609.6,1552.8000000000002,1552.8000000000002,side insert with 36 mm overlap each end
+6,0,2664.0,609.6,1552.7999999999993,1552.7999999999993,side insert with 36 mm overlap each end
+7,2090.4,2664.0,609.6,1552.7999999999993,1552.7999999999993,side insert with 36 mm overlap each end

@@ -1,0 +1,6 @@
+part,quantity,description,print_bounds_mm
+OUTER_90_45,4,1-inch PVC 90-degree corner + inward 45-degree socket; 30 mm engagement; integral magnet lug and cord cleat,122.0 x 122.0 x 53.84
+STACK_TEE,4,Three coplanar 1-inch PVC sockets; 30 mm engagement; same tee rotates for all divider junctions; optional unused port in single-height gate,160.0 x 122.0 x 53.84
+EDGE_SLEEVE,42,One slide-on part for every straight edge; 14 mm engagement; offset magnet center 32 mm toward paper edge; cord eye clocks/locates clip,20.0 x 62.3 x 52.709
+INNER_90_45,4,1-inch PVC 90-degree corner + outward 45-degree socket; 30 mm engagement; integral magnet lug and cord cleat,151.489 x 151.488 x 53.84
+CORD_SADDLE,8,Small backing magnet on a seam cord; two fairleads; no printed spanning rail,34.0 x 20.0 x 12.0

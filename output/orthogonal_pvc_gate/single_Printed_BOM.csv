@@ -1,0 +1,4 @@
+part,quantity,description,print_bounds_mm
+ELBOW,4,Universal outside elbow; two perpendicular sockets and one corner magnet pad; 33.5 mm trial friction bore; 30 mm engagement; no fasteners or cord,133.314 x 133.314 x 53.345
+CROSS,12,Universal four-way cross; four identical sockets and four selectable corner magnet pads; 33.5 mm trial friction bore; 30 mm engagement; no fasteners or cord,136.627 x 136.627 x 53.345
+MAG_SLEEVE,48,"Universal friction sleeve with 57.0 mm offset magnetic face; no cleat, pin or cord eye; 16 mm pipe engagement",20.0 x 86.75 x 53.345

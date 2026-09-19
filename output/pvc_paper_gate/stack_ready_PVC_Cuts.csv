@@ -1,0 +1,17 @@
+piece,name,from_node,to_node,length_mm
+1,Outer bottom left,OLB,OCB,1200.0
+2,Outer bottom right,OCB,ORB,1200.0
+3,Outer top left,OLT,OCT,1200.0
+4,Outer top right,OCT,ORT,1200.0
+5,Inner bottom,ILB,IRB,1480.8
+6,Inner top,ILT,IRT,1480.8
+7,Inner left,ILB,ILT,1480.8
+8,Inner right,IRB,IRT,1480.8
+9,Outer lower riser JLL,OLB,JLL,1990.4
+10,Outer short riser JLL,JLL,OLT,409.6
+11,Outer lower riser JRL,ORB,JRL,1990.4
+12,Outer short riser JRL,JRL,ORT,409.6
+13,Diagonal OLB,OLB,ILB,620.683
+14,Diagonal ORB,ORB,IRB,620.683
+15,Diagonal ORT,ORT,IRT,620.683
+16,Diagonal OLT,OLT,ILT,620.683

@@ -1,0 +1,25 @@
+use,segment,cut_mm
+socket draw / sleeve location,Outer bottom left,1750
+socket draw / sleeve location,Outer bottom right,1750
+socket draw / sleeve location,Outer top left,1750
+socket draw / sleeve location,Outer top right,1750
+socket draw / sleeve location,Inner bottom,1950
+socket draw / sleeve location,Inner top,1950
+socket draw / sleeve location,Inner left,1950
+socket draw / sleeve location,Inner right,1950
+socket draw / sleeve location,Outer lower riser JLL,2500
+socket draw / sleeve location,Outer short riser JLL,950
+socket draw / sleeve location,Outer lower riser JRL,2500
+socket draw / sleeve location,Outer short riser JRL,950
+socket draw / sleeve location,Diagonal OLB,1200
+socket draw / sleeve location,Diagonal ORB,1200
+socket draw / sleeve location,Diagonal ORT,1200
+socket draw / sleeve location,Diagonal OLT,1200
+paper seam,1,1000
+paper seam,2,1000
+paper seam,3,1000
+paper seam,4,1000
+side-band X brace,1,2050
+side-band X brace,2,2050
+side-band X brace,3,2050
+side-band X brace,4,2050

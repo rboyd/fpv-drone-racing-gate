@@ -29,3 +29,12 @@ output/sleeve_paper_gate/Sleeve_Paper_Gate_Kit.zip
 
 output/first_frame_print/sliced/**/*.gcode
 output/first_frame_print/First_Frame_Print_Kit.zip
+
+output/pvc_paper_gate/sliced/**/*.gcode
+output/pvc_paper_gate/PVC_Paper_Gate_Kit.zip
+
+output/orthogonal_pvc_gate/sliced/**/*.gcode
+output/orthogonal_pvc_gate/Orthogonal_PVC_Gate_Kit.zip
+
+output/tee_pvc_gate/sliced/**/*.gcode
+output/tee_pvc_gate/Tee_PVC_Gate_Kit.zip

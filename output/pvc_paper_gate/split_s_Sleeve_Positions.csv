@@ -1,0 +1,75 @@
+pipe,distance_from_cut_start_mm,face_x_mm,face_y_mm,part_angle_degrees
+Outer bottom left,275.0,375.0,50.0,180.0
+Outer bottom left,600.0,700.0,50.0,180.0
+Outer bottom left,925.0,1025.0,50.0,180.0
+Outer bottom right,275.0,1675.0,50.0,180.0
+Outer bottom right,600.0,2000.0,50.0,180.0
+Outer bottom right,925.0,2325.0,50.0,180.0
+Outer top left,275.0,375.0,4740.4,0.0
+Outer top left,600.0,700.0,4740.4,0.0
+Outer top left,925.0,1025.0,4740.4,0.0
+Outer top right,275.0,1675.0,4740.4,0.0
+Outer top right,600.0,2000.0,4740.4,0.0
+Outer top right,925.0,2325.0,4740.4,0.0
+Divider left stub L,204.8,304.8,2140.4,0.0
+Divider opening rail L,266.16,875.76,2140.4,180.0
+Divider opening rail L,582.32,1191.92,2140.4,180.0
+Divider opening rail L,898.48,1508.08,2140.4,180.0
+Divider opening rail L,1214.64,1824.24,2140.4,180.0
+Divider right stub L,204.8,2395.2,2140.4,0.0
+Divider left stub U,204.8,304.8,2650.0,180.0
+Divider opening rail U,266.16,875.76,2650.0,0.0
+Divider opening rail U,582.32,1191.92,2650.0,0.0
+Divider opening rail U,898.48,1508.08,2650.0,0.0
+Divider opening rail U,1214.64,1824.24,2650.0,0.0
+Divider right stub U,204.8,2395.2,2650.0,180.0
+Outer lower riser OLEFT,298.4,50.0,398.4,90.0
+Outer lower riser OLEFT,646.8,50.0,746.8,90.0
+Outer lower riser OLEFT,995.2,50.0,1095.2,90.0
+Outer lower riser OLEFT,1343.6,50.0,1443.6,90.0
+Outer lower riser OLEFT,1692.0,50.0,1792.0,90.0
+Outer divider riser OLEFT,204.8,50.0,2395.2,90.0
+Outer upper riser OLEFT,298.4,50.0,2998.4,90.0
+Outer upper riser OLEFT,646.8,50.0,3346.8,90.0
+Outer upper riser OLEFT,995.2,50.0,3695.2,90.0
+Outer upper riser OLEFT,1343.6,50.0,4043.6,90.0
+Outer upper riser OLEFT,1692.0,50.0,4392.0,90.0
+Outer lower riser ORIGHT,298.4,2650.0,398.4,270.0
+Outer lower riser ORIGHT,646.8,2650.0,746.8,270.0
+Outer lower riser ORIGHT,995.2,2650.0,1095.2,270.0
+Outer lower riser ORIGHT,1343.6,2650.0,1443.6,270.0
+Outer lower riser ORIGHT,1692.0,2650.0,1792.0,270.0
+Outer divider riser ORIGHT,204.8,2650.0,2395.2,270.0
+Outer upper riser ORIGHT,298.4,2650.0,2998.4,270.0
+Outer upper riser ORIGHT,646.8,2650.0,3346.8,270.0
+Outer upper riser ORIGHT,995.2,2650.0,3695.2,270.0
+Outer upper riser ORIGHT,1343.6,2650.0,4043.6,270.0
+Outer upper riser ORIGHT,1692.0,2650.0,4392.0,270.0
+Inner bottom,266.16,875.76,559.6,0.0
+Inner bottom,582.32,1191.92,559.6,0.0
+Inner bottom,898.48,1508.08,559.6,0.0
+Inner bottom,1214.64,1824.24,559.6,0.0
+Inner top,266.16,875.76,4230.8,180.0
+Inner top,582.32,1191.92,4230.8,180.0
+Inner top,898.48,1508.08,4230.8,180.0
+Inner top,1214.64,1824.24,4230.8,180.0
+Inner lower riser ILEFT,266.16,559.6,875.76,270.0
+Inner lower riser ILEFT,582.32,559.6,1191.92,270.0
+Inner lower riser ILEFT,898.48,559.6,1508.08,270.0
+Inner lower riser ILEFT,1214.64,559.6,1824.24,270.0
+Inner upper riser ILEFT,266.16,559.6,2966.16,270.0
+Inner upper riser ILEFT,582.32,559.6,3282.32,270.0
+Inner upper riser ILEFT,898.48,559.6,3598.48,270.0
+Inner upper riser ILEFT,1214.64,559.6,3914.64,270.0
+Inner lower riser IRIGHT,266.16,2140.4,875.76,90.0
+Inner lower riser IRIGHT,582.32,2140.4,1191.92,90.0
+Inner lower riser IRIGHT,898.48,2140.4,1508.08,90.0
+Inner lower riser IRIGHT,1214.64,2140.4,1824.24,90.0
+Inner upper riser IRIGHT,266.16,2140.4,2966.16,90.0
+Inner upper riser IRIGHT,582.32,2140.4,3282.32,90.0
+Inner upper riser IRIGHT,898.48,2140.4,3598.48,90.0
+Inner upper riser IRIGHT,1214.64,2140.4,3914.64,90.0
+Outer lower riser OLEFT,491.6,50.0,591.6,90
+Outer lower riser ORIGHT,491.6,2650.0,591.6,270
+Outer upper riser OLEFT,1498.8,50.0,4198.8,90
+Outer upper riser ORIGHT,1498.8,2650.0,4198.8,270

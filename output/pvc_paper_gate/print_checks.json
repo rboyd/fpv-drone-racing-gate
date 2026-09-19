@@ -1,0 +1,1771 @@
+{
+  "geometry": {
+    "OUTER_90_45": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        122.0,
+        122.0,
+        53.8399
+      ],
+      "volume_mm3": 149995.64
+    },
+    "INNER_90_45": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        151.4885,
+        151.4885,
+        53.8399
+      ],
+      "volume_mm3": 150664.67
+    },
+    "STACK_TEE": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        160.0,
+        122.0,
+        53.8399
+      ],
+      "volume_mm3": 163866.31
+    },
+    "EDGE_SLEEVE": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        20.0,
+        62.3,
+        52.7085
+      ],
+      "volume_mm3": 12203.76
+    },
+    "CORD_SADDLE": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        34.0,
+        20.0,
+        12.0
+      ],
+      "volume_mm3": 3784.59
+    },
+    "FIT_GAUGE": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        8.0,
+        40.6,
+        52.7085
+      ],
+      "volume_mm3": 5575.91
+    },
+    "PAPER_PAD": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        24.0,
+        24.0,
+        3.0
+      ],
+      "volume_mm3": 1552.2
+    }
+  },
+  "plates": {
+    "ONE_OUTER_90_45": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_INNER_90_45": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_STACK_TEE": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_EDGE_SLEEVE": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_CORD_SADDLE": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_FIT_GAUGE": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "BATCH_EDGE_SLEEVE": {
+      "pieces": 14,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "BATCH_CORD_SADDLE": {
+      "pieces": 28,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "FIRST_FIT": {
+      "pieces": 5,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "TAIL_EDGE_SLEEVE_6": {
+      "pieces": 6,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "TAIL_CORD_SADDLE_8": {
+      "pieces": 8,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "TAIL_EDGE_SLEEVE_4": {
+      "pieces": 4,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "TAIL_CORD_SADDLE_16": {
+      "pieces": 16,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    }
+  },
+  "slices": {
+    "ONE_OUTER_90_45": {
+      "grams": 103.26,
+      "minutes": 236.52,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_INNER_90_45": {
+      "grams": 102.44,
+      "minutes": 234.13,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_STACK_TEE": {
+      "grams": 113.35,
+      "minutes": 262.68,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_EDGE_SLEEVE": {
+      "grams": 10.84,
+      "minutes": 63.97,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_CORD_SADDLE": {
+      "grams": 3.8,
+      "minutes": 21.89,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_FIT_GAUGE": {
+      "grams": 5.41,
+      "minutes": 49.58,
+      "supports": false,
+      "warnings": []
+    },
+    "BATCH_EDGE_SLEEVE": {
+      "grams": 150.87,
+      "minutes": 412.07,
+      "supports": false,
+      "warnings": []
+    },
+    "BATCH_CORD_SADDLE": {
+      "grams": 104.53,
+      "minutes": 290.59,
+      "supports": false,
+      "warnings": []
+    },
+    "FIRST_FIT": {
+      "grams": 124.59,
+      "minutes": 297.03,
+      "supports": false,
+      "warnings": []
+    },
+    "TAIL_EDGE_SLEEVE_6": {
+      "grams": 64.7,
+      "minutes": 186.46,
+      "supports": false,
+      "warnings": []
+    },
+    "TAIL_CORD_SADDLE_8": {
+      "grams": 29.92,
+      "minutes": 88.87,
+      "supports": false,
+      "warnings": []
+    },
+    "TAIL_EDGE_SLEEVE_4": {
+      "grams": 43.16,
+      "minutes": 131.22,
+      "supports": false,
+      "warnings": []
+    },
+    "TAIL_CORD_SADDLE_16": {
+      "grams": 59.76,
+      "minutes": 169.5,
+      "supports": false,
+      "warnings": []
+    }
+  },
+  "gates": {
+    "basic": {
+      "grams": 1370.03,
+      "minutes": 3394.14,
+      "printed_pieces": 64,
+      "unique_production_types": 4,
+      "plate_runs": 13,
+      "pipe_sticks": 7,
+      "pipe_cost_usd": 42,
+      "PETG_at_20_per_kg_usd": 27.4,
+      "frame_PVC_plus_PETG_usd": 69.4,
+      "magnet_pairs": 64,
+      "largest_pipe_cut_mm": 2500.0,
+      "sleeves": [
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            375.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            700.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            1025.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 1250.0,
+          "xy": [
+            1350.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 1575.0,
+          "xy": [
+            1675.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 1900.0,
+          "xy": [
+            2000.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom",
+          "from_cut_end_mm": 2225.0,
+          "xy": [
+            2325.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            375.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            700.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            1025.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 1250.0,
+          "xy": [
+            1350.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 1575.0,
+          "xy": [
+            1675.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 1900.0,
+          "xy": [
+            2000.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top",
+          "from_cut_end_mm": 2225.0,
+          "xy": [
+            2325.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            559.5999755859375,
+            875.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            559.5999755859375,
+            1191.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            559.5999755859375,
+            1508.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            559.5999755859375,
+            1824.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            2140.39990234375,
+            875.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            2140.39990234375,
+            1191.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            2140.39990234375,
+            1508.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            2140.39990234375,
+            1824.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            50.0,
+            375.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            50.0,
+            700.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            50.0,
+            1025.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 1250.0,
+          "xy": [
+            50.0,
+            1350.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 1575.0,
+          "xy": [
+            50.0,
+            1675.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 1900.0,
+          "xy": [
+            50.0,
+            2000.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 2225.0,
+          "xy": [
+            50.0,
+            2325.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            2650.0,
+            375.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            2650.0,
+            700.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            2650.0,
+            1025.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 1250.0,
+          "xy": [
+            2650.0,
+            1350.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 1575.0,
+          "xy": [
+            2650.0,
+            1675.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 1900.0,
+          "xy": [
+            2650.0,
+            2000.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 2225.0,
+          "xy": [
+            2650.0,
+            2325.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 491.6,
+          "xy": [
+            50.0,
+            591.6
+          ],
+          "angle": 90
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 491.6,
+          "xy": [
+            2650.0,
+            591.6
+          ],
+          "angle": 270
+        },
+        {
+          "pipe": "Outer left",
+          "from_cut_end_mm": 2008.4,
+          "xy": [
+            50.0,
+            2108.4
+          ],
+          "angle": 90
+        },
+        {
+          "pipe": "Outer right",
+          "from_cut_end_mm": 2008.4,
+          "xy": [
+            2650.0,
+            2108.4
+          ],
+          "angle": 270
+        }
+      ]
+    },
+    "stack_ready": {
+      "grams": 1758.73,
+      "minutes": 4258.4,
+      "printed_pieces": 62,
+      "unique_production_types": 5,
+      "plate_runs": 16,
+      "pipe_sticks": 6,
+      "pipe_cost_usd": 36,
+      "PETG_at_20_per_kg_usd": 35.17,
+      "frame_PVC_plus_PETG_usd": 71.17,
+      "magnet_pairs": 62,
+      "largest_pipe_cut_mm": 1990.4,
+      "sleeves": [
+        {
+          "pipe": "Outer bottom left",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            375.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom left",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            700.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom left",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            1025.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom right",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            1675.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom right",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            2000.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom right",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            2325.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer top left",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            375.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top left",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            700.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top left",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            1025.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top right",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            1675.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top right",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            2000.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top right",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            2325.0,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            559.5999755859375,
+            875.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            559.5999755859375,
+            1191.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            559.5999755859375,
+            1508.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner left",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            559.5999755859375,
+            1824.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            2140.39990234375,
+            875.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            2140.39990234375,
+            1191.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            2140.39990234375,
+            1508.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner right",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            2140.39990234375,
+            1824.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser JLL",
+          "from_cut_end_mm": 298.4,
+          "xy": [
+            50.0,
+            398.3999938964844
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser JLL",
+          "from_cut_end_mm": 646.8,
+          "xy": [
+            50.0,
+            746.7999877929688
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser JLL",
+          "from_cut_end_mm": 995.2,
+          "xy": [
+            50.0,
+            1095.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser JLL",
+          "from_cut_end_mm": 1343.6,
+          "xy": [
+            50.0,
+            1443.5999755859375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser JLL",
+          "from_cut_end_mm": 1692.0,
+          "xy": [
+            50.0,
+            1791.9998779296875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer short riser JLL",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            50.0,
+            2395.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser JRL",
+          "from_cut_end_mm": 298.4,
+          "xy": [
+            2650.0,
+            398.3999938964844
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser JRL",
+          "from_cut_end_mm": 646.8,
+          "xy": [
+            2650.0,
+            746.7999877929688
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser JRL",
+          "from_cut_end_mm": 995.2,
+          "xy": [
+            2650.0,
+            1095.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser JRL",
+          "from_cut_end_mm": 1343.6,
+          "xy": [
+            2650.0,
+            1443.5999755859375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser JRL",
+          "from_cut_end_mm": 1692.0,
+          "xy": [
+            2650.0,
+            1791.9998779296875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer short riser JRL",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            2650.0,
+            2395.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser JLL",
+          "from_cut_end_mm": 491.6,
+          "xy": [
+            50.0,
+            591.6
+          ],
+          "angle": 90
+        },
+        {
+          "pipe": "Outer lower riser JRL",
+          "from_cut_end_mm": 491.6,
+          "xy": [
+            2650.0,
+            591.6
+          ],
+          "angle": 270
+        }
+      ]
+    },
+    "split_s": {
+      "grams": 2813.57,
+      "minutes": 6870.47,
+      "printed_pieces": 108,
+      "unique_production_types": 5,
+      "plate_runs": 25,
+      "pipe_sticks": 10,
+      "pipe_cost_usd": 60,
+      "PETG_at_20_per_kg_usd": 56.27,
+      "frame_PVC_plus_PETG_usd": 116.27,
+      "magnet_pairs": 108,
+      "largest_pipe_cut_mm": 1990.4,
+      "sleeves": [
+        {
+          "pipe": "Outer bottom left",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            375.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom left",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            700.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom left",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            1025.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom right",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            1675.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom right",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            2000.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer bottom right",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            2325.0,
+            50.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer top left",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            375.0,
+            4740.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top left",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            700.0,
+            4740.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top left",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            1025.0,
+            4740.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top right",
+          "from_cut_end_mm": 275.0,
+          "xy": [
+            1675.0,
+            4740.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top right",
+          "from_cut_end_mm": 600.0,
+          "xy": [
+            2000.0,
+            4740.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Outer top right",
+          "from_cut_end_mm": 925.0,
+          "xy": [
+            2325.0,
+            4740.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider left stub L",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            304.79998779296875,
+            2140.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider opening rail L",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Divider opening rail L",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Divider opening rail L",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Divider opening rail L",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            2140.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Divider right stub L",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            2395.199951171875,
+            2140.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider left stub U",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            304.79998779296875,
+            2650.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Divider opening rail U",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider opening rail U",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider opening rail U",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider opening rail U",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            2650.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Divider right stub U",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            2395.199951171875,
+            2650.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Outer lower riser OLEFT",
+          "from_cut_end_mm": 298.4,
+          "xy": [
+            50.0,
+            398.3999938964844
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser OLEFT",
+          "from_cut_end_mm": 646.8,
+          "xy": [
+            50.0,
+            746.7999877929688
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser OLEFT",
+          "from_cut_end_mm": 995.2,
+          "xy": [
+            50.0,
+            1095.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser OLEFT",
+          "from_cut_end_mm": 1343.6,
+          "xy": [
+            50.0,
+            1443.5999755859375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser OLEFT",
+          "from_cut_end_mm": 1692.0,
+          "xy": [
+            50.0,
+            1791.9998779296875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer divider riser OLEFT",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            50.0,
+            2395.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer upper riser OLEFT",
+          "from_cut_end_mm": 298.4,
+          "xy": [
+            50.0,
+            2998.39990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer upper riser OLEFT",
+          "from_cut_end_mm": 646.8,
+          "xy": [
+            50.0,
+            3346.800048828125
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer upper riser OLEFT",
+          "from_cut_end_mm": 995.2,
+          "xy": [
+            50.0,
+            3695.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer upper riser OLEFT",
+          "from_cut_end_mm": 1343.6,
+          "xy": [
+            50.0,
+            4043.60009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer upper riser OLEFT",
+          "from_cut_end_mm": 1692.0,
+          "xy": [
+            50.0,
+            4392.0
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser ORIGHT",
+          "from_cut_end_mm": 298.4,
+          "xy": [
+            2650.0,
+            398.3999938964844
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser ORIGHT",
+          "from_cut_end_mm": 646.8,
+          "xy": [
+            2650.0,
+            746.7999877929688
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser ORIGHT",
+          "from_cut_end_mm": 995.2,
+          "xy": [
+            2650.0,
+            1095.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser ORIGHT",
+          "from_cut_end_mm": 1343.6,
+          "xy": [
+            2650.0,
+            1443.5999755859375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer lower riser ORIGHT",
+          "from_cut_end_mm": 1692.0,
+          "xy": [
+            2650.0,
+            1791.9998779296875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer divider riser ORIGHT",
+          "from_cut_end_mm": 204.8,
+          "xy": [
+            2650.0,
+            2395.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer upper riser ORIGHT",
+          "from_cut_end_mm": 298.4,
+          "xy": [
+            2650.0,
+            2998.39990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer upper riser ORIGHT",
+          "from_cut_end_mm": 646.8,
+          "xy": [
+            2650.0,
+            3346.800048828125
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer upper riser ORIGHT",
+          "from_cut_end_mm": 995.2,
+          "xy": [
+            2650.0,
+            3695.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer upper riser ORIGHT",
+          "from_cut_end_mm": 1343.6,
+          "xy": [
+            2650.0,
+            4043.60009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Outer upper riser ORIGHT",
+          "from_cut_end_mm": 1692.0,
+          "xy": [
+            2650.0,
+            4392.0
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner bottom",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            559.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            875.760009765625,
+            4230.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            1191.919921875,
+            4230.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            1508.0799560546875,
+            4230.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner top",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            1824.239990234375,
+            4230.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "Inner lower riser ILEFT",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            559.5999755859375,
+            875.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner lower riser ILEFT",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            559.5999755859375,
+            1191.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner lower riser ILEFT",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            559.5999755859375,
+            1508.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner lower riser ILEFT",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            559.5999755859375,
+            1824.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner upper riser ILEFT",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            559.5999755859375,
+            2966.159912109375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner upper riser ILEFT",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            559.5999755859375,
+            3282.31982421875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner upper riser ILEFT",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            559.5999755859375,
+            3598.47998046875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner upper riser ILEFT",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            559.5999755859375,
+            3914.639892578125
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "Inner lower riser IRIGHT",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            2140.39990234375,
+            875.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner lower riser IRIGHT",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            2140.39990234375,
+            1191.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner lower riser IRIGHT",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            2140.39990234375,
+            1508.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner lower riser IRIGHT",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            2140.39990234375,
+            1824.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner upper riser IRIGHT",
+          "from_cut_end_mm": 266.16,
+          "xy": [
+            2140.39990234375,
+            2966.159912109375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner upper riser IRIGHT",
+          "from_cut_end_mm": 582.32,
+          "xy": [
+            2140.39990234375,
+            3282.31982421875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner upper riser IRIGHT",
+          "from_cut_end_mm": 898.48,
+          "xy": [
+            2140.39990234375,
+            3598.47998046875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Inner upper riser IRIGHT",
+          "from_cut_end_mm": 1214.64,
+          "xy": [
+            2140.39990234375,
+            3914.639892578125
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "Outer lower riser OLEFT",
+          "from_cut_end_mm": 491.6,
+          "xy": [
+            50.0,
+            591.6
+          ],
+          "angle": 90
+        },
+        {
+          "pipe": "Outer lower riser ORIGHT",
+          "from_cut_end_mm": 491.6,
+          "xy": [
+            2650.0,
+            591.6
+          ],
+          "angle": 270
+        },
+        {
+          "pipe": "Outer upper riser OLEFT",
+          "from_cut_end_mm": 1498.8,
+          "xy": [
+            50.0,
+            4198.799999999999
+          ],
+          "angle": 90
+        },
+        {
+          "pipe": "Outer upper riser ORIGHT",
+          "from_cut_end_mm": 1498.8,
+          "xy": [
+            2650.0,
+            4198.799999999999
+          ],
+          "angle": 270
+        }
+      ]
+    }
+  },
+  "front_projection_check": {
+    "basic": {
+      "printed_parts_with_vertices_outside_paper": [],
+      "magnets_outside_paper": []
+    },
+    "stack_ready": {
+      "printed_parts_with_vertices_outside_paper": [],
+      "magnets_outside_paper": []
+    },
+    "split_s": {
+      "printed_parts_with_vertices_outside_paper": [],
+      "magnets_outside_paper": []
+    }
+  },
+  "upgrade": {
+    "all_single_height_pipe_lengths_reused": true,
+    "additional_pipe_cuts": {
+      "409.6": 4,
+      "1480.8": 4,
+      "1990.4": 2
+    },
+    "additional_parts": {
+      "STACK_TEE": 6,
+      "EDGE_SLEEVE": 32,
+      "CORD_SADDLE": 8
+    }
+  }
+}

@@ -1,0 +1,4 @@
+code,required_for_length_jig,quantity,print_bounds_mm,purpose
+JIG_ZERO,True,1,44.0 x 111.5 x 53.345,Reference rail friction sleeve plus open work saddle and end stop. Workpiece end contacts X=0. All PVC bores 33.5 mm. Use as a measuring/marking jig only; remove stock for cutting.
+JIG_MARK,True,1,111.5 x 53.345 x 32.0,Reference rail sleeve plus closed 12 mm marking collar. Mark along X=0 end face. Slide workpiece through while holding head against its rail witness mark. Use as a measuring/marking jig only; remove stock for cutting.
+DEPTH_30,False,1,34.0 x 41.5 x 53.345,"Blind 33.5 mm gauge: pipe end at X=4; marking face X=34, exactly 30 mm engagement. Optional workshop tool."

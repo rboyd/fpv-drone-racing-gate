@@ -1,0 +1,13 @@
+piece,name,from_node,to_node,length_mm
+1,Outer bottom,OLB,ORB,2500.0
+2,Outer top,OLT,ORT,2500.0
+3,Inner bottom,ILB,IRB,1480.8
+4,Inner top,ILT,IRT,1480.8
+5,Inner left,ILB,ILT,1480.8
+6,Inner right,IRB,IRT,1480.8
+7,Outer left,OLB,OLT,2500.0
+8,Outer right,ORB,ORT,2500.0
+9,Diagonal OLB,OLB,ILB,620.683
+10,Diagonal ORB,ORB,IRB,620.683
+11,Diagonal ORT,ORT,IRT,620.683
+12,Diagonal OLT,OLT,ILT,620.683

@@ -1,0 +1,49 @@
+{
+    "error_string": "Success.",
+    "export_time": 382,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 6,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 193.33338928222656,
+                "Bridge": 220.73326110839844,
+                "Custom": 364.1661682128906,
+                "Flush": 28.0,
+                "Gap infill": 87.17852783203125,
+                "Inner wall": 3212.44384765625,
+                "Internal solid infill": 1235.98291015625,
+                "Outer wall": 1283.685546875,
+                "Sparse infill": 2080.167724609375,
+                "Top surface": 179.01402282714844,
+                "Travel": 822.3013305664063,
+                "Undefined": 803.9200439453125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 68.4748764038086,
+                    "total_used_g": 68.4748764038086
+                }
+            ],
+            "generate_support_material_time": 22,
+            "id": 1,
+            "infill_time": 106,
+            "layer_filament_change": 0,
+            "main_predication": 9287.41015625,
+            "make_perimeters_time": 34,
+            "obj_cached_cnt": 0,
+            "sliced_time": 712,
+            "sliced_time_with_cache": 523,
+            "total_predication": 9689.1953125,
+            "triangle_count": 1766,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 4
+}

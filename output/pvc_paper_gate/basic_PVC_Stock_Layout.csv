@@ -1,0 +1,13 @@
+stock,cut_order,name,length_mm,kerf_mm,reserved_stock_end_mm
+1,1,Outer bottom,2500.0,3,10
+2,1,Outer top,2500.0,3,10
+3,1,Outer left,2500.0,3,10
+4,1,Outer right,2500.0,3,10
+5,1,Inner bottom,1480.8,3,10
+5,2,Inner top,1480.8,3,10
+6,1,Inner left,1480.8,3,10
+6,2,Inner right,1480.8,3,10
+7,1,Diagonal OLB,620.683,3,10
+7,2,Diagonal ORB,620.683,3,10
+7,3,Diagonal ORT,620.683,3,10
+7,4,Diagonal OLT,620.683,3,10

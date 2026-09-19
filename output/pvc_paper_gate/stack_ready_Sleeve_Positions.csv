@@ -1,0 +1,43 @@
+pipe,distance_from_cut_start_mm,face_x_mm,face_y_mm,part_angle_degrees
+Outer bottom left,275.0,375.0,50.0,180.0
+Outer bottom left,600.0,700.0,50.0,180.0
+Outer bottom left,925.0,1025.0,50.0,180.0
+Outer bottom right,275.0,1675.0,50.0,180.0
+Outer bottom right,600.0,2000.0,50.0,180.0
+Outer bottom right,925.0,2325.0,50.0,180.0
+Outer top left,275.0,375.0,2650.0,0.0
+Outer top left,600.0,700.0,2650.0,0.0
+Outer top left,925.0,1025.0,2650.0,0.0
+Outer top right,275.0,1675.0,2650.0,0.0
+Outer top right,600.0,2000.0,2650.0,0.0
+Outer top right,925.0,2325.0,2650.0,0.0
+Inner bottom,266.16,875.76,559.6,0.0
+Inner bottom,582.32,1191.92,559.6,0.0
+Inner bottom,898.48,1508.08,559.6,0.0
+Inner bottom,1214.64,1824.24,559.6,0.0
+Inner top,266.16,875.76,2140.4,180.0
+Inner top,582.32,1191.92,2140.4,180.0
+Inner top,898.48,1508.08,2140.4,180.0
+Inner top,1214.64,1824.24,2140.4,180.0
+Inner left,266.16,559.6,875.76,270.0
+Inner left,582.32,559.6,1191.92,270.0
+Inner left,898.48,559.6,1508.08,270.0
+Inner left,1214.64,559.6,1824.24,270.0
+Inner right,266.16,2140.4,875.76,90.0
+Inner right,582.32,2140.4,1191.92,90.0
+Inner right,898.48,2140.4,1508.08,90.0
+Inner right,1214.64,2140.4,1824.24,90.0
+Outer lower riser JLL,298.4,50.0,398.4,90.0
+Outer lower riser JLL,646.8,50.0,746.8,90.0
+Outer lower riser JLL,995.2,50.0,1095.2,90.0
+Outer lower riser JLL,1343.6,50.0,1443.6,90.0
+Outer lower riser JLL,1692.0,50.0,1792.0,90.0
+Outer short riser JLL,204.8,50.0,2395.2,90.0
+Outer lower riser JRL,298.4,2650.0,398.4,270.0
+Outer lower riser JRL,646.8,2650.0,746.8,270.0
+Outer lower riser JRL,995.2,2650.0,1095.2,270.0
+Outer lower riser JRL,1343.6,2650.0,1443.6,270.0
+Outer lower riser JRL,1692.0,2650.0,1792.0,270.0
+Outer short riser JRL,204.8,2650.0,2395.2,270.0
+Outer lower riser JLL,491.6,50.0,591.6,90
+Outer lower riser JRL,491.6,2650.0,591.6,270

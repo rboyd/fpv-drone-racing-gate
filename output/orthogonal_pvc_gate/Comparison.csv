@@ -1,0 +1,3 @@
+configuration,grams,minutes,printed_pieces,unique_production_types,plate_runs,pipe_sticks,pipe_cost_usd,PETG_at_20_per_kg_usd,frame_PVC_plus_PETG_usd,magnet_pairs,largest_pipe_cut_mm
+single,2528.33,6133.7,64,3,23,8,48,50.57,98.57,72,1560.8
+split_s,4031.32,9799.2,104,3,36,14,84,80.63,164.63,116,1560.8

@@ -1,0 +1,27 @@
+piece,name,from_node,to_node,length_mm
+1,Outer bottom left,OLB,OCB,1200.0
+2,Outer bottom right,OCB,ORB,1200.0
+3,Outer top left,OLT,OCT,1200.0
+4,Outer top right,OCT,ORT,1200.0
+5,Divider left stub L,LOLEFT,LILEFT,409.6
+6,Divider opening rail L,LILEFT,LIRIGHT,1480.8
+7,Divider right stub L,LIRIGHT,LORIGHT,409.6
+8,Divider left stub U,UOLEFT,UILEFT,409.6
+9,Divider opening rail U,UILEFT,UIRIGHT,1480.8
+10,Divider right stub U,UIRIGHT,UORIGHT,409.6
+11,Outer lower riser OLEFT,OLB,LOLEFT,1990.4
+12,Outer divider riser OLEFT,LOLEFT,UOLEFT,409.6
+13,Outer upper riser OLEFT,UOLEFT,OLT,1990.4
+14,Outer lower riser ORIGHT,ORB,LORIGHT,1990.4
+15,Outer divider riser ORIGHT,LORIGHT,UORIGHT,409.6
+16,Outer upper riser ORIGHT,UORIGHT,ORT,1990.4
+17,Inner bottom,ILB,IRB,1480.8
+18,Inner top,ILT,IRT,1480.8
+19,Inner lower riser ILEFT,ILB,LILEFT,1480.8
+20,Inner upper riser ILEFT,UILEFT,ILT,1480.8
+21,Inner lower riser IRIGHT,IRB,LIRIGHT,1480.8
+22,Inner upper riser IRIGHT,UIRIGHT,IRT,1480.8
+23,Diagonal OLB,OLB,ILB,620.683
+24,Diagonal ORB,ORB,IRB,620.683
+25,Diagonal ORT,ORT,IRT,620.683
+26,Diagonal OLT,OLT,ILT,620.683
