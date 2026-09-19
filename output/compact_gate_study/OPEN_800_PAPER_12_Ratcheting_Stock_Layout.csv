@@ -1,0 +1,4 @@
+stick,long_quantity,long_length_mm,short_quantity,short_length_mm,finished_pipe_total_mm,end_cleanup_reserve_mm,extra_cut_allowance_mm,spare_after_reserve_mm
+1,3,880,4,84.8,2979.2,10,0,58.8
+2,3,880,4,84.8,2979.2,10,0,58.8
+3,2,880,8,84.8,2438.4,10,0,599.6

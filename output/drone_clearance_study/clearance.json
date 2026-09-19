@@ -1,0 +1,93 @@
+{
+  "source": "Dendy / Printables 1515387, user supplied ZIP; STEP assembly includes third-party frame",
+  "motor_width_mm": 221.43039261606,
+  "motor_length_mm": 193.80452951942152,
+  "motor_diagonal_mm": 294.264531393688,
+  "nominal_prop_diameter_mm": 177.8,
+  "measured_prop_radii_mm": [
+    89.93133157491684,
+    89.93133157491684,
+    89.93135392665863,
+    89.93133902549744
+  ],
+  "used_prop_radius_mm": 89.93135392665863,
+  "battery_assumption_mm": [
+    110,
+    40,
+    45
+  ],
+  "battery_measured": false,
+  "render_pitch_degrees": 20,
+  "main_envelope_axis_order": [
+    "width_x",
+    "height_z",
+    "depth_y"
+  ],
+  "other_envelopes_axis_order": [
+    "x",
+    "y",
+    "z"
+  ],
+  "main_envelope_mm": [
+    401.2931004693773,
+    169.67743854411088,
+    353.61199680186525
+  ],
+  "level_envelope_mm": [
+    401.2931004693773,
+    373.6672373727388,
+    100.80477595329285
+  ],
+  "banked_envelope_mm": [
+    392.3724515637837,
+    467.5908806040945,
+    278.5467037022431
+  ],
+  "level_worst_yaw_prop_width_mm": 474.12723924700526,
+  "variants": [
+    {
+      "opening_mm": 1480.8,
+      "outer_mm": 2700.0,
+      "left_right_clearance_mm": 539.7534497653113,
+      "top_bottom_clearance_mm": 655.5612807279446,
+      "level_worst_yaw_side_clearance_mm": 503.33638037649735,
+      "width_ratio": 3.690070918906815,
+      "opening_area_relative": 1.0,
+      "short_pvc_cut_mm": 389.6,
+      "long_pvc_cut_mm": 1560.8
+    },
+    {
+      "opening_mm": 1200,
+      "outer_mm": 2419.2,
+      "left_right_clearance_mm": 399.3534497653113,
+      "top_bottom_clearance_mm": 515.1612807279446,
+      "level_worst_yaw_side_clearance_mm": 362.93638037649737,
+      "width_ratio": 2.9903329974933675,
+      "opening_area_relative": 0.6567040287478757,
+      "short_pvc_cut_mm": 389.6,
+      "long_pvc_cut_mm": 1280
+    },
+    {
+      "opening_mm": 1000,
+      "outer_mm": 2219.2,
+      "left_right_clearance_mm": 299.3534497653113,
+      "top_bottom_clearance_mm": 415.1612807279446,
+      "level_worst_yaw_side_clearance_mm": 262.93638037649737,
+      "width_ratio": 2.491944164577806,
+      "opening_area_relative": 0.456044464408247,
+      "short_pvc_cut_mm": 389.6,
+      "long_pvc_cut_mm": 1080
+    },
+    {
+      "opening_mm": 800,
+      "outer_mm": 2019.2,
+      "left_right_clearance_mm": 199.35344976531135,
+      "top_bottom_clearance_mm": 315.1612807279446,
+      "level_worst_yaw_side_clearance_mm": 162.93638037649737,
+      "width_ratio": 1.993555331662245,
+      "opening_area_relative": 0.291868457221278,
+      "short_pvc_cut_mm": 389.6,
+      "long_pvc_cut_mm": 880
+    }
+  ]
+}

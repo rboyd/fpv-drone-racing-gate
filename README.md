@@ -4,6 +4,36 @@ A modular FPV race gate built from **1-inch PVC, five types of PETG fittings, ro
 
 **Current design:** three-magnet top elbows with independent front/rear guy eyes and recessed paper alignment guides. **Prototype status:** the 33.5 mm magnetic sleeve bore has been physically tested on the purchased PVC and fits well. Full-gate assembly, friction-joint retention and guy loads still need physical validation.
 
+## Choose a gate size
+
+The original **1480.8 mm opening** now has **1000 mm and 800 mm alternatives**, each available with **24-, 18- or 12-inch paper bands**. All use the **same five printed part types and accepted 33.5 mm bores**. Only PVC lengths, paper cuts and sleeve quantities/positions change; previously printed fittings remain usable.
+
+**Suggested next trial: 1000 mm opening with 12-inch paper.** It needs 32 printed parts, 1.883 kg PETG and about 74 hours of printing—half the original part count, 19% less PETG and 21% less printer time. Its outside square is 1609.6 mm. The imported 7-inch MK4 drone has about 299 mm centered clearance on each side; the 800 mm opening has about 199 mm. These are geometric clearances, not flight-error allowances.
+
+![1000 mm and 800 mm openings with 12-inch paper and the imported MK4 drone](output/compact_gate_study/renders/04_TWELVE_INCH_GATE_PAIR.png)
+
+| Clear square opening | Paper band | Outside square | All parts / sleeves | PETG | Estimated print time | 10-ft PVC sticks* | Priced subtotal* |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1000 mm | 24 in | 2219.2 mm | 48 / 32 | 2.104 kg | 84 h 20 min | 5 | $50.52 |
+| 1000 mm | 18 in | 1914.4 mm | 40 / 24 | 1.993 kg | 79 h 18 min | 5 | $49.03 |
+| 1000 mm | 12 in | 1609.6 mm | 32 / 16 | 1.883 kg | 74 h 21 min | 4 | $42.19 |
+| 800 mm | 24 in | 2019.2 mm | 48 / 32 | 2.104 kg | 84 h 20 min | 5 | $50.52 |
+| 800 mm | 18 in | 1714.4 mm | 40 / 24 | 1.993 kg | 79 h 18 min | 4 | $43.69 |
+| 800 mm | 12 in | 1409.6 mm | 32 / 16 | 1.883 kg | 74 h 21 min | 3 | $36.85 |
+
+*Compact-gate stock counts and subtotals above use the **ratcheting-cutter layouts**, with 10 mm cleanup reserve per stick and no saw kerf. Subtotals cover PETG consumed, magnets and whole PVC sticks at the owner's prices; paper, guys and ground supports are additional. The earlier compact study's cost table reserves 3 mm per cut for a saw, so its 1000 mm / 24-inch option uses six sticks and costs $5.34 more. Print figures are Bambu Studio estimates, not elapsed measurements.*
+
+All compact gates retain **2 bottom elbows, 2 guy elbows, 8 tees and 4 crosses**. Their 24 / 18 / 12-inch paper layouts need **32 / 24 / 16 sleeves**, respectively. The smaller 800 mm opening uses the same print quantities at the study's maximum 350 mm magnet-gap target; paper retention at that spacing still needs physical testing. A 12-inch-paper gate fits nominally within two 1 kg spools, with about 117 g spare before failures.
+
+- **Cut the PVC:** [printable seven-page cut guide](output/compact_gate_study/PVC_Cut_Guide.pdf), [cut tables and stick layouts](output/compact_gate_study/PVC_Cut_Guide.md), or [summary CSV](output/compact_gate_study/PVC_Cut_Summary.csv). Every compact gate needs eight long and sixteen short pieces. Listed lengths already include socket insertion.
+- **See all six sizes:** [paper-on preview](output/compact_gate_study/renders/01_SIX_PAPER_LAYOUTS.png), [1000 mm frames with paper removed](output/compact_gate_study/renders/02_FRAME_1000.png), [800 mm frames](output/compact_gate_study/renders/03_FRAME_800.png), and [compact corner detail](output/compact_gate_study/renders/05_NARROW_CORNER_DETAIL.png).
+- **Build a selected variant:** [full study, per-variant print queues, paper cuts and sleeve positions](output/compact_gate_study/README.md), [illustrated PDF](output/compact_gate_study/Compact_Gate_Study.pdf), or [Blender model](output/compact_gate_study/Compact_Gate_Study.blend).
+- **Compare drone clearance:** [MK4 clearance study](output/drone_clearance_study/README.md) and [equal-scale opening comparison](output/drone_clearance_study/renders/04_OPENING_DETAIL.png). Drone reference: Dendy / Printables 1515387, CC BY-NC 4.0; battery dimensions assumed. See [attribution](reference/geprc_mk4/ATTRIBUTION.md).
+
+## Original gate and stacked Split-S
+
+The quantities and assembly tables below describe the original **1480.8 mm opening / 24-inch paper** configuration and its stacked version. Use the compact cut guide and print queue above for smaller gates. Compact stacked variants have not been laid out in this study.
+
 ![Assembled single gate, front view rendered in Blender](output/corner_guide_elbow/renders/05_SINGLE_FRONT.png)
 
 *Blender assembly render—not a photograph of a completed build. Blue parts in the renders represent the black PETG used for printing. Ground anchoring and feet are not shown.*
@@ -23,13 +53,16 @@ Paper, guy lines and ground support are additional. Prices are the owner's appro
 
 ## Files to start with
 
+- [Compact gate material study](output/compact_gate_study/README.md): 1000 / 800 mm openings with 24 / 18 / 12-inch paper, fewer sleeves, exact print queues and material comparisons.
+- [PVC cut guide for all six compact variants](output/compact_gate_study/PVC_Cut_Guide.pdf): finished lengths, quantities and stock layouts for the ratcheting cutter.
+- [7-inch MK4 drone clearance study](output/drone_clearance_study/README.md): actual imported drone, Blender renders and 1480.8 / 1200 / 1000 / 800 mm opening comparisons. Smaller sizes are study variants; the production kit below retains the 1480.8 mm opening.
 - [Current Blender model](output/corner_guide_elbow/Corner_Guide_Elbow.blend), including assembled gates, paper alignment, cord routing and the five-part overview.
 - [Illustrated assembly and test PDF](output/corner_guide_elbow/Corner_Guide_Elbow.pdf) and [detailed current guide](output/corner_guide_elbow/README.md).
 - [Printable STL parts](output/corner_guide_elbow/printable/) and [prepared A1 Mini PETG projects](output/corner_guide_elbow/sliced/).
 - [Single-gate print queue](output/corner_guide_elbow/single_Print_Queue.csv), [PVC stock layout](output/corner_guide_elbow/single_PVC_Stock_Layout.csv), [paper cuts](output/corner_guide_elbow/single_Paper_Cuts.csv) and [magnet positions](output/corner_guide_elbow/single_Magnet_Positions.csv).
 - [Stacked print queue](output/corner_guide_elbow/split_s_Print_Queue.csv) and [cost BOM](docs/Cost_BOM.csv).
 
-Use **`output/corner_guide_elbow/`** for the current build. Other output folders preserve earlier iterations; their quantities, interfaces and prices may differ.
+Use **`output/corner_guide_elbow/`** for the shared fitting geometry and original gate, **`output/compact_gate_study/`** for the six smaller layouts, and **`output/drone_clearance_study/`** for drone size comparisons. Other output folders preserve earlier iterations; their quantities, interfaces and prices may differ.
 
 ## Five printed parts
 
@@ -152,6 +185,8 @@ python3 scripts/publish_project_docs.py
 Scripts currently target **macOS**: the Blender helpers use system Arial fonts and the slicer wrapper uses `/Applications/BambuStudio.app`. Adapt those paths for other operating systems. `RENDER_SCENES` can restrict rendering to a comma-separated scene list. PDFs embed rendered images, so render before packaging.
 
 - `output/corner_guide_elbow/`: current gate, five production types and print queues.
+- `output/compact_gate_study/`: six smaller layouts, PVC cut guide, partial sleeve batches and previews.
+- `output/drone_clearance_study/`: imported MK4 drone, opening comparisons and Blender crossing animation.
 - `scripts/`: reproducible geometry, slicing, validation and packaging.
 - `docs/`: current material prices and cost ledger.
 - [DESIGN_HISTORY.md](DESIGN_HISTORY.md): earlier Coroplast, posterboard, click-track and PVC iterations.
@@ -167,4 +202,4 @@ Generated loose G-code, logs, Blender backup files and duplicate kit ZIPs are ex
 
 Ownership is retained, and separate commercial licenses may be granted. Existing compliant CC permissions cannot be revoked. See [LICENSING.md](LICENSING.md) for exact scope, retained rights, commercial requests and the limits of protection for functional designs.
 
-The archived Tony Youngblood picture-frame reference retains **CC BY-SA 4.0**, including its commercial permissions; see [attribution](reference/picture_frame/ATTRIBUTION.md). Fonts, presets and other third-party content retain their own terms. The project's noncommercial licenses do not relicense those components.
+The archived Tony Youngblood picture-frame reference retains **CC BY-SA 4.0**, including its commercial permissions; see [attribution](reference/picture_frame/ATTRIBUTION.md). The imported Dendy / Printables MK4 drone reference retains **CC BY-NC 4.0**, with the original frame authorship qualification; see [drone attribution](reference/geprc_mk4/ATTRIBUTION.md). Fonts, presets and other third-party content retain their own terms. The project's noncommercial licenses do not relicense those components.

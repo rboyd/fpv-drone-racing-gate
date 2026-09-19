@@ -1,0 +1,44 @@
+{
+  "OPEN_1000_PAPER_24": {
+    "intersecting_printed_part_pairs": [],
+    "unexpected_vertices_outside_paper": 0,
+    "magnets_on_paper": true,
+    "maximum_edge_gap_mm": 345.333,
+    "short_pipe_exposed_between_socket_mouths_mm": 329.6
+  },
+  "OPEN_1000_PAPER_18": {
+    "intersecting_printed_part_pairs": [],
+    "unexpected_vertices_outside_paper": 0,
+    "magnets_on_paper": true,
+    "maximum_edge_gap_mm": 345.333,
+    "short_pipe_exposed_between_socket_mouths_mm": 177.2
+  },
+  "OPEN_1000_PAPER_12": {
+    "intersecting_printed_part_pairs": [],
+    "unexpected_vertices_outside_paper": 0,
+    "magnets_on_paper": true,
+    "maximum_edge_gap_mm": 345.333,
+    "short_pipe_exposed_between_socket_mouths_mm": 24.8
+  },
+  "OPEN_800_PAPER_24": {
+    "intersecting_printed_part_pairs": [],
+    "unexpected_vertices_outside_paper": 0,
+    "magnets_on_paper": true,
+    "maximum_edge_gap_mm": 286.8,
+    "short_pipe_exposed_between_socket_mouths_mm": 329.6
+  },
+  "OPEN_800_PAPER_18": {
+    "intersecting_printed_part_pairs": [],
+    "unexpected_vertices_outside_paper": 0,
+    "magnets_on_paper": true,
+    "maximum_edge_gap_mm": 307.2,
+    "short_pipe_exposed_between_socket_mouths_mm": 177.2
+  },
+  "OPEN_800_PAPER_12": {
+    "intersecting_printed_part_pairs": [],
+    "unexpected_vertices_outside_paper": 0,
+    "magnets_on_paper": true,
+    "maximum_edge_gap_mm": 278.667,
+    "short_pipe_exposed_between_socket_mouths_mm": 24.8
+  }
+}

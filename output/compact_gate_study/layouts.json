@@ -1,0 +1,8683 @@
+{
+  "target_gap_mm": 350.0,
+  "gap_status": "Design trial, not validated paper retention or wind rating",
+  "PVC_bore_mm": 33.5,
+  "gates": [
+    {
+      "id": "OPEN_1000_PAPER_24",
+      "opening_mm": 1000,
+      "band_mm": 609.6,
+      "band_inches": 24,
+      "outer_mm": 2219.2,
+      "nodes": {
+        "N00": {
+          "xy": [
+            75,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N10": {
+          "xy": [
+            534.6,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N20": {
+          "xy": [
+            1684.6,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N30": {
+          "xy": [
+            2144.2,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N01": {
+          "xy": [
+            75,
+            534.6
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N11": {
+          "xy": [
+            534.6,
+            534.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              57.0
+            ]
+          ]
+        },
+        "N21": {
+          "xy": [
+            1684.6,
+            534.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              57.0
+            ]
+          ]
+        },
+        "N31": {
+          "xy": [
+            2144.2,
+            534.6
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N02": {
+          "xy": [
+            75,
+            1684.6
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N12": {
+          "xy": [
+            534.6,
+            1684.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N22": {
+          "xy": [
+            1684.6,
+            1684.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N32": {
+          "xy": [
+            2144.2,
+            1684.6
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N03": {
+          "xy": [
+            75,
+            2144.2
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N13": {
+          "xy": [
+            534.6,
+            2144.2
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N23": {
+          "xy": [
+            1684.6,
+            2144.2
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N33": {
+          "xy": [
+            2144.2,
+            2144.2
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        }
+      },
+      "edges": [
+        {
+          "name": "N00_N10",
+          "a": "N00",
+          "b": "N10",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            137.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N20",
+          "a": "N10",
+          "b": "N20",
+          "length_mm": 1080.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N20_N30",
+          "a": "N20",
+          "b": "N30",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            251.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N11",
+          "a": "N01",
+          "b": "N11",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N21",
+          "a": "N11",
+          "b": "N21",
+          "length_mm": 1080.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N21_N31",
+          "a": "N21",
+          "b": "N31",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N02_N12",
+          "a": "N02",
+          "b": "N12",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N12_N22",
+          "a": "N12",
+          "b": "N22",
+          "length_mm": 1080.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N32",
+          "a": "N22",
+          "b": "N32",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N03_N13",
+          "a": "N03",
+          "b": "N13",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            173.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        },
+        {
+          "name": "N13_N23",
+          "a": "N13",
+          "b": "N23",
+          "length_mm": 1080.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N23_N33",
+          "a": "N23",
+          "b": "N33",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            215.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        },
+        {
+          "name": "N00_N01",
+          "a": "N00",
+          "b": "N01",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            137.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N02",
+          "a": "N01",
+          "b": "N02",
+          "length_mm": 1080.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N02_N03",
+          "a": "N02",
+          "b": "N03",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            215.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N11",
+          "a": "N10",
+          "b": "N11",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N12",
+          "a": "N11",
+          "b": "N12",
+          "length_mm": 1080.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N12_N13",
+          "a": "N12",
+          "b": "N13",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N20_N21",
+          "a": "N20",
+          "b": "N21",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N21_N22",
+          "a": "N21",
+          "b": "N22",
+          "length_mm": 1080.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N23",
+          "a": "N22",
+          "b": "N23",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N30_N31",
+          "a": "N30",
+          "b": "N31",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            137.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N31_N32",
+          "a": "N31",
+          "b": "N32",
+          "length_mm": 1080.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N32_N33",
+          "a": "N32",
+          "b": "N33",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            215.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        }
+      ],
+      "placements": [
+        [
+          "ELBOW",
+          [
+            75,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            534.6,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1684.6,
+            75
+          ],
+          0
+        ],
+        [
+          "ELBOW",
+          [
+            2144.2,
+            75
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            534.6
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            534.6,
+            534.6
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1684.6,
+            534.6
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            2144.2,
+            534.6
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            1684.6
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            534.6,
+            1684.6
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1684.6,
+            1684.6
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            2144.2,
+            1684.6
+          ],
+          90
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            75,
+            2144.2
+          ],
+          270
+        ],
+        [
+          "TEE",
+          [
+            534.6,
+            2144.2
+          ],
+          180
+        ],
+        [
+          "TEE",
+          [
+            1684.6,
+            2144.2
+          ],
+          180
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            2144.2,
+            2144.2
+          ],
+          180
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            247.8,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            936.9333333333334,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1282.2666666666667,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1971.3999999999999,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            304.8,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            936.9333333333334,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1282.2666666666667,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1914.3999999999999,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            304.8,
+            1684.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            936.9333333333334,
+            1684.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1282.2666666666667,
+            1684.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1914.3999999999999,
+            1684.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            283.8,
+            2144.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            936.9333333333334,
+            2144.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1282.2666666666667,
+            2144.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1935.3999999999999,
+            2144.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            247.8
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            936.9333333333334
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            1282.2666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            1935.3999999999999
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            304.8
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            936.9333333333334
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            1282.2666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            1914.3999999999999
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1684.6,
+            304.8
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1684.6,
+            936.9333333333334
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1684.6,
+            1282.2666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1684.6,
+            1914.3999999999999
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            2144.2,
+            247.8
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            2144.2,
+            936.9333333333334
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            2144.2,
+            1282.2666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            2144.2,
+            1935.3999999999999
+          ],
+          270.0
+        ]
+      ],
+      "magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          477.6,
+          18.0
+        ],
+        [
+          591.6,
+          18.0
+        ],
+        [
+          1627.6,
+          18.0
+        ],
+        [
+          1741.6,
+          18.0
+        ],
+        [
+          2201.2,
+          18.0
+        ],
+        [
+          18.0,
+          591.6
+        ],
+        [
+          18.0,
+          477.6
+        ],
+        [
+          591.6,
+          591.6
+        ],
+        [
+          1627.6,
+          591.6
+        ],
+        [
+          2201.2,
+          477.6
+        ],
+        [
+          2201.2,
+          591.6
+        ],
+        [
+          18.0,
+          1741.6
+        ],
+        [
+          18.0,
+          1627.6
+        ],
+        [
+          591.6,
+          1627.6
+        ],
+        [
+          1627.6,
+          1627.6
+        ],
+        [
+          2201.2,
+          1627.6
+        ],
+        [
+          2201.2,
+          1741.6
+        ],
+        [
+          90.0,
+          2201.2
+        ],
+        [
+          18.0,
+          2129.2
+        ],
+        [
+          18.0,
+          2201.2
+        ],
+        [
+          591.6,
+          2201.2
+        ],
+        [
+          477.6,
+          2201.2
+        ],
+        [
+          1741.6,
+          2201.2
+        ],
+        [
+          1627.6,
+          2201.2
+        ],
+        [
+          2201.2,
+          2129.2
+        ],
+        [
+          2129.2,
+          2201.2
+        ],
+        [
+          2201.2,
+          2201.2
+        ],
+        [
+          247.8,
+          18.0
+        ],
+        [
+          936.9333,
+          18.0
+        ],
+        [
+          1282.2667,
+          18.0
+        ],
+        [
+          1971.4,
+          18.0
+        ],
+        [
+          304.8,
+          591.6
+        ],
+        [
+          936.9333,
+          591.6
+        ],
+        [
+          1282.2667,
+          591.6
+        ],
+        [
+          1914.4,
+          591.6
+        ],
+        [
+          304.8,
+          1627.6
+        ],
+        [
+          936.9333,
+          1627.6
+        ],
+        [
+          1282.2667,
+          1627.6
+        ],
+        [
+          1914.4,
+          1627.6
+        ],
+        [
+          283.8,
+          2201.2
+        ],
+        [
+          936.9333,
+          2201.2
+        ],
+        [
+          1282.2667,
+          2201.2
+        ],
+        [
+          1935.4,
+          2201.2
+        ],
+        [
+          18.0,
+          247.8
+        ],
+        [
+          18.0,
+          936.9333
+        ],
+        [
+          18.0,
+          1282.2667
+        ],
+        [
+          18.0,
+          1935.4
+        ],
+        [
+          591.6,
+          304.8
+        ],
+        [
+          591.6,
+          936.9333
+        ],
+        [
+          591.6,
+          1282.2667
+        ],
+        [
+          591.6,
+          1914.4
+        ],
+        [
+          1627.6,
+          304.8
+        ],
+        [
+          1627.6,
+          936.9333
+        ],
+        [
+          1627.6,
+          1282.2667
+        ],
+        [
+          1627.6,
+          1914.4
+        ],
+        [
+          2201.2,
+          247.8
+        ],
+        [
+          2201.2,
+          936.9333
+        ],
+        [
+          2201.2,
+          1282.2667
+        ],
+        [
+          2201.2,
+          1935.4
+        ]
+      ],
+      "fixed_magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          477.6,
+          18.0
+        ],
+        [
+          591.6,
+          18.0
+        ],
+        [
+          1627.6,
+          18.0
+        ],
+        [
+          1741.6,
+          18.0
+        ],
+        [
+          2201.2,
+          18.0
+        ],
+        [
+          18.0,
+          591.6
+        ],
+        [
+          18.0,
+          477.6
+        ],
+        [
+          591.6,
+          591.6
+        ],
+        [
+          1627.6,
+          591.6
+        ],
+        [
+          2201.2,
+          477.6
+        ],
+        [
+          2201.2,
+          591.6
+        ],
+        [
+          18.0,
+          1741.6
+        ],
+        [
+          18.0,
+          1627.6
+        ],
+        [
+          591.6,
+          1627.6
+        ],
+        [
+          1627.6,
+          1627.6
+        ],
+        [
+          2201.2,
+          1627.6
+        ],
+        [
+          2201.2,
+          1741.6
+        ],
+        [
+          90.0,
+          2201.2
+        ],
+        [
+          18.0,
+          2129.2
+        ],
+        [
+          18.0,
+          2201.2
+        ],
+        [
+          591.6,
+          2201.2
+        ],
+        [
+          477.6,
+          2201.2
+        ],
+        [
+          1741.6,
+          2201.2
+        ],
+        [
+          1627.6,
+          2201.2
+        ],
+        [
+          2201.2,
+          2129.2
+        ],
+        [
+          2129.2,
+          2201.2
+        ],
+        [
+          2201.2,
+          2201.2
+        ]
+      ],
+      "counts": {
+        "ELBOW": 2,
+        "TEE": 8,
+        "CROSS": 4,
+        "DUAL_GUY_ELBOW": 2,
+        "MAG_SLEEVE": 32
+      },
+      "print_queue": {
+        "ONE_ELBOW": 2,
+        "ONE_TEE": 8,
+        "ONE_CROSS": 4,
+        "ONE_DUAL_GUY_ELBOW": 2,
+        "BATCH_MAG_SLEEVE": 4,
+        "TAIL_MAG_SLEEVE_4": 1
+      },
+      "stock_plan": [
+        {
+          "stock": 1,
+          "remaining_mm": 86.79999999999995,
+          "cuts": [
+            {
+              "pipe": "N10_N20",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N11_N21",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N00_N10",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N20_N30",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 2,
+          "remaining_mm": 86.79999999999995,
+          "cuts": [
+            {
+              "pipe": "N12_N22",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N13_N23",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N01_N11",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N21_N31",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 3,
+          "remaining_mm": 86.79999999999995,
+          "cuts": [
+            {
+              "pipe": "N01_N02",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N11_N12",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N02_N12",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N22_N32",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 4,
+          "remaining_mm": 86.79999999999995,
+          "cuts": [
+            {
+              "pipe": "N21_N22",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N31_N32",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N03_N13",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N23_N33",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 5,
+          "remaining_mm": 289.8000000000004,
+          "cuts": [
+            {
+              "pipe": "N00_N01",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N02_N03",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N10_N11",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N12_N13",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N20_N21",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N22_N23",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N30_N31",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 6,
+          "remaining_mm": 2645.4,
+          "cuts": [
+            {
+              "pipe": "N32_N33",
+              "length_mm": 389.6
+            }
+          ]
+        }
+      ],
+      "PVC_sticks": 6,
+      "PVC_m": 14.8736,
+      "paper_m": 6.5824,
+      "paper_m2": 4.0126310400000005,
+      "gates_per_100ft_roll": 4,
+      "paper_cuts": [
+        {
+          "quantity": 2,
+          "length_mm": 2219.2,
+          "width_mm": 609.6
+        },
+        {
+          "quantity": 2,
+          "length_mm": 1072,
+          "width_mm": 609.6
+        }
+      ],
+      "magnet_pairs": 60,
+      "printed_pieces": 48,
+      "maximum_magnet_gap_mm": 345.333,
+      "target_magnet_gap_mm": 350.0,
+      "short_cut_mm": 389.6,
+      "long_cut_mm": 1080,
+      "paper_rectangles": [
+        [
+          0,
+          0,
+          2219.2,
+          609.6
+        ],
+        [
+          0,
+          1609.6,
+          2219.2,
+          609.6
+        ],
+        [
+          0,
+          573.6,
+          609.6,
+          1072
+        ],
+        [
+          1609.6,
+          573.6,
+          609.6,
+          1072
+        ]
+      ]
+    },
+    {
+      "id": "OPEN_1000_PAPER_18",
+      "opening_mm": 1000,
+      "band_mm": 457.2,
+      "band_inches": 18,
+      "outer_mm": 1914.4,
+      "nodes": {
+        "N00": {
+          "xy": [
+            75,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N10": {
+          "xy": [
+            382.2,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N20": {
+          "xy": [
+            1532.2,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N30": {
+          "xy": [
+            1839.4,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N01": {
+          "xy": [
+            75,
+            382.2
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N11": {
+          "xy": [
+            382.2,
+            382.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              57.0
+            ]
+          ]
+        },
+        "N21": {
+          "xy": [
+            1532.2,
+            382.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              57.0
+            ]
+          ]
+        },
+        "N31": {
+          "xy": [
+            1839.4,
+            382.2
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N02": {
+          "xy": [
+            75,
+            1532.2
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N12": {
+          "xy": [
+            382.2,
+            1532.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N22": {
+          "xy": [
+            1532.2,
+            1532.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N32": {
+          "xy": [
+            1839.4,
+            1532.2
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N03": {
+          "xy": [
+            75,
+            1839.4
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N13": {
+          "xy": [
+            382.2,
+            1839.4
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N23": {
+          "xy": [
+            1532.2,
+            1839.4
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N33": {
+          "xy": [
+            1839.4,
+            1839.4
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        }
+      },
+      "edges": [
+        {
+          "name": "N00_N10",
+          "a": "N00",
+          "b": "N10",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N20",
+          "a": "N10",
+          "b": "N20",
+          "length_mm": 1080.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N20_N30",
+          "a": "N20",
+          "b": "N30",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N11",
+          "a": "N01",
+          "b": "N11",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N21",
+          "a": "N11",
+          "b": "N21",
+          "length_mm": 1080.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N21_N31",
+          "a": "N21",
+          "b": "N31",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N02_N12",
+          "a": "N02",
+          "b": "N12",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N12_N22",
+          "a": "N12",
+          "b": "N22",
+          "length_mm": 1080.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N32",
+          "a": "N22",
+          "b": "N32",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N03_N13",
+          "a": "N03",
+          "b": "N13",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        },
+        {
+          "name": "N13_N23",
+          "a": "N13",
+          "b": "N23",
+          "length_mm": 1080.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N23_N33",
+          "a": "N23",
+          "b": "N33",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        },
+        {
+          "name": "N00_N01",
+          "a": "N00",
+          "b": "N01",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N02",
+          "a": "N01",
+          "b": "N02",
+          "length_mm": 1080.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N02_N03",
+          "a": "N02",
+          "b": "N03",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N11",
+          "a": "N10",
+          "b": "N11",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N12",
+          "a": "N11",
+          "b": "N12",
+          "length_mm": 1080.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N12_N13",
+          "a": "N12",
+          "b": "N13",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N20_N21",
+          "a": "N20",
+          "b": "N21",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N21_N22",
+          "a": "N21",
+          "b": "N22",
+          "length_mm": 1080.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N23",
+          "a": "N22",
+          "b": "N23",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N30_N31",
+          "a": "N30",
+          "b": "N31",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N31_N32",
+          "a": "N31",
+          "b": "N32",
+          "length_mm": 1080.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N32_N33",
+          "a": "N32",
+          "b": "N33",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        }
+      ],
+      "placements": [
+        [
+          "ELBOW",
+          [
+            75,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            382.2,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1532.2,
+            75
+          ],
+          0
+        ],
+        [
+          "ELBOW",
+          [
+            1839.4,
+            75
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            382.2
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            382.2,
+            382.2
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1532.2,
+            382.2
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1839.4,
+            382.2
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            1532.2
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            382.2,
+            1532.2
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1532.2,
+            1532.2
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1839.4,
+            1532.2
+          ],
+          90
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            75,
+            1839.4
+          ],
+          270
+        ],
+        [
+          "TEE",
+          [
+            382.2,
+            1839.4
+          ],
+          180
+        ],
+        [
+          "TEE",
+          [
+            1532.2,
+            1839.4
+          ],
+          180
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            1839.4,
+            1839.4
+          ],
+          180
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            784.5333333333333,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1129.8666666666666,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            228.6,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            784.5333333333333,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1129.8666666666666,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1685.8000000000002,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            228.6,
+            1532.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            784.5333333333333,
+            1532.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1129.8666666666666,
+            1532.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1685.8000000000002,
+            1532.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            784.5333333333333,
+            1839.4
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1129.8666666666666,
+            1839.4
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            784.5333333333333
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            1129.8666666666666
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            228.6
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            784.5333333333333
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            1129.8666666666666
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            1685.8000000000002
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1532.2,
+            228.6
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1532.2,
+            784.5333333333333
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1532.2,
+            1129.8666666666666
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1532.2,
+            1685.8000000000002
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1839.4,
+            784.5333333333333
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1839.4,
+            1129.8666666666666
+          ],
+          270.0
+        ]
+      ],
+      "magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          325.2,
+          18.0
+        ],
+        [
+          439.2,
+          18.0
+        ],
+        [
+          1475.2,
+          18.0
+        ],
+        [
+          1589.2,
+          18.0
+        ],
+        [
+          1896.4,
+          18.0
+        ],
+        [
+          18.0,
+          439.2
+        ],
+        [
+          18.0,
+          325.2
+        ],
+        [
+          439.2,
+          439.2
+        ],
+        [
+          1475.2,
+          439.2
+        ],
+        [
+          1896.4,
+          325.2
+        ],
+        [
+          1896.4,
+          439.2
+        ],
+        [
+          18.0,
+          1589.2
+        ],
+        [
+          18.0,
+          1475.2
+        ],
+        [
+          439.2,
+          1475.2
+        ],
+        [
+          1475.2,
+          1475.2
+        ],
+        [
+          1896.4,
+          1475.2
+        ],
+        [
+          1896.4,
+          1589.2
+        ],
+        [
+          90.0,
+          1896.4
+        ],
+        [
+          18.0,
+          1824.4
+        ],
+        [
+          18.0,
+          1896.4
+        ],
+        [
+          439.2,
+          1896.4
+        ],
+        [
+          325.2,
+          1896.4
+        ],
+        [
+          1589.2,
+          1896.4
+        ],
+        [
+          1475.2,
+          1896.4
+        ],
+        [
+          1896.4,
+          1824.4
+        ],
+        [
+          1824.4,
+          1896.4
+        ],
+        [
+          1896.4,
+          1896.4
+        ],
+        [
+          784.5333,
+          18.0
+        ],
+        [
+          1129.8667,
+          18.0
+        ],
+        [
+          228.6,
+          439.2
+        ],
+        [
+          784.5333,
+          439.2
+        ],
+        [
+          1129.8667,
+          439.2
+        ],
+        [
+          1685.8,
+          439.2
+        ],
+        [
+          228.6,
+          1475.2
+        ],
+        [
+          784.5333,
+          1475.2
+        ],
+        [
+          1129.8667,
+          1475.2
+        ],
+        [
+          1685.8,
+          1475.2
+        ],
+        [
+          784.5333,
+          1896.4
+        ],
+        [
+          1129.8667,
+          1896.4
+        ],
+        [
+          18.0,
+          784.5333
+        ],
+        [
+          18.0,
+          1129.8667
+        ],
+        [
+          439.2,
+          228.6
+        ],
+        [
+          439.2,
+          784.5333
+        ],
+        [
+          439.2,
+          1129.8667
+        ],
+        [
+          439.2,
+          1685.8
+        ],
+        [
+          1475.2,
+          228.6
+        ],
+        [
+          1475.2,
+          784.5333
+        ],
+        [
+          1475.2,
+          1129.8667
+        ],
+        [
+          1475.2,
+          1685.8
+        ],
+        [
+          1896.4,
+          784.5333
+        ],
+        [
+          1896.4,
+          1129.8667
+        ]
+      ],
+      "fixed_magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          325.2,
+          18.0
+        ],
+        [
+          439.2,
+          18.0
+        ],
+        [
+          1475.2,
+          18.0
+        ],
+        [
+          1589.2,
+          18.0
+        ],
+        [
+          1896.4,
+          18.0
+        ],
+        [
+          18.0,
+          439.2
+        ],
+        [
+          18.0,
+          325.2
+        ],
+        [
+          439.2,
+          439.2
+        ],
+        [
+          1475.2,
+          439.2
+        ],
+        [
+          1896.4,
+          325.2
+        ],
+        [
+          1896.4,
+          439.2
+        ],
+        [
+          18.0,
+          1589.2
+        ],
+        [
+          18.0,
+          1475.2
+        ],
+        [
+          439.2,
+          1475.2
+        ],
+        [
+          1475.2,
+          1475.2
+        ],
+        [
+          1896.4,
+          1475.2
+        ],
+        [
+          1896.4,
+          1589.2
+        ],
+        [
+          90.0,
+          1896.4
+        ],
+        [
+          18.0,
+          1824.4
+        ],
+        [
+          18.0,
+          1896.4
+        ],
+        [
+          439.2,
+          1896.4
+        ],
+        [
+          325.2,
+          1896.4
+        ],
+        [
+          1589.2,
+          1896.4
+        ],
+        [
+          1475.2,
+          1896.4
+        ],
+        [
+          1896.4,
+          1824.4
+        ],
+        [
+          1824.4,
+          1896.4
+        ],
+        [
+          1896.4,
+          1896.4
+        ]
+      ],
+      "counts": {
+        "ELBOW": 2,
+        "TEE": 8,
+        "CROSS": 4,
+        "DUAL_GUY_ELBOW": 2,
+        "MAG_SLEEVE": 24
+      },
+      "print_queue": {
+        "ONE_ELBOW": 2,
+        "ONE_TEE": 8,
+        "ONE_CROSS": 4,
+        "ONE_DUAL_GUY_ELBOW": 2,
+        "BATCH_MAG_SLEEVE": 3,
+        "TAIL_MAG_SLEEVE_3": 1
+      },
+      "stock_plan": [
+        {
+          "stock": 1,
+          "remaining_mm": 151.39999999999998,
+          "cuts": [
+            {
+              "pipe": "N10_N20",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N11_N21",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N00_N10",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N20_N30",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N01_N11",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 2,
+          "remaining_mm": 151.39999999999998,
+          "cuts": [
+            {
+              "pipe": "N12_N22",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N13_N23",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N21_N31",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N02_N12",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N22_N32",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 3,
+          "remaining_mm": 151.39999999999998,
+          "cuts": [
+            {
+              "pipe": "N01_N02",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N11_N12",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N03_N13",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N23_N33",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N00_N01",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 4,
+          "remaining_mm": 151.39999999999998,
+          "cuts": [
+            {
+              "pipe": "N21_N22",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N31_N32",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N02_N03",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N10_N11",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N12_N13",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 5,
+          "remaining_mm": 2077.2000000000007,
+          "cuts": [
+            {
+              "pipe": "N20_N21",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N22_N23",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N30_N31",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N32_N33",
+              "length_mm": 237.2
+            }
+          ]
+        }
+      ],
+      "PVC_sticks": 5,
+      "PVC_m": 12.4352,
+      "paper_m": 5.9728,
+      "paper_m2": 2.73076416,
+      "gates_per_100ft_roll": 5,
+      "paper_cuts": [
+        {
+          "quantity": 2,
+          "length_mm": 1914.4,
+          "width_mm": 457.2
+        },
+        {
+          "quantity": 2,
+          "length_mm": 1072,
+          "width_mm": 457.2
+        }
+      ],
+      "magnet_pairs": 52,
+      "printed_pieces": 40,
+      "maximum_magnet_gap_mm": 345.333,
+      "target_magnet_gap_mm": 350.0,
+      "short_cut_mm": 237.2,
+      "long_cut_mm": 1080,
+      "paper_rectangles": [
+        [
+          0,
+          0,
+          1914.4,
+          457.2
+        ],
+        [
+          0,
+          1457.2,
+          1914.4,
+          457.2
+        ],
+        [
+          0,
+          421.2,
+          457.2,
+          1072
+        ],
+        [
+          1457.2,
+          421.2,
+          457.2,
+          1072
+        ]
+      ]
+    },
+    {
+      "id": "OPEN_1000_PAPER_12",
+      "opening_mm": 1000,
+      "band_mm": 304.8,
+      "band_inches": 12,
+      "outer_mm": 1609.6,
+      "nodes": {
+        "N00": {
+          "xy": [
+            75,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N10": {
+          "xy": [
+            229.8,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N20": {
+          "xy": [
+            1379.8,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N30": {
+          "xy": [
+            1534.6,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N01": {
+          "xy": [
+            75,
+            229.8
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N11": {
+          "xy": [
+            229.8,
+            229.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              57.0
+            ]
+          ]
+        },
+        "N21": {
+          "xy": [
+            1379.8,
+            229.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              57.0
+            ]
+          ]
+        },
+        "N31": {
+          "xy": [
+            1534.6,
+            229.8
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N02": {
+          "xy": [
+            75,
+            1379.8
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N12": {
+          "xy": [
+            229.8,
+            1379.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N22": {
+          "xy": [
+            1379.8,
+            1379.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N32": {
+          "xy": [
+            1534.6,
+            1379.8
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N03": {
+          "xy": [
+            75,
+            1534.6
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N13": {
+          "xy": [
+            229.8,
+            1534.6
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N23": {
+          "xy": [
+            1379.8,
+            1534.6
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N33": {
+          "xy": [
+            1534.6,
+            1534.6
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        }
+      },
+      "edges": [
+        {
+          "name": "N00_N10",
+          "a": "N00",
+          "b": "N10",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N20",
+          "a": "N10",
+          "b": "N20",
+          "length_mm": 1080.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N20_N30",
+          "a": "N20",
+          "b": "N30",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N11",
+          "a": "N01",
+          "b": "N11",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N21",
+          "a": "N11",
+          "b": "N21",
+          "length_mm": 1080.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N21_N31",
+          "a": "N21",
+          "b": "N31",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N02_N12",
+          "a": "N02",
+          "b": "N12",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N12_N22",
+          "a": "N12",
+          "b": "N22",
+          "length_mm": 1080.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N32",
+          "a": "N22",
+          "b": "N32",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N03_N13",
+          "a": "N03",
+          "b": "N13",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        },
+        {
+          "name": "N13_N23",
+          "a": "N13",
+          "b": "N23",
+          "length_mm": 1080.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N23_N33",
+          "a": "N23",
+          "b": "N33",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        },
+        {
+          "name": "N00_N01",
+          "a": "N00",
+          "b": "N01",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N02",
+          "a": "N01",
+          "b": "N02",
+          "length_mm": 1080.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N02_N03",
+          "a": "N02",
+          "b": "N03",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N11",
+          "a": "N10",
+          "b": "N11",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N12",
+          "a": "N11",
+          "b": "N12",
+          "length_mm": 1080.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N12_N13",
+          "a": "N12",
+          "b": "N13",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N20_N21",
+          "a": "N20",
+          "b": "N21",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N21_N22",
+          "a": "N21",
+          "b": "N22",
+          "length_mm": 1080.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N23",
+          "a": "N22",
+          "b": "N23",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N30_N31",
+          "a": "N30",
+          "b": "N31",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N31_N32",
+          "a": "N31",
+          "b": "N32",
+          "length_mm": 1080.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            367.333,
+            712.667
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 1036.0,
+          "maximum_magnet_gap_mm": 345.333,
+          "kind": "long"
+        },
+        {
+          "name": "N32_N33",
+          "a": "N32",
+          "b": "N33",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        }
+      ],
+      "placements": [
+        [
+          "ELBOW",
+          [
+            75,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            229.8,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1379.8,
+            75
+          ],
+          0
+        ],
+        [
+          "ELBOW",
+          [
+            1534.6,
+            75
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            229.8
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            229.8,
+            229.8
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1379.8,
+            229.8
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1534.6,
+            229.8
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            1379.8
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            229.8,
+            1379.8
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1379.8,
+            1379.8
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1534.6,
+            1379.8
+          ],
+          90
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            75,
+            1534.6
+          ],
+          270
+        ],
+        [
+          "TEE",
+          [
+            229.8,
+            1534.6
+          ],
+          180
+        ],
+        [
+          "TEE",
+          [
+            1379.8,
+            1534.6
+          ],
+          180
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            1534.6,
+            1534.6
+          ],
+          180
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            632.1333333333333,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            977.4666666666667,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            632.1333333333333,
+            229.8
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            977.4666666666667,
+            229.8
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            632.1333333333333,
+            1379.8
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            977.4666666666667,
+            1379.8
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            632.1333333333333,
+            1534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            977.4666666666667,
+            1534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            632.1333333333333
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            977.4666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            229.8,
+            632.1333333333333
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            229.8,
+            977.4666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1379.8,
+            632.1333333333333
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1379.8,
+            977.4666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1534.6,
+            632.1333333333333
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1534.6,
+            977.4666666666667
+          ],
+          270.0
+        ]
+      ],
+      "magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          172.8,
+          18.0
+        ],
+        [
+          286.8,
+          18.0
+        ],
+        [
+          1322.8,
+          18.0
+        ],
+        [
+          1436.8,
+          18.0
+        ],
+        [
+          1591.6,
+          18.0
+        ],
+        [
+          18.0,
+          286.8
+        ],
+        [
+          18.0,
+          172.8
+        ],
+        [
+          286.8,
+          286.8
+        ],
+        [
+          1322.8,
+          286.8
+        ],
+        [
+          1591.6,
+          172.8
+        ],
+        [
+          1591.6,
+          286.8
+        ],
+        [
+          18.0,
+          1436.8
+        ],
+        [
+          18.0,
+          1322.8
+        ],
+        [
+          286.8,
+          1322.8
+        ],
+        [
+          1322.8,
+          1322.8
+        ],
+        [
+          1591.6,
+          1322.8
+        ],
+        [
+          1591.6,
+          1436.8
+        ],
+        [
+          90.0,
+          1591.6
+        ],
+        [
+          18.0,
+          1519.6
+        ],
+        [
+          18.0,
+          1591.6
+        ],
+        [
+          286.8,
+          1591.6
+        ],
+        [
+          172.8,
+          1591.6
+        ],
+        [
+          1436.8,
+          1591.6
+        ],
+        [
+          1322.8,
+          1591.6
+        ],
+        [
+          1591.6,
+          1519.6
+        ],
+        [
+          1519.6,
+          1591.6
+        ],
+        [
+          1591.6,
+          1591.6
+        ],
+        [
+          632.1333,
+          18.0
+        ],
+        [
+          977.4667,
+          18.0
+        ],
+        [
+          632.1333,
+          286.8
+        ],
+        [
+          977.4667,
+          286.8
+        ],
+        [
+          632.1333,
+          1322.8
+        ],
+        [
+          977.4667,
+          1322.8
+        ],
+        [
+          632.1333,
+          1591.6
+        ],
+        [
+          977.4667,
+          1591.6
+        ],
+        [
+          18.0,
+          632.1333
+        ],
+        [
+          18.0,
+          977.4667
+        ],
+        [
+          286.8,
+          632.1333
+        ],
+        [
+          286.8,
+          977.4667
+        ],
+        [
+          1322.8,
+          632.1333
+        ],
+        [
+          1322.8,
+          977.4667
+        ],
+        [
+          1591.6,
+          632.1333
+        ],
+        [
+          1591.6,
+          977.4667
+        ]
+      ],
+      "fixed_magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          172.8,
+          18.0
+        ],
+        [
+          286.8,
+          18.0
+        ],
+        [
+          1322.8,
+          18.0
+        ],
+        [
+          1436.8,
+          18.0
+        ],
+        [
+          1591.6,
+          18.0
+        ],
+        [
+          18.0,
+          286.8
+        ],
+        [
+          18.0,
+          172.8
+        ],
+        [
+          286.8,
+          286.8
+        ],
+        [
+          1322.8,
+          286.8
+        ],
+        [
+          1591.6,
+          172.8
+        ],
+        [
+          1591.6,
+          286.8
+        ],
+        [
+          18.0,
+          1436.8
+        ],
+        [
+          18.0,
+          1322.8
+        ],
+        [
+          286.8,
+          1322.8
+        ],
+        [
+          1322.8,
+          1322.8
+        ],
+        [
+          1591.6,
+          1322.8
+        ],
+        [
+          1591.6,
+          1436.8
+        ],
+        [
+          90.0,
+          1591.6
+        ],
+        [
+          18.0,
+          1519.6
+        ],
+        [
+          18.0,
+          1591.6
+        ],
+        [
+          286.8,
+          1591.6
+        ],
+        [
+          172.8,
+          1591.6
+        ],
+        [
+          1436.8,
+          1591.6
+        ],
+        [
+          1322.8,
+          1591.6
+        ],
+        [
+          1591.6,
+          1519.6
+        ],
+        [
+          1519.6,
+          1591.6
+        ],
+        [
+          1591.6,
+          1591.6
+        ]
+      ],
+      "counts": {
+        "ELBOW": 2,
+        "TEE": 8,
+        "CROSS": 4,
+        "DUAL_GUY_ELBOW": 2,
+        "MAG_SLEEVE": 16
+      },
+      "print_queue": {
+        "ONE_ELBOW": 2,
+        "ONE_TEE": 8,
+        "ONE_CROSS": 4,
+        "ONE_DUAL_GUY_ELBOW": 2,
+        "BATCH_MAG_SLEEVE": 2,
+        "TAIL_MAG_SLEEVE_2": 1
+      },
+      "stock_plan": [
+        {
+          "stock": 1,
+          "remaining_mm": 81.80000000000014,
+          "cuts": [
+            {
+              "pipe": "N10_N20",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N11_N21",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N00_N10",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N20_N30",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N01_N11",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N21_N31",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N02_N12",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N22_N32",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N03_N13",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N23_N33",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N00_N01",
+              "length_mm": 84.8
+            }
+          ]
+        },
+        {
+          "stock": 2,
+          "remaining_mm": 257.40000000000015,
+          "cuts": [
+            {
+              "pipe": "N12_N22",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N13_N23",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N02_N03",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N10_N11",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N12_N13",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N20_N21",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N22_N23",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N30_N31",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N32_N33",
+              "length_mm": 84.8
+            }
+          ]
+        },
+        {
+          "stock": 3,
+          "remaining_mm": 872.0,
+          "cuts": [
+            {
+              "pipe": "N01_N02",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N11_N12",
+              "length_mm": 1080.0
+            }
+          ]
+        },
+        {
+          "stock": 4,
+          "remaining_mm": 872.0,
+          "cuts": [
+            {
+              "pipe": "N21_N22",
+              "length_mm": 1080.0
+            },
+            {
+              "pipe": "N31_N32",
+              "length_mm": 1080.0
+            }
+          ]
+        }
+      ],
+      "PVC_sticks": 4,
+      "PVC_m": 9.996799999999999,
+      "paper_m": 5.3632,
+      "paper_m2": 1.63470336,
+      "gates_per_100ft_roll": 5,
+      "paper_cuts": [
+        {
+          "quantity": 2,
+          "length_mm": 1609.6,
+          "width_mm": 304.8
+        },
+        {
+          "quantity": 2,
+          "length_mm": 1072,
+          "width_mm": 304.8
+        }
+      ],
+      "magnet_pairs": 44,
+      "printed_pieces": 32,
+      "maximum_magnet_gap_mm": 345.333,
+      "target_magnet_gap_mm": 350.0,
+      "short_cut_mm": 84.8,
+      "long_cut_mm": 1080,
+      "paper_rectangles": [
+        [
+          0,
+          0,
+          1609.6,
+          304.8
+        ],
+        [
+          0,
+          1304.8,
+          1609.6,
+          304.8
+        ],
+        [
+          0,
+          268.8,
+          304.8,
+          1072
+        ],
+        [
+          1304.8,
+          268.8,
+          304.8,
+          1072
+        ]
+      ]
+    },
+    {
+      "id": "OPEN_800_PAPER_24",
+      "opening_mm": 800,
+      "band_mm": 609.6,
+      "band_inches": 24,
+      "outer_mm": 2019.2,
+      "nodes": {
+        "N00": {
+          "xy": [
+            75,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N10": {
+          "xy": [
+            534.6,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N20": {
+          "xy": [
+            1484.6,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N30": {
+          "xy": [
+            1944.2,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N01": {
+          "xy": [
+            75,
+            534.6
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N11": {
+          "xy": [
+            534.6,
+            534.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              57.0
+            ]
+          ]
+        },
+        "N21": {
+          "xy": [
+            1484.6,
+            534.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              57.0
+            ]
+          ]
+        },
+        "N31": {
+          "xy": [
+            1944.2,
+            534.6
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N02": {
+          "xy": [
+            75,
+            1484.6
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N12": {
+          "xy": [
+            534.6,
+            1484.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N22": {
+          "xy": [
+            1484.6,
+            1484.6
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N32": {
+          "xy": [
+            1944.2,
+            1484.6
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N03": {
+          "xy": [
+            75,
+            1944.2
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N13": {
+          "xy": [
+            534.6,
+            1944.2
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N23": {
+          "xy": [
+            1484.6,
+            1944.2
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N33": {
+          "xy": [
+            1944.2,
+            1944.2
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        }
+      },
+      "edges": [
+        {
+          "name": "N00_N10",
+          "a": "N00",
+          "b": "N10",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            137.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N20",
+          "a": "N10",
+          "b": "N20",
+          "length_mm": 880.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N20_N30",
+          "a": "N20",
+          "b": "N30",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            251.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N11",
+          "a": "N01",
+          "b": "N11",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N21",
+          "a": "N11",
+          "b": "N21",
+          "length_mm": 880.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N21_N31",
+          "a": "N21",
+          "b": "N31",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N02_N12",
+          "a": "N02",
+          "b": "N12",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N12_N22",
+          "a": "N12",
+          "b": "N22",
+          "length_mm": 880.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N32",
+          "a": "N22",
+          "b": "N32",
+          "length_mm": 389.6,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N03_N13",
+          "a": "N03",
+          "b": "N13",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            173.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        },
+        {
+          "name": "N13_N23",
+          "a": "N13",
+          "b": "N23",
+          "length_mm": 880.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N23_N33",
+          "a": "N23",
+          "b": "N33",
+          "length_mm": 389.6,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            215.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        },
+        {
+          "name": "N00_N01",
+          "a": "N00",
+          "b": "N01",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            137.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N02",
+          "a": "N01",
+          "b": "N02",
+          "length_mm": 880.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N02_N03",
+          "a": "N02",
+          "b": "N03",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            215.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N11",
+          "a": "N10",
+          "b": "N11",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N12",
+          "a": "N11",
+          "b": "N12",
+          "length_mm": 880.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N12_N13",
+          "a": "N12",
+          "b": "N13",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N20_N21",
+          "a": "N20",
+          "b": "N21",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N21_N22",
+          "a": "N21",
+          "b": "N22",
+          "length_mm": 880.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N23",
+          "a": "N22",
+          "b": "N23",
+          "length_mm": 389.6,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            194.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 573.6,
+          "maximum_magnet_gap_mm": 286.8,
+          "kind": "short"
+        },
+        {
+          "name": "N30_N31",
+          "a": "N30",
+          "b": "N31",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            137.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 459.6,
+          "maximum_magnet_gap_mm": 229.8,
+          "kind": "short"
+        },
+        {
+          "name": "N31_N32",
+          "a": "N31",
+          "b": "N32",
+          "length_mm": 880.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N32_N33",
+          "a": "N32",
+          "b": "N33",
+          "length_mm": 389.6,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            215.8
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 387.6,
+          "maximum_magnet_gap_mm": 193.8,
+          "kind": "short"
+        }
+      ],
+      "placements": [
+        [
+          "ELBOW",
+          [
+            75,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            534.6,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1484.6,
+            75
+          ],
+          0
+        ],
+        [
+          "ELBOW",
+          [
+            1944.2,
+            75
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            534.6
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            534.6,
+            534.6
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1484.6,
+            534.6
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1944.2,
+            534.6
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            1484.6
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            534.6,
+            1484.6
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1484.6,
+            1484.6
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1944.2,
+            1484.6
+          ],
+          90
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            75,
+            1944.2
+          ],
+          270
+        ],
+        [
+          "TEE",
+          [
+            534.6,
+            1944.2
+          ],
+          180
+        ],
+        [
+          "TEE",
+          [
+            1484.6,
+            1944.2
+          ],
+          180
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            1944.2,
+            1944.2
+          ],
+          180
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            247.8,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            870.2666666666667,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1148.9333333333334,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1771.4,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            304.8,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            870.2666666666667,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1148.9333333333334,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1714.4,
+            534.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            304.8,
+            1484.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            870.2666666666667,
+            1484.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1148.9333333333334,
+            1484.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1714.4,
+            1484.6
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            283.8,
+            1944.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            870.2666666666667,
+            1944.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1148.9333333333334,
+            1944.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1735.4,
+            1944.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            247.8
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            870.2666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            1148.9333333333334
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            1735.4
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            304.8
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            870.2666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            1148.9333333333334
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            534.6,
+            1714.4
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1484.6,
+            304.8
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1484.6,
+            870.2666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1484.6,
+            1148.9333333333334
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1484.6,
+            1714.4
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1944.2,
+            247.8
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1944.2,
+            870.2666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1944.2,
+            1148.9333333333334
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1944.2,
+            1735.4
+          ],
+          270.0
+        ]
+      ],
+      "magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          477.6,
+          18.0
+        ],
+        [
+          591.6,
+          18.0
+        ],
+        [
+          1427.6,
+          18.0
+        ],
+        [
+          1541.6,
+          18.0
+        ],
+        [
+          2001.2,
+          18.0
+        ],
+        [
+          18.0,
+          591.6
+        ],
+        [
+          18.0,
+          477.6
+        ],
+        [
+          591.6,
+          591.6
+        ],
+        [
+          1427.6,
+          591.6
+        ],
+        [
+          2001.2,
+          477.6
+        ],
+        [
+          2001.2,
+          591.6
+        ],
+        [
+          18.0,
+          1541.6
+        ],
+        [
+          18.0,
+          1427.6
+        ],
+        [
+          591.6,
+          1427.6
+        ],
+        [
+          1427.6,
+          1427.6
+        ],
+        [
+          2001.2,
+          1427.6
+        ],
+        [
+          2001.2,
+          1541.6
+        ],
+        [
+          90.0,
+          2001.2
+        ],
+        [
+          18.0,
+          1929.2
+        ],
+        [
+          18.0,
+          2001.2
+        ],
+        [
+          591.6,
+          2001.2
+        ],
+        [
+          477.6,
+          2001.2
+        ],
+        [
+          1541.6,
+          2001.2
+        ],
+        [
+          1427.6,
+          2001.2
+        ],
+        [
+          2001.2,
+          1929.2
+        ],
+        [
+          1929.2,
+          2001.2
+        ],
+        [
+          2001.2,
+          2001.2
+        ],
+        [
+          247.8,
+          18.0
+        ],
+        [
+          870.2667,
+          18.0
+        ],
+        [
+          1148.9333,
+          18.0
+        ],
+        [
+          1771.4,
+          18.0
+        ],
+        [
+          304.8,
+          591.6
+        ],
+        [
+          870.2667,
+          591.6
+        ],
+        [
+          1148.9333,
+          591.6
+        ],
+        [
+          1714.4,
+          591.6
+        ],
+        [
+          304.8,
+          1427.6
+        ],
+        [
+          870.2667,
+          1427.6
+        ],
+        [
+          1148.9333,
+          1427.6
+        ],
+        [
+          1714.4,
+          1427.6
+        ],
+        [
+          283.8,
+          2001.2
+        ],
+        [
+          870.2667,
+          2001.2
+        ],
+        [
+          1148.9333,
+          2001.2
+        ],
+        [
+          1735.4,
+          2001.2
+        ],
+        [
+          18.0,
+          247.8
+        ],
+        [
+          18.0,
+          870.2667
+        ],
+        [
+          18.0,
+          1148.9333
+        ],
+        [
+          18.0,
+          1735.4
+        ],
+        [
+          591.6,
+          304.8
+        ],
+        [
+          591.6,
+          870.2667
+        ],
+        [
+          591.6,
+          1148.9333
+        ],
+        [
+          591.6,
+          1714.4
+        ],
+        [
+          1427.6,
+          304.8
+        ],
+        [
+          1427.6,
+          870.2667
+        ],
+        [
+          1427.6,
+          1148.9333
+        ],
+        [
+          1427.6,
+          1714.4
+        ],
+        [
+          2001.2,
+          247.8
+        ],
+        [
+          2001.2,
+          870.2667
+        ],
+        [
+          2001.2,
+          1148.9333
+        ],
+        [
+          2001.2,
+          1735.4
+        ]
+      ],
+      "fixed_magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          477.6,
+          18.0
+        ],
+        [
+          591.6,
+          18.0
+        ],
+        [
+          1427.6,
+          18.0
+        ],
+        [
+          1541.6,
+          18.0
+        ],
+        [
+          2001.2,
+          18.0
+        ],
+        [
+          18.0,
+          591.6
+        ],
+        [
+          18.0,
+          477.6
+        ],
+        [
+          591.6,
+          591.6
+        ],
+        [
+          1427.6,
+          591.6
+        ],
+        [
+          2001.2,
+          477.6
+        ],
+        [
+          2001.2,
+          591.6
+        ],
+        [
+          18.0,
+          1541.6
+        ],
+        [
+          18.0,
+          1427.6
+        ],
+        [
+          591.6,
+          1427.6
+        ],
+        [
+          1427.6,
+          1427.6
+        ],
+        [
+          2001.2,
+          1427.6
+        ],
+        [
+          2001.2,
+          1541.6
+        ],
+        [
+          90.0,
+          2001.2
+        ],
+        [
+          18.0,
+          1929.2
+        ],
+        [
+          18.0,
+          2001.2
+        ],
+        [
+          591.6,
+          2001.2
+        ],
+        [
+          477.6,
+          2001.2
+        ],
+        [
+          1541.6,
+          2001.2
+        ],
+        [
+          1427.6,
+          2001.2
+        ],
+        [
+          2001.2,
+          1929.2
+        ],
+        [
+          1929.2,
+          2001.2
+        ],
+        [
+          2001.2,
+          2001.2
+        ]
+      ],
+      "counts": {
+        "ELBOW": 2,
+        "TEE": 8,
+        "CROSS": 4,
+        "DUAL_GUY_ELBOW": 2,
+        "MAG_SLEEVE": 32
+      },
+      "print_queue": {
+        "ONE_ELBOW": 2,
+        "ONE_TEE": 8,
+        "ONE_CROSS": 4,
+        "ONE_DUAL_GUY_ELBOW": 2,
+        "BATCH_MAG_SLEEVE": 4,
+        "TAIL_MAG_SLEEVE_4": 1
+      },
+      "stock_plan": [
+        {
+          "stock": 1,
+          "remaining_mm": 389.0,
+          "cuts": [
+            {
+              "pipe": "N10_N20",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N11_N21",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N12_N22",
+              "length_mm": 880.0
+            }
+          ]
+        },
+        {
+          "stock": 2,
+          "remaining_mm": 389.0,
+          "cuts": [
+            {
+              "pipe": "N13_N23",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N01_N02",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N11_N12",
+              "length_mm": 880.0
+            }
+          ]
+        },
+        {
+          "stock": 3,
+          "remaining_mm": 94.19999999999993,
+          "cuts": [
+            {
+              "pipe": "N21_N22",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N31_N32",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N00_N10",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N20_N30",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N01_N11",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 4,
+          "remaining_mm": 289.8000000000004,
+          "cuts": [
+            {
+              "pipe": "N21_N31",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N02_N12",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N22_N32",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N03_N13",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N23_N33",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N00_N01",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N02_N03",
+              "length_mm": 389.6
+            }
+          ]
+        },
+        {
+          "stock": 5,
+          "remaining_mm": 682.4000000000004,
+          "cuts": [
+            {
+              "pipe": "N10_N11",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N12_N13",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N20_N21",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N22_N23",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N30_N31",
+              "length_mm": 389.6
+            },
+            {
+              "pipe": "N32_N33",
+              "length_mm": 389.6
+            }
+          ]
+        }
+      ],
+      "PVC_sticks": 5,
+      "PVC_m": 13.2736,
+      "paper_m": 5.7824,
+      "paper_m2": 3.52495104,
+      "gates_per_100ft_roll": 5,
+      "paper_cuts": [
+        {
+          "quantity": 2,
+          "length_mm": 2019.2,
+          "width_mm": 609.6
+        },
+        {
+          "quantity": 2,
+          "length_mm": 872,
+          "width_mm": 609.6
+        }
+      ],
+      "magnet_pairs": 60,
+      "printed_pieces": 48,
+      "maximum_magnet_gap_mm": 286.8,
+      "target_magnet_gap_mm": 350.0,
+      "short_cut_mm": 389.6,
+      "long_cut_mm": 880,
+      "paper_rectangles": [
+        [
+          0,
+          0,
+          2019.2,
+          609.6
+        ],
+        [
+          0,
+          1409.6,
+          2019.2,
+          609.6
+        ],
+        [
+          0,
+          573.6,
+          609.6,
+          872
+        ],
+        [
+          1409.6,
+          573.6,
+          609.6,
+          872
+        ]
+      ]
+    },
+    {
+      "id": "OPEN_800_PAPER_18",
+      "opening_mm": 800,
+      "band_mm": 457.2,
+      "band_inches": 18,
+      "outer_mm": 1714.4,
+      "nodes": {
+        "N00": {
+          "xy": [
+            75,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N10": {
+          "xy": [
+            382.2,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N20": {
+          "xy": [
+            1332.2,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N30": {
+          "xy": [
+            1639.4,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N01": {
+          "xy": [
+            75,
+            382.2
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N11": {
+          "xy": [
+            382.2,
+            382.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              57.0
+            ]
+          ]
+        },
+        "N21": {
+          "xy": [
+            1332.2,
+            382.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              57.0
+            ]
+          ]
+        },
+        "N31": {
+          "xy": [
+            1639.4,
+            382.2
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N02": {
+          "xy": [
+            75,
+            1332.2
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N12": {
+          "xy": [
+            382.2,
+            1332.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N22": {
+          "xy": [
+            1332.2,
+            1332.2
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N32": {
+          "xy": [
+            1639.4,
+            1332.2
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N03": {
+          "xy": [
+            75,
+            1639.4
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N13": {
+          "xy": [
+            382.2,
+            1639.4
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N23": {
+          "xy": [
+            1332.2,
+            1639.4
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N33": {
+          "xy": [
+            1639.4,
+            1639.4
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        }
+      },
+      "edges": [
+        {
+          "name": "N00_N10",
+          "a": "N00",
+          "b": "N10",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N20",
+          "a": "N10",
+          "b": "N20",
+          "length_mm": 880.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N20_N30",
+          "a": "N20",
+          "b": "N30",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N11",
+          "a": "N01",
+          "b": "N11",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N21",
+          "a": "N11",
+          "b": "N21",
+          "length_mm": 880.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N21_N31",
+          "a": "N21",
+          "b": "N31",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N02_N12",
+          "a": "N02",
+          "b": "N12",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N12_N22",
+          "a": "N12",
+          "b": "N22",
+          "length_mm": 880.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N32",
+          "a": "N22",
+          "b": "N32",
+          "length_mm": 237.2,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N03_N13",
+          "a": "N03",
+          "b": "N13",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        },
+        {
+          "name": "N13_N23",
+          "a": "N13",
+          "b": "N23",
+          "length_mm": 880.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N23_N33",
+          "a": "N23",
+          "b": "N33",
+          "length_mm": 237.2,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        },
+        {
+          "name": "N00_N01",
+          "a": "N00",
+          "b": "N01",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N02",
+          "a": "N01",
+          "b": "N02",
+          "length_mm": 880.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N02_N03",
+          "a": "N02",
+          "b": "N03",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N11",
+          "a": "N10",
+          "b": "N11",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N12",
+          "a": "N11",
+          "b": "N12",
+          "length_mm": 880.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N12_N13",
+          "a": "N12",
+          "b": "N13",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N20_N21",
+          "a": "N20",
+          "b": "N21",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N21_N22",
+          "a": "N21",
+          "b": "N22",
+          "length_mm": 880.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N23",
+          "a": "N22",
+          "b": "N23",
+          "length_mm": 237.2,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            118.6
+          ],
+          "sleeve_count": 1,
+          "fixed_magnet_span_mm": 421.2,
+          "maximum_magnet_gap_mm": 210.6,
+          "kind": "short"
+        },
+        {
+          "name": "N30_N31",
+          "a": "N30",
+          "b": "N31",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 307.2,
+          "maximum_magnet_gap_mm": 307.2,
+          "kind": "short"
+        },
+        {
+          "name": "N31_N32",
+          "a": "N31",
+          "b": "N32",
+          "length_mm": 880.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N32_N33",
+          "a": "N32",
+          "b": "N33",
+          "length_mm": 237.2,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 235.2,
+          "maximum_magnet_gap_mm": 235.2,
+          "kind": "short"
+        }
+      ],
+      "placements": [
+        [
+          "ELBOW",
+          [
+            75,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            382.2,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1332.2,
+            75
+          ],
+          0
+        ],
+        [
+          "ELBOW",
+          [
+            1639.4,
+            75
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            382.2
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            382.2,
+            382.2
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1332.2,
+            382.2
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1639.4,
+            382.2
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            1332.2
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            382.2,
+            1332.2
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1332.2,
+            1332.2
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1639.4,
+            1332.2
+          ],
+          90
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            75,
+            1639.4
+          ],
+          270
+        ],
+        [
+          "TEE",
+          [
+            382.2,
+            1639.4
+          ],
+          180
+        ],
+        [
+          "TEE",
+          [
+            1332.2,
+            1639.4
+          ],
+          180
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            1639.4,
+            1639.4
+          ],
+          180
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            717.8666666666667,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            996.5333333333333,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            228.6,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            717.8666666666667,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            996.5333333333333,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1485.8000000000002,
+            382.2
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            228.6,
+            1332.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            717.8666666666667,
+            1332.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            996.5333333333333,
+            1332.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1485.8000000000002,
+            1332.2
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            717.8666666666667,
+            1639.4
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            996.5333333333333,
+            1639.4
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            717.8666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            996.5333333333333
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            228.6
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            717.8666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            996.5333333333333
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            382.2,
+            1485.8000000000002
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1332.2,
+            228.6
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1332.2,
+            717.8666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1332.2,
+            996.5333333333333
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1332.2,
+            1485.8000000000002
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1639.4,
+            717.8666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1639.4,
+            996.5333333333333
+          ],
+          270.0
+        ]
+      ],
+      "magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          325.2,
+          18.0
+        ],
+        [
+          439.2,
+          18.0
+        ],
+        [
+          1275.2,
+          18.0
+        ],
+        [
+          1389.2,
+          18.0
+        ],
+        [
+          1696.4,
+          18.0
+        ],
+        [
+          18.0,
+          439.2
+        ],
+        [
+          18.0,
+          325.2
+        ],
+        [
+          439.2,
+          439.2
+        ],
+        [
+          1275.2,
+          439.2
+        ],
+        [
+          1696.4,
+          325.2
+        ],
+        [
+          1696.4,
+          439.2
+        ],
+        [
+          18.0,
+          1389.2
+        ],
+        [
+          18.0,
+          1275.2
+        ],
+        [
+          439.2,
+          1275.2
+        ],
+        [
+          1275.2,
+          1275.2
+        ],
+        [
+          1696.4,
+          1275.2
+        ],
+        [
+          1696.4,
+          1389.2
+        ],
+        [
+          90.0,
+          1696.4
+        ],
+        [
+          18.0,
+          1624.4
+        ],
+        [
+          18.0,
+          1696.4
+        ],
+        [
+          439.2,
+          1696.4
+        ],
+        [
+          325.2,
+          1696.4
+        ],
+        [
+          1389.2,
+          1696.4
+        ],
+        [
+          1275.2,
+          1696.4
+        ],
+        [
+          1696.4,
+          1624.4
+        ],
+        [
+          1624.4,
+          1696.4
+        ],
+        [
+          1696.4,
+          1696.4
+        ],
+        [
+          717.8667,
+          18.0
+        ],
+        [
+          996.5333,
+          18.0
+        ],
+        [
+          228.6,
+          439.2
+        ],
+        [
+          717.8667,
+          439.2
+        ],
+        [
+          996.5333,
+          439.2
+        ],
+        [
+          1485.8,
+          439.2
+        ],
+        [
+          228.6,
+          1275.2
+        ],
+        [
+          717.8667,
+          1275.2
+        ],
+        [
+          996.5333,
+          1275.2
+        ],
+        [
+          1485.8,
+          1275.2
+        ],
+        [
+          717.8667,
+          1696.4
+        ],
+        [
+          996.5333,
+          1696.4
+        ],
+        [
+          18.0,
+          717.8667
+        ],
+        [
+          18.0,
+          996.5333
+        ],
+        [
+          439.2,
+          228.6
+        ],
+        [
+          439.2,
+          717.8667
+        ],
+        [
+          439.2,
+          996.5333
+        ],
+        [
+          439.2,
+          1485.8
+        ],
+        [
+          1275.2,
+          228.6
+        ],
+        [
+          1275.2,
+          717.8667
+        ],
+        [
+          1275.2,
+          996.5333
+        ],
+        [
+          1275.2,
+          1485.8
+        ],
+        [
+          1696.4,
+          717.8667
+        ],
+        [
+          1696.4,
+          996.5333
+        ]
+      ],
+      "fixed_magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          325.2,
+          18.0
+        ],
+        [
+          439.2,
+          18.0
+        ],
+        [
+          1275.2,
+          18.0
+        ],
+        [
+          1389.2,
+          18.0
+        ],
+        [
+          1696.4,
+          18.0
+        ],
+        [
+          18.0,
+          439.2
+        ],
+        [
+          18.0,
+          325.2
+        ],
+        [
+          439.2,
+          439.2
+        ],
+        [
+          1275.2,
+          439.2
+        ],
+        [
+          1696.4,
+          325.2
+        ],
+        [
+          1696.4,
+          439.2
+        ],
+        [
+          18.0,
+          1389.2
+        ],
+        [
+          18.0,
+          1275.2
+        ],
+        [
+          439.2,
+          1275.2
+        ],
+        [
+          1275.2,
+          1275.2
+        ],
+        [
+          1696.4,
+          1275.2
+        ],
+        [
+          1696.4,
+          1389.2
+        ],
+        [
+          90.0,
+          1696.4
+        ],
+        [
+          18.0,
+          1624.4
+        ],
+        [
+          18.0,
+          1696.4
+        ],
+        [
+          439.2,
+          1696.4
+        ],
+        [
+          325.2,
+          1696.4
+        ],
+        [
+          1389.2,
+          1696.4
+        ],
+        [
+          1275.2,
+          1696.4
+        ],
+        [
+          1696.4,
+          1624.4
+        ],
+        [
+          1624.4,
+          1696.4
+        ],
+        [
+          1696.4,
+          1696.4
+        ]
+      ],
+      "counts": {
+        "ELBOW": 2,
+        "TEE": 8,
+        "CROSS": 4,
+        "DUAL_GUY_ELBOW": 2,
+        "MAG_SLEEVE": 24
+      },
+      "print_queue": {
+        "ONE_ELBOW": 2,
+        "ONE_TEE": 8,
+        "ONE_CROSS": 4,
+        "ONE_DUAL_GUY_ELBOW": 2,
+        "BATCH_MAG_SLEEVE": 3,
+        "TAIL_MAG_SLEEVE_3": 1
+      },
+      "stock_plan": [
+        {
+          "stock": 1,
+          "remaining_mm": 148.8,
+          "cuts": [
+            {
+              "pipe": "N10_N20",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N11_N21",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N12_N22",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N00_N10",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 2,
+          "remaining_mm": 148.8,
+          "cuts": [
+            {
+              "pipe": "N13_N23",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N01_N02",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N11_N12",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N20_N30",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 3,
+          "remaining_mm": 70.99999999999989,
+          "cuts": [
+            {
+              "pipe": "N21_N22",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N31_N32",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N01_N11",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N21_N31",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N02_N12",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N22_N32",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N03_N13",
+              "length_mm": 237.2
+            }
+          ]
+        },
+        {
+          "stock": 4,
+          "remaining_mm": 876.2000000000005,
+          "cuts": [
+            {
+              "pipe": "N23_N33",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N00_N01",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N02_N03",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N10_N11",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N12_N13",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N20_N21",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N22_N23",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N30_N31",
+              "length_mm": 237.2
+            },
+            {
+              "pipe": "N32_N33",
+              "length_mm": 237.2
+            }
+          ]
+        }
+      ],
+      "PVC_sticks": 4,
+      "PVC_m": 10.8352,
+      "paper_m": 5.1728000000000005,
+      "paper_m2": 2.36500416,
+      "gates_per_100ft_roll": 5,
+      "paper_cuts": [
+        {
+          "quantity": 2,
+          "length_mm": 1714.4,
+          "width_mm": 457.2
+        },
+        {
+          "quantity": 2,
+          "length_mm": 872,
+          "width_mm": 457.2
+        }
+      ],
+      "magnet_pairs": 52,
+      "printed_pieces": 40,
+      "maximum_magnet_gap_mm": 307.2,
+      "target_magnet_gap_mm": 350.0,
+      "short_cut_mm": 237.2,
+      "long_cut_mm": 880,
+      "paper_rectangles": [
+        [
+          0,
+          0,
+          1714.4,
+          457.2
+        ],
+        [
+          0,
+          1257.2,
+          1714.4,
+          457.2
+        ],
+        [
+          0,
+          421.2,
+          457.2,
+          872
+        ],
+        [
+          1257.2,
+          421.2,
+          457.2,
+          872
+        ]
+      ]
+    },
+    {
+      "id": "OPEN_800_PAPER_12",
+      "opening_mm": 800,
+      "band_mm": 304.8,
+      "band_inches": 12,
+      "outer_mm": 1409.6,
+      "nodes": {
+        "N00": {
+          "xy": [
+            75,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N10": {
+          "xy": [
+            229.8,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N20": {
+          "xy": [
+            1179.8,
+            75
+          ],
+          "code": "TEE",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N30": {
+          "xy": [
+            1334.6,
+            75
+          ],
+          "code": "ELBOW",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N01": {
+          "xy": [
+            75,
+            229.8
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N11": {
+          "xy": [
+            229.8,
+            229.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              57.0
+            ]
+          ]
+        },
+        "N21": {
+          "xy": [
+            1179.8,
+            229.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              57.0
+            ]
+          ]
+        },
+        "N31": {
+          "xy": [
+            1334.6,
+            229.8
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N02": {
+          "xy": [
+            75,
+            1179.8
+          ],
+          "code": "TEE",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N12": {
+          "xy": [
+            229.8,
+            1179.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N22": {
+          "xy": [
+            1179.8,
+            1179.8
+          ],
+          "code": "CROSS",
+          "angle": 0,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N32": {
+          "xy": [
+            1334.6,
+            1179.8
+          ],
+          "code": "TEE",
+          "angle": 90,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N03": {
+          "xy": [
+            75,
+            1334.6
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 270,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N13": {
+          "xy": [
+            229.8,
+            1334.6
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N23": {
+          "xy": [
+            1179.8,
+            1334.6
+          ],
+          "code": "TEE",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              -57.0
+            ],
+            [
+              57.0,
+              -57.0
+            ]
+          ]
+        },
+        "N33": {
+          "xy": [
+            1334.6,
+            1334.6
+          ],
+          "code": "DUAL_GUY_ELBOW",
+          "angle": 180,
+          "active_pockets": [
+            [
+              -57.0,
+              15
+            ],
+            [
+              15,
+              -57.0
+            ],
+            [
+              -57.0,
+              -57.0
+            ]
+          ]
+        }
+      },
+      "edges": [
+        {
+          "name": "N00_N10",
+          "a": "N00",
+          "b": "N10",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N20",
+          "a": "N10",
+          "b": "N20",
+          "length_mm": 880.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N20_N30",
+          "a": "N20",
+          "b": "N30",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N11",
+          "a": "N01",
+          "b": "N11",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N21",
+          "a": "N11",
+          "b": "N21",
+          "length_mm": 880.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N21_N31",
+          "a": "N21",
+          "b": "N31",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N02_N12",
+          "a": "N02",
+          "b": "N12",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N12_N22",
+          "a": "N12",
+          "b": "N22",
+          "length_mm": 880.0,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N32",
+          "a": "N22",
+          "b": "N32",
+          "length_mm": 84.8,
+          "sleeve_angle": 180.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N03_N13",
+          "a": "N03",
+          "b": "N13",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        },
+        {
+          "name": "N13_N23",
+          "a": "N13",
+          "b": "N23",
+          "length_mm": 880.0,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N23_N33",
+          "a": "N23",
+          "b": "N33",
+          "length_mm": 84.8,
+          "sleeve_angle": 0.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        },
+        {
+          "name": "N00_N01",
+          "a": "N00",
+          "b": "N01",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N01_N02",
+          "a": "N01",
+          "b": "N02",
+          "length_mm": 880.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N02_N03",
+          "a": "N02",
+          "b": "N03",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        },
+        {
+          "name": "N10_N11",
+          "a": "N10",
+          "b": "N11",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N11_N12",
+          "a": "N11",
+          "b": "N12",
+          "length_mm": 880.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N12_N13",
+          "a": "N12",
+          "b": "N13",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N20_N21",
+          "a": "N20",
+          "b": "N21",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N21_N22",
+          "a": "N21",
+          "b": "N22",
+          "length_mm": 880.0,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N22_N23",
+          "a": "N22",
+          "b": "N23",
+          "length_mm": 84.8,
+          "sleeve_angle": 90.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 268.8,
+          "maximum_magnet_gap_mm": 268.8,
+          "kind": "short"
+        },
+        {
+          "name": "N30_N31",
+          "a": "N30",
+          "b": "N31",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 154.8,
+          "maximum_magnet_gap_mm": 154.8,
+          "kind": "short"
+        },
+        {
+          "name": "N31_N32",
+          "a": "N31",
+          "b": "N32",
+          "length_mm": 880.0,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [
+            300.667,
+            579.333
+          ],
+          "sleeve_count": 2,
+          "fixed_magnet_span_mm": 836.0,
+          "maximum_magnet_gap_mm": 278.667,
+          "kind": "long"
+        },
+        {
+          "name": "N32_N33",
+          "a": "N32",
+          "b": "N33",
+          "length_mm": 84.8,
+          "sleeve_angle": 270.0,
+          "sleeves_from_cut_start_mm": [],
+          "sleeve_count": 0,
+          "fixed_magnet_span_mm": 82.8,
+          "maximum_magnet_gap_mm": 82.8,
+          "kind": "short"
+        }
+      ],
+      "placements": [
+        [
+          "ELBOW",
+          [
+            75,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            229.8,
+            75
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1179.8,
+            75
+          ],
+          0
+        ],
+        [
+          "ELBOW",
+          [
+            1334.6,
+            75
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            229.8
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            229.8,
+            229.8
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1179.8,
+            229.8
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1334.6,
+            229.8
+          ],
+          90
+        ],
+        [
+          "TEE",
+          [
+            75,
+            1179.8
+          ],
+          270
+        ],
+        [
+          "CROSS",
+          [
+            229.8,
+            1179.8
+          ],
+          0
+        ],
+        [
+          "CROSS",
+          [
+            1179.8,
+            1179.8
+          ],
+          0
+        ],
+        [
+          "TEE",
+          [
+            1334.6,
+            1179.8
+          ],
+          90
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            75,
+            1334.6
+          ],
+          270
+        ],
+        [
+          "TEE",
+          [
+            229.8,
+            1334.6
+          ],
+          180
+        ],
+        [
+          "TEE",
+          [
+            1179.8,
+            1334.6
+          ],
+          180
+        ],
+        [
+          "DUAL_GUY_ELBOW",
+          [
+            1334.6,
+            1334.6
+          ],
+          180
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            565.4666666666667,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            844.1333333333334,
+            75.0
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            565.4666666666667,
+            229.8
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            844.1333333333334,
+            229.8
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            565.4666666666667,
+            1179.8
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            844.1333333333334,
+            1179.8
+          ],
+          180.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            565.4666666666667,
+            1334.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            844.1333333333334,
+            1334.6
+          ],
+          0.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            565.4666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            75.0,
+            844.1333333333334
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            229.8,
+            565.4666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            229.8,
+            844.1333333333334
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1179.8,
+            565.4666666666667
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1179.8,
+            844.1333333333334
+          ],
+          90.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1334.6,
+            565.4666666666667
+          ],
+          270.0
+        ],
+        [
+          "MAG_SLEEVE",
+          [
+            1334.6,
+            844.1333333333334
+          ],
+          270.0
+        ]
+      ],
+      "magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          172.8,
+          18.0
+        ],
+        [
+          286.8,
+          18.0
+        ],
+        [
+          1122.8,
+          18.0
+        ],
+        [
+          1236.8,
+          18.0
+        ],
+        [
+          1391.6,
+          18.0
+        ],
+        [
+          18.0,
+          286.8
+        ],
+        [
+          18.0,
+          172.8
+        ],
+        [
+          286.8,
+          286.8
+        ],
+        [
+          1122.8,
+          286.8
+        ],
+        [
+          1391.6,
+          172.8
+        ],
+        [
+          1391.6,
+          286.8
+        ],
+        [
+          18.0,
+          1236.8
+        ],
+        [
+          18.0,
+          1122.8
+        ],
+        [
+          286.8,
+          1122.8
+        ],
+        [
+          1122.8,
+          1122.8
+        ],
+        [
+          1391.6,
+          1122.8
+        ],
+        [
+          1391.6,
+          1236.8
+        ],
+        [
+          90.0,
+          1391.6
+        ],
+        [
+          18.0,
+          1319.6
+        ],
+        [
+          18.0,
+          1391.6
+        ],
+        [
+          286.8,
+          1391.6
+        ],
+        [
+          172.8,
+          1391.6
+        ],
+        [
+          1236.8,
+          1391.6
+        ],
+        [
+          1122.8,
+          1391.6
+        ],
+        [
+          1391.6,
+          1319.6
+        ],
+        [
+          1319.6,
+          1391.6
+        ],
+        [
+          1391.6,
+          1391.6
+        ],
+        [
+          565.4667,
+          18.0
+        ],
+        [
+          844.1333,
+          18.0
+        ],
+        [
+          565.4667,
+          286.8
+        ],
+        [
+          844.1333,
+          286.8
+        ],
+        [
+          565.4667,
+          1122.8
+        ],
+        [
+          844.1333,
+          1122.8
+        ],
+        [
+          565.4667,
+          1391.6
+        ],
+        [
+          844.1333,
+          1391.6
+        ],
+        [
+          18.0,
+          565.4667
+        ],
+        [
+          18.0,
+          844.1333
+        ],
+        [
+          286.8,
+          565.4667
+        ],
+        [
+          286.8,
+          844.1333
+        ],
+        [
+          1122.8,
+          565.4667
+        ],
+        [
+          1122.8,
+          844.1333
+        ],
+        [
+          1391.6,
+          565.4667
+        ],
+        [
+          1391.6,
+          844.1333
+        ]
+      ],
+      "fixed_magnets": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          172.8,
+          18.0
+        ],
+        [
+          286.8,
+          18.0
+        ],
+        [
+          1122.8,
+          18.0
+        ],
+        [
+          1236.8,
+          18.0
+        ],
+        [
+          1391.6,
+          18.0
+        ],
+        [
+          18.0,
+          286.8
+        ],
+        [
+          18.0,
+          172.8
+        ],
+        [
+          286.8,
+          286.8
+        ],
+        [
+          1122.8,
+          286.8
+        ],
+        [
+          1391.6,
+          172.8
+        ],
+        [
+          1391.6,
+          286.8
+        ],
+        [
+          18.0,
+          1236.8
+        ],
+        [
+          18.0,
+          1122.8
+        ],
+        [
+          286.8,
+          1122.8
+        ],
+        [
+          1122.8,
+          1122.8
+        ],
+        [
+          1391.6,
+          1122.8
+        ],
+        [
+          1391.6,
+          1236.8
+        ],
+        [
+          90.0,
+          1391.6
+        ],
+        [
+          18.0,
+          1319.6
+        ],
+        [
+          18.0,
+          1391.6
+        ],
+        [
+          286.8,
+          1391.6
+        ],
+        [
+          172.8,
+          1391.6
+        ],
+        [
+          1236.8,
+          1391.6
+        ],
+        [
+          1122.8,
+          1391.6
+        ],
+        [
+          1391.6,
+          1319.6
+        ],
+        [
+          1319.6,
+          1391.6
+        ],
+        [
+          1391.6,
+          1391.6
+        ]
+      ],
+      "counts": {
+        "ELBOW": 2,
+        "TEE": 8,
+        "CROSS": 4,
+        "DUAL_GUY_ELBOW": 2,
+        "MAG_SLEEVE": 16
+      },
+      "print_queue": {
+        "ONE_ELBOW": 2,
+        "ONE_TEE": 8,
+        "ONE_CROSS": 4,
+        "ONE_DUAL_GUY_ELBOW": 2,
+        "BATCH_MAG_SLEEVE": 2,
+        "TAIL_MAG_SLEEVE_2": 1
+      },
+      "stock_plan": [
+        {
+          "stock": 1,
+          "remaining_mm": 37.79999999999998,
+          "cuts": [
+            {
+              "pipe": "N10_N20",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N11_N21",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N12_N22",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N00_N10",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N20_N30",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N01_N11",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N21_N31",
+              "length_mm": 84.8
+            }
+          ]
+        },
+        {
+          "stock": 2,
+          "remaining_mm": 37.79999999999998,
+          "cuts": [
+            {
+              "pipe": "N13_N23",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N01_N02",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N11_N12",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N02_N12",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N22_N32",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N03_N13",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N23_N33",
+              "length_mm": 84.8
+            }
+          ]
+        },
+        {
+          "stock": 3,
+          "remaining_mm": 569.6000000000004,
+          "cuts": [
+            {
+              "pipe": "N21_N22",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N31_N32",
+              "length_mm": 880.0
+            },
+            {
+              "pipe": "N00_N01",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N02_N03",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N10_N11",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N12_N13",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N20_N21",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N22_N23",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N30_N31",
+              "length_mm": 84.8
+            },
+            {
+              "pipe": "N32_N33",
+              "length_mm": 84.8
+            }
+          ]
+        }
+      ],
+      "PVC_sticks": 3,
+      "PVC_m": 8.396799999999999,
+      "paper_m": 4.5632,
+      "paper_m2": 1.39086336,
+      "gates_per_100ft_roll": 6,
+      "paper_cuts": [
+        {
+          "quantity": 2,
+          "length_mm": 1409.6,
+          "width_mm": 304.8
+        },
+        {
+          "quantity": 2,
+          "length_mm": 872,
+          "width_mm": 304.8
+        }
+      ],
+      "magnet_pairs": 44,
+      "printed_pieces": 32,
+      "maximum_magnet_gap_mm": 278.667,
+      "target_magnet_gap_mm": 350.0,
+      "short_cut_mm": 84.8,
+      "long_cut_mm": 880,
+      "paper_rectangles": [
+        [
+          0,
+          0,
+          1409.6,
+          304.8
+        ],
+        [
+          0,
+          1104.8,
+          1409.6,
+          304.8
+        ],
+        [
+          0,
+          268.8,
+          304.8,
+          872
+        ],
+        [
+          1104.8,
+          268.8,
+          304.8,
+          872
+        ]
+      ]
+    }
+  ]
+}

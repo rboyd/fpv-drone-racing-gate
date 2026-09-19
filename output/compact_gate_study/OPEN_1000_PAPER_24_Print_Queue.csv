@@ -1,0 +1,7 @@
+recipe,runs,pieces_per_run,PETG_g_per_run,minutes_per_run,project
+ONE_ELBOW,2,1,68.47,161.49,../corner_guide_elbow/sliced/ONE_ELBOW/ONE_ELBOW_A1Mini_PETG.3mf
+ONE_TEE,8,1,98.49,226.45,../corner_guide_elbow/sliced/ONE_TEE/ONE_TEE_A1Mini_PETG.3mf
+ONE_CROSS,4,1,132.59,304.23,../corner_guide_elbow/sliced/ONE_CROSS/ONE_CROSS_A1Mini_PETG.3mf
+ONE_DUAL_GUY_ELBOW,2,1,103.06,239.68,../corner_guide_elbow/sliced/ONE_DUAL_GUY_ELBOW/ONE_DUAL_GUY_ELBOW_A1Mini_PETG.3mf
+BATCH_MAG_SLEEVE,4,7,96.74,267.66,../corner_guide_elbow/sliced/BATCH_MAG_SLEEVE/BATCH_MAG_SLEEVE_A1Mini_PETG.3mf
+TAIL_MAG_SLEEVE_4,1,4,55.31,158.41,./sliced/TAIL_MAG_SLEEVE_4/TAIL_MAG_SLEEVE_4_A1Mini_PETG.3mf

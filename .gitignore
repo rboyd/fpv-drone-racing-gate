@@ -44,3 +44,5 @@ output/dual_guy_gate/Dual_Guy_Gate_Kit.zip
 
 output/corner_guide_elbow/sliced/**/*.gcode
 output/corner_guide_elbow/Corner_Guide_Elbow_Kit.zip
+
+output/compact_gate_study/sliced/**/*.gcode
