@@ -1,0 +1,139 @@
+{
+  "single": {
+    "unexpected_printed_vertices_outside_paper": [],
+    "exposed_diagonal_ear_vertex_count": 2352,
+    "magnet_centers_outside_paper": [],
+    "eye_clearance": [
+      {
+        "center_xy_mm": [
+          -2.636044519022107,
+          2715.3639793395996
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          -15.363967046141624,
+          2702.6360034942627
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2715.3639793395996,
+          2702.6360034942627
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2702.6360034942627,
+          2715.3639793395996
+        ],
+        "entire_hole_outside_paper_outline": true
+      }
+    ],
+    "only_orthogonal_PVC": true
+  },
+  "split_s": {
+    "unexpected_printed_vertices_outside_paper": [],
+    "exposed_diagonal_ear_vertex_count": 2352,
+    "magnet_centers_outside_paper": [],
+    "eye_clearance": [
+      {
+        "center_xy_mm": [
+          -2.636044519022107,
+          4805.764198303223
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          -15.363967046141624,
+          4793.036460876465
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2715.3639793395996,
+          4793.036460876465
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2702.6360034942627,
+          4805.764198303223
+        ],
+        "entire_hole_outside_paper_outline": true
+      }
+    ],
+    "only_orthogonal_PVC": true
+  },
+  "paper_guide_and_magnet_seat_probes": [
+    {
+      "xy_mm": [
+        -75,
+        -75
+      ],
+      "face_z_mm": 0.4
+    },
+    {
+      "xy_mm": [
+        -75,
+        -65
+      ],
+      "face_z_mm": 0.4
+    },
+    {
+      "xy_mm": [
+        -65,
+        -75
+      ],
+      "face_z_mm": 0.4
+    },
+    {
+      "xy_mm": [
+        -73,
+        -65
+      ],
+      "face_z_mm": 0.0
+    },
+    {
+      "xy_mm": [
+        -65,
+        -73
+      ],
+      "face_z_mm": 0.0
+    },
+    {
+      "xy_mm": [
+        -57,
+        -57
+      ],
+      "face_z_mm": 0.0
+    },
+    {
+      "xy_mm": [
+        -57,
+        -57
+      ],
+      "rear_seat_z_mm": 0.4
+    },
+    {
+      "xy_mm": [
+        -53,
+        -57
+      ],
+      "rear_seat_z_mm": 2.6
+    }
+  ],
+  "local_cord_routing": {
+    "samples": 1046,
+    "cord_diameter_mm": 3,
+    "minimum_centerline_distance_to_mesh_mm": 5.049,
+    "no_mesh_or_paper_intersection": true,
+    "knots_not_simulated": true
+  }
+}

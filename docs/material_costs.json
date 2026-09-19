@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "source": "Approximate prices paid by project owner, supplied 2026-09-19; not live retail quotes",
+  "petg_pack_usd": 39.59,
+  "petg_pack_kg": 4,
+  "petg_color": "black",
+  "magnet_pack_usd": 19.99,
+  "magnet_pack_quantity": 800,
+  "magnet_diameter_mm": 6,
+  "magnet_thickness_mm": 2,
+  "pvc_10ft_stick_usd": 5.34,
+  "pvc_nominal_inches": 1
+}

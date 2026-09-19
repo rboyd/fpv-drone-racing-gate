@@ -1,0 +1,1494 @@
+{
+  "geometry": {
+    "ELBOW": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        133.3137,
+        133.3137,
+        53.3449
+      ],
+      "volume_mm3": 99577.36
+    },
+    "DUAL_GUY_ELBOW": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        168.614,
+        168.614,
+        53.3449
+      ],
+      "volume_mm3": 165564.77
+    },
+    "TEE": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        136.6274,
+        133.3137,
+        53.3449
+      ],
+      "volume_mm3": 140198.11
+    },
+    "CROSS": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        136.6274,
+        136.6274,
+        53.3449
+      ],
+      "volume_mm3": 185715.08
+    },
+    "MAG_SLEEVE": {
+      "manifold_in_CAD": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        20.0,
+        86.75,
+        53.3449
+      ],
+      "volume_mm3": 16358.94
+    }
+  },
+  "plates": {
+    "ONE_ELBOW": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_DUAL_GUY_ELBOW": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_TEE": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_CROSS": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "ONE_MAG_SLEEVE": {
+      "pieces": 1,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "BATCH_MAG_SLEEVE": {
+      "pieces": 7,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "TAIL_MAG_SLEEVE_6": {
+      "pieces": 6,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    },
+    "TAIL_MAG_SLEEVE_3": {
+      "pieces": 3,
+      "bed_margin_at_least_5mm": true,
+      "overlap": false
+    }
+  },
+  "slices": {
+    "ONE_ELBOW": {
+      "grams": 68.47,
+      "minutes": 161.49,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_DUAL_GUY_ELBOW": {
+      "grams": 103.06,
+      "minutes": 239.68,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_TEE": {
+      "grams": 98.49,
+      "minutes": 226.45,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_CROSS": {
+      "grams": 132.59,
+      "minutes": 304.23,
+      "supports": false,
+      "warnings": []
+    },
+    "ONE_MAG_SLEEVE": {
+      "grams": 13.88,
+      "minutes": 71.96,
+      "supports": false,
+      "warnings": []
+    },
+    "BATCH_MAG_SLEEVE": {
+      "grams": 96.74,
+      "minutes": 267.66,
+      "supports": false,
+      "warnings": []
+    },
+    "TAIL_MAG_SLEEVE_6": {
+      "grams": 82.93,
+      "minutes": 231.02,
+      "supports": false,
+      "warnings": []
+    },
+    "TAIL_MAG_SLEEVE_3": {
+      "grams": 41.5,
+      "minutes": 124.38,
+      "supports": false,
+      "warnings": []
+    }
+  },
+  "gates": {
+    "single": {
+      "grams": 2324.71,
+      "minutes": 5667.84,
+      "printed_pieces": 64,
+      "unique_production_types": 5,
+      "plate_runs": 23,
+      "pipe_sticks": 8,
+      "pipe_cost_usd": 42.72,
+      "PETG_cost_usd": 23.01,
+      "magnet_cost_usd": 3.8,
+      "priced_materials_usd": 69.53,
+      "frame_PVC_plus_PETG_usd": 65.73,
+      "magnet_pairs": 76,
+      "largest_pipe_cut_mm": 1560.8,
+      "sleeves": [
+        {
+          "pipe": "N00_N10",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N20_N30",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N01_N11",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N21_N31",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N02_N12",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N22_N32",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N03_N13",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N23_N33",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N00_N01",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            75.0,
+            304.79998779296875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            75.0,
+            860.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            75.0,
+            1186.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            75.0,
+            1513.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            75.0,
+            1839.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N02_N03",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            75.0,
+            2395.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N10_N11",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            534.5999755859375,
+            304.79998779296875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            534.5999755859375,
+            860.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            534.5999755859375,
+            1186.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            534.5999755859375,
+            1513.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            534.5999755859375,
+            1839.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N12_N13",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            534.5999755859375,
+            2395.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N20_N21",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2165.39990234375,
+            304.79998779296875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            2165.39990234375,
+            860.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            2165.39990234375,
+            1186.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            2165.39990234375,
+            1513.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            2165.39990234375,
+            1839.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N22_N23",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2165.39990234375,
+            2395.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N30_N31",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2625.0,
+            304.79998779296875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            2625.0,
+            860.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            2625.0,
+            1186.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            2625.0,
+            1513.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            2625.0,
+            1839.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N32_N33",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2625.0,
+            2395.199951171875
+          ],
+          "angle": 270.0
+        }
+      ]
+    },
+    "split_s": {
+      "grams": 3691.3,
+      "minutes": 9022.22,
+      "printed_pieces": 104,
+      "unique_production_types": 5,
+      "plate_runs": 36,
+      "pipe_sticks": 14,
+      "pipe_cost_usd": 74.76,
+      "PETG_cost_usd": 36.53,
+      "magnet_cost_usd": 6.0,
+      "priced_materials_usd": 117.29,
+      "frame_PVC_plus_PETG_usd": 111.29,
+      "magnet_pairs": 120,
+      "largest_pipe_cut_mm": 1560.8,
+      "sleeves": [
+        {
+          "pipe": "N00_N10",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N10_N20",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N20_N30",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            75.0
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N01_N11",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N11_N21",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N21_N31",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            534.5999755859375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N02_N12",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N12_N22",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N22_N32",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            2165.39990234375
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N03_N13",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N13_N23",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N23_N33",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            2625.0
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N04_N14",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            4255.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N14_N24",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            4255.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N14_N24",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            4255.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N14_N24",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            4255.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N14_N24",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            4255.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N24_N34",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            4255.7998046875
+          ],
+          "angle": 180.0
+        },
+        {
+          "pipe": "N05_N15",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            304.79998779296875,
+            4715.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N15_N25",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            860.760009765625,
+            4715.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N15_N25",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            1186.919921875,
+            4715.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N15_N25",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            1513.0799560546875,
+            4715.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N15_N25",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            1839.239990234375,
+            4715.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N25_N35",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2395.199951171875,
+            4715.39990234375
+          ],
+          "angle": 0.0
+        },
+        {
+          "pipe": "N00_N01",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            75.0,
+            304.79998779296875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            75.0,
+            860.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            75.0,
+            1186.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            75.0,
+            1513.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N01_N02",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            75.0,
+            1839.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N02_N03",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            75.0,
+            2395.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N03_N04",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            75.0,
+            2951.159912109375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N03_N04",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            75.0,
+            3277.31982421875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N03_N04",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            75.0,
+            3603.47998046875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N03_N04",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            75.0,
+            3929.639892578125
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N04_N05",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            75.0,
+            4485.599609375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N10_N11",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            534.5999755859375,
+            304.79998779296875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            534.5999755859375,
+            860.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            534.5999755859375,
+            1186.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            534.5999755859375,
+            1513.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N11_N12",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            534.5999755859375,
+            1839.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N12_N13",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            534.5999755859375,
+            2395.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N13_N14",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            534.5999755859375,
+            2951.159912109375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N13_N14",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            534.5999755859375,
+            3277.31982421875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N13_N14",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            534.5999755859375,
+            3603.47998046875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N13_N14",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            534.5999755859375,
+            3929.639892578125
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N14_N15",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            534.5999755859375,
+            4485.599609375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N20_N21",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2165.39990234375,
+            304.79998779296875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            2165.39990234375,
+            860.760009765625
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            2165.39990234375,
+            1186.919921875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            2165.39990234375,
+            1513.0799560546875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N21_N22",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            2165.39990234375,
+            1839.239990234375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N22_N23",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2165.39990234375,
+            2395.199951171875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N23_N24",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            2165.39990234375,
+            2951.159912109375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N23_N24",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            2165.39990234375,
+            3277.31982421875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N23_N24",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            2165.39990234375,
+            3603.47998046875
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N23_N24",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            2165.39990234375,
+            3929.639892578125
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N24_N25",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2165.39990234375,
+            4485.599609375
+          ],
+          "angle": 90.0
+        },
+        {
+          "pipe": "N30_N31",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2625.0,
+            304.79998779296875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            2625.0,
+            860.760009765625
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            2625.0,
+            1186.919921875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            2625.0,
+            1513.0799560546875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N31_N32",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            2625.0,
+            1839.239990234375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N32_N33",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2625.0,
+            2395.199951171875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N33_N34",
+          "from_cut_end_mm": 291.16,
+          "xy": [
+            2625.0,
+            2951.159912109375
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N33_N34",
+          "from_cut_end_mm": 617.32,
+          "xy": [
+            2625.0,
+            3277.31982421875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N33_N34",
+          "from_cut_end_mm": 943.48,
+          "xy": [
+            2625.0,
+            3603.47998046875
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N33_N34",
+          "from_cut_end_mm": 1269.64,
+          "xy": [
+            2625.0,
+            3929.639892578125
+          ],
+          "angle": 270.0
+        },
+        {
+          "pipe": "N34_N35",
+          "from_cut_end_mm": 194.8,
+          "xy": [
+            2625.0,
+            4485.599609375
+          ],
+          "angle": 270.0
+        }
+      ]
+    }
+  },
+  "front_projection_check": {
+    "single": {
+      "unexpected_printed_vertices_outside_paper": [],
+      "exposed_diagonal_ear_vertex_count": 2352,
+      "magnet_centers_outside_paper": [],
+      "eye_clearance": [
+        {
+          "center_xy_mm": [
+            -2.636044519022107,
+            2715.3639793395996
+          ],
+          "entire_hole_outside_paper_outline": true
+        },
+        {
+          "center_xy_mm": [
+            -15.363967046141624,
+            2702.6360034942627
+          ],
+          "entire_hole_outside_paper_outline": true
+        },
+        {
+          "center_xy_mm": [
+            2715.3639793395996,
+            2702.6360034942627
+          ],
+          "entire_hole_outside_paper_outline": true
+        },
+        {
+          "center_xy_mm": [
+            2702.6360034942627,
+            2715.3639793395996
+          ],
+          "entire_hole_outside_paper_outline": true
+        }
+      ],
+      "only_orthogonal_PVC": true
+    },
+    "split_s": {
+      "unexpected_printed_vertices_outside_paper": [],
+      "exposed_diagonal_ear_vertex_count": 2352,
+      "magnet_centers_outside_paper": [],
+      "eye_clearance": [
+        {
+          "center_xy_mm": [
+            -2.636044519022107,
+            4805.764198303223
+          ],
+          "entire_hole_outside_paper_outline": true
+        },
+        {
+          "center_xy_mm": [
+            -15.363967046141624,
+            4793.036460876465
+          ],
+          "entire_hole_outside_paper_outline": true
+        },
+        {
+          "center_xy_mm": [
+            2715.3639793395996,
+            4793.036460876465
+          ],
+          "entire_hole_outside_paper_outline": true
+        },
+        {
+          "center_xy_mm": [
+            2702.6360034942627,
+            4805.764198303223
+          ],
+          "entire_hole_outside_paper_outline": true
+        }
+      ],
+      "only_orthogonal_PVC": true
+    },
+    "paper_guide_and_magnet_seat_probes": [
+      {
+        "xy_mm": [
+          -75,
+          -75
+        ],
+        "face_z_mm": 0.4
+      },
+      {
+        "xy_mm": [
+          -75,
+          -65
+        ],
+        "face_z_mm": 0.4
+      },
+      {
+        "xy_mm": [
+          -65,
+          -75
+        ],
+        "face_z_mm": 0.4
+      },
+      {
+        "xy_mm": [
+          -73,
+          -65
+        ],
+        "face_z_mm": 0.0
+      },
+      {
+        "xy_mm": [
+          -65,
+          -73
+        ],
+        "face_z_mm": 0.0
+      },
+      {
+        "xy_mm": [
+          -57,
+          -57
+        ],
+        "face_z_mm": 0.0
+      },
+      {
+        "xy_mm": [
+          -57,
+          -57
+        ],
+        "rear_seat_z_mm": 0.4
+      },
+      {
+        "xy_mm": [
+          -53,
+          -57
+        ],
+        "rear_seat_z_mm": 2.6
+      }
+    ],
+    "local_cord_routing": {
+      "samples": 1046,
+      "cord_diameter_mm": 3,
+      "minimum_centerline_distance_to_mesh_mm": 5.049,
+      "no_mesh_or_paper_intersection": true,
+      "knots_not_simulated": true
+    }
+  },
+  "upgrade": {
+    "all_single_height_pipe_lengths_reused": true,
+    "additional_pipe_cuts": {
+      "389.6": 8,
+      "1560.8": 6
+    },
+    "additional_parts": {
+      "TEE": 4,
+      "CROSS": 4,
+      "MAG_SLEEVE": 32
+    },
+    "intact_top_row_and_all_populated_pockets_reused": true
+  },
+  "unchanged_parts": [
+    "ELBOW",
+    "TEE",
+    "CROSS",
+    "MAG_SLEEVE"
+  ],
+  "accepted_sleeve_unchanged": true,
+  "PVC_bore_mm": 33.5
+}

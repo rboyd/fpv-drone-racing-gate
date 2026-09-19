@@ -1,0 +1,81 @@
+{
+  "single": {
+    "unexpected_printed_vertices_outside_paper": [],
+    "exposed_diagonal_ear_vertex_count": 2196,
+    "magnet_centers_outside_paper": [],
+    "eye_clearance": [
+      {
+        "center_xy_mm": [
+          -2.636044519022107,
+          2715.3639793395996
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          -15.363967046141624,
+          2702.6360034942627
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2715.3639793395996,
+          2702.6360034942627
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2702.6360034942627,
+          2715.3639793395996
+        ],
+        "entire_hole_outside_paper_outline": true
+      }
+    ],
+    "only_orthogonal_PVC": true
+  },
+  "split_s": {
+    "unexpected_printed_vertices_outside_paper": [],
+    "exposed_diagonal_ear_vertex_count": 2196,
+    "magnet_centers_outside_paper": [],
+    "eye_clearance": [
+      {
+        "center_xy_mm": [
+          -2.636044519022107,
+          4805.764198303223
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          -15.363967046141624,
+          4793.036460876465
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2715.3639793395996,
+          4793.036460876465
+        ],
+        "entire_hole_outside_paper_outline": true
+      },
+      {
+        "center_xy_mm": [
+          2702.6360034942627,
+          4805.764198303223
+        ],
+        "entire_hole_outside_paper_outline": true
+      }
+    ],
+    "only_orthogonal_PVC": true
+  },
+  "local_cord_routing": {
+    "samples": 1046,
+    "cord_diameter_mm": 3,
+    "minimum_centerline_distance_to_mesh_mm": 5.049,
+    "no_mesh_or_paper_intersection": true,
+    "knots_not_simulated": true
+  }
+}

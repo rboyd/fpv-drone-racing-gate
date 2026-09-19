@@ -1,0 +1,7 @@
+configuration,item,quantity,unit,unit_cost_usd,cost_usd
+single,Black PETG,2.32471,kg,9.8975,23.01
+single,6 x 2 mm magnets,152,individual,0.0249875,3.8
+single,1 inch PVC,8,10-ft stick,5.34,42.72
+split_s,Black PETG,3.6913,kg,9.8975,36.53
+split_s,6 x 2 mm magnets,240,individual,0.0249875,6.0
+split_s,1 inch PVC,14,10-ft stick,5.34,74.76

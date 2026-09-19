@@ -38,3 +38,9 @@ output/orthogonal_pvc_gate/Orthogonal_PVC_Gate_Kit.zip
 
 output/tee_pvc_gate/sliced/**/*.gcode
 output/tee_pvc_gate/Tee_PVC_Gate_Kit.zip
+
+output/dual_guy_gate/sliced/**/*.gcode
+output/dual_guy_gate/Dual_Guy_Gate_Kit.zip
+
+output/corner_guide_elbow/sliced/**/*.gcode
+output/corner_guide_elbow/Corner_Guide_Elbow_Kit.zip
