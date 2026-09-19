@@ -175,9 +175,15 @@ Scripts currently target **macOS**: the Blender helpers use system Arial fonts a
 
 Generated loose G-code, logs, Blender backup files and duplicate kit ZIPs are excluded from Git. Sliced 3MF projects are included; the packaging script can regenerate the current ZIP locally.
 
-## Reference attribution
+## License
 
-The archived snap-together picture-frame study includes Tony Youngblood's reference model under **CC BY-SA 4.0**; see [its attribution and source links](reference/picture_frame/ATTRIBUTION.md). The current PVC fittings use newly constructed geometry. No blanket license is asserted here for the rest of the repository.
+**Designs and documentation: [CC BY-NC-SA 4.0](LICENSE).** Share and modify for noncommercial purposes, give attribution, identify changes and keep shared adaptations under the same license or a compatible license permitted by its terms. Commercial use of protected project material requires separate permission from [Robert Boyd (@rboyd)](https://github.com/rboyd).
+
+**Original Python scripts: [PolyForm Noncommercial 1.0.0](scripts/LICENSE).** Use, modification and sharing are allowed for its permitted purposes; retain the [required notices](scripts/NOTICE). Generated design assets keep their separate CC license.
+
+Ownership is retained, and separate commercial licenses may be granted. Existing compliant CC permissions cannot be revoked. See [LICENSING.md](LICENSING.md) for exact scope, retained rights, commercial requests and the limits of protection for functional designs.
+
+The archived Tony Youngblood picture-frame reference retains **CC BY-SA 4.0**, including its commercial permissions; see [attribution](reference/picture_frame/ATTRIBUTION.md). Fonts, presets and other third-party content retain their own terms. The project's noncommercial licenses do not relicense those components.
 '''
 (R/'README.md').write_text(readme)
 print('Public README and cost ledger generated:',s['priced_materials_usd'],d['priced_materials_usd'])

@@ -59,6 +59,10 @@ Full queues count from zero. Count the sleeve already printed toward the BOM. Pr
 
 Using the owner's approximate purchase prices (4 kg black PETG for $39.59, 800 magnets for $19.99, and 10-ft PVC sticks at $5.34), priced materials are **$69.53 single / $117.29 stacked**. This counts sliced PETG consumption, the individual magnets used and all required PVC stock including offcuts. Paper, guy lines, anchors/ballast, adhesive, electricity, failed prints, tax and shipping are excluded. See the [project README](../../README.md) for full costs and pack-purchase totals. Prior iteration guides retain historical prices.
 
+## License
+
+Original designs and documentation: **CC BY-NC-SA 4.0**, https://creativecommons.org/licenses/by-nc-sa/4.0/ . Credit Robert Boyd (@rboyd), link the project and license, identify changes, and use the permitted ShareAlike terms for shared adaptations. Commercial use of protected material requires separate permission. Source scripts use **PolyForm Noncommercial 1.0.0**. Third-party components retain their own terms. See [scope and commercial permissions](../../LICENSING.md) and the [full design license](../../LICENSE).
+
 ## Verification
 
 Connected manifold geometry, plate bounds and clearances, support-free slicing, unchanged non-elbow STLs, aligned magnetic pockets, exact production counts and Split-S reuse checks pass. Ray probes of the actual mesh verify the groove floors at Z=0.4 mm, adjacent face at Z=0, magnet seat floor at Z=0.4 and access-well shoulder at Z=2.6. The prior 3 mm cord routing still clears the modified mesh and the paper. This checks geometry, not physical strength or printer accuracy.

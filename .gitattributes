@@ -9,3 +9,6 @@
 *.png binary
 *.jpg binary
 *.jpeg binary
+
+# Keep downloaded standard license text byte-for-byte, including final blank lines.
+LICENSE whitespace=-blank-at-eof
