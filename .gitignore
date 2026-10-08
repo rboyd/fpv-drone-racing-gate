@@ -46,3 +46,5 @@ output/corner_guide_elbow/sliced/**/*.gcode
 output/corner_guide_elbow/Corner_Guide_Elbow_Kit.zip
 
 output/compact_gate_study/sliced/**/*.gcode
+output/short_pipe_gauge/sliced/**/*.gcode
+output/cross_stack/slice_check/*.gcode

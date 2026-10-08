@@ -1,0 +1,9 @@
+{
+  "slice_success": true,
+  "final_plate_warnings": "",
+  "preserved_stack_height_mm": 168.14492797851562,
+  "estimated_PETG_g": 628.54,
+  "estimated_minutes": 1443.3,
+  "includes_supports_and_brim": true,
+  "physically_tested": false
+}

@@ -1,0 +1,36 @@
+{
+  "count": 3,
+  "part": "unchanged production CROSS",
+  "single_height_mm": 53.3449326,
+  "vertical_step_mm": 57.400000000000006,
+  "interpart_gap_mm": 4.055067400000006,
+  "bottom_Z_mm": [
+    0.0,
+    57.400000000000006,
+    114.80000000000001
+  ],
+  "top_Z_mm": [
+    53.3449326,
+    110.7449326,
+    168.1449326
+  ],
+  "total_height_mm": 168.1449326,
+  "bed_bounds_XY_mm": [
+    [
+      21.686279299999995,
+      158.3137207
+    ],
+    [
+      21.686279299999995,
+      158.3137207
+    ]
+  ],
+  "four_parts_without_gaps_height_mm": 213.3797304,
+  "preserved_geometry": true,
+  "supports_enabled": true,
+  "support_type": "normal(auto)",
+  "supports_build_plate_only": false,
+  "print_sequence": "by layer",
+  "physical_stack_tested": false,
+  "main_project_sliced": false
+}

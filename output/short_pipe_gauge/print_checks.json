@@ -1,0 +1,38 @@
+{
+  "geometry": {
+    "part": "END_CAP_GAUGE_84_8",
+    "nominal_mark_distance_mm": 84.8,
+    "measured_mesh_stop_to_edge_mm": 84.79999657720327,
+    "PVC_bore_mm": 33.5,
+    "PVC_OD_mm": 33.4,
+    "cap_grip_mm": 16,
+    "back_thickness_mm": 3,
+    "overall_length_mm": 87.79999753460288,
+    "tongue_width_mm": 24,
+    "tongue_min_thickness_mm": 7.050000000000001,
+    "tongue_nominal_radial_clearance_mm": 0.25,
+    "print_bounds_mm": [
+      87.8,
+      41.5,
+      53.345
+    ],
+    "solid_volume_mm3": 32016.39,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "stop_face_annulus_samples": 24,
+    "stop_face_samples_pass": true,
+    "print_orientation": "Flat tongue and cap foot on bed; same horizontal peaked bore as accepted sleeve",
+    "use": "Mark, remove jig, cut; not a blade guide",
+    "calibration": "Nominal CAD dimension only. Measure first print and trial cut before batch work."
+  },
+  "STL_stop_to_tip_mm": 84.79999542236328,
+  "STL_solid_volume_mm3": 32016.39654315889,
+  "single_part_plate": true,
+  "A1_Mini_bed_margin_at_least_5mm": true,
+  "PETG_grams": 24.98,
+  "estimated_minutes": 84.8,
+  "support_enabled": false,
+  "support_toolpaths_found": false,
+  "slicer_warnings": [],
+  "physical_fit_and_measurement_tested": false
+}
